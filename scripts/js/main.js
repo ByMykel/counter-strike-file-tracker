@@ -6,7 +6,7 @@ import { parse as parse1 } from "@node-steam/vdf";
 import { parse as parse2 } from "vdf-parser";
 import { parse as parse3 } from "kvparser";
 
-const CONFIG = JSON.parse(fs.readFileSync("config.json", "utf-8"));
+const CONFIG = JSON.parse(fs.readFileSync("../../config.json", "utf-8"));
 
 // Files to copy and parse
 const SOURCE_PATHS = CONFIG.SOURCE_PATHS;
