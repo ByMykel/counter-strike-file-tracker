@@ -1,0 +1,8 @@
+{
+    "SOURCE_PATHS": [
+        "path/to/your/default/source",
+        "path/to/your/default/source_2",
+        "path/to/your/default/source_3"
+    ],
+    "TARGET_FOLDER": "path/to/your/default/target"
+}

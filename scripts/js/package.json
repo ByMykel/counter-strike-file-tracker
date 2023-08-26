@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@node-steam/vdf": "^2.2.0",
+    "chardet": "^1.6.0",
+    "kvparser": "^1.0.2",
+    "vdf-parser": "^1.2.1"
+  }
+}
