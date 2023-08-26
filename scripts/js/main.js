@@ -87,38 +87,74 @@ function moveFilesToTarget() {
 }
 
 function convertAndSaveFiles() {
-    const files = fs.readdirSync(TARGET_FOLDER);
+    return new Promise((resolve, reject) => {
+        const files = fs.readdirSync(TARGET_FOLDER);
 
-    for (const file of files) {
-        const filePath = path.join(TARGET_FOLDER, file);
+        for (const file of files) {
+            const filePath = path.join(TARGET_FOLDER, file);
 
-        if (fs.statSync(filePath).isFile()) {
-            for (const parser of PARSERS) {
-                // Ensure the output folders exist
-                fs.mkdirSync(parser.output, { recursive: true });
+            if (fs.statSync(filePath).isFile()) {
+                for (const parser of PARSERS) {
+                    // Ensure the output folders exist
+                    fs.mkdirSync(parser.output, { recursive: true });
 
-                try {
-                    const content = fs
-                        .readFileSync(filePath, "utf8")
-                        .replace(/^\uFEFF/, "");
-                    const parsedData = parser.parse(content);
+                    try {
+                        const content = fs
+                            .readFileSync(filePath, "utf8")
+                            .replace(/^\uFEFF/, "");
+                        const parsedData = parser.parse(content);
 
-                    const newContent = JSON.stringify(parsedData, null, 4);
-                    const outputFilePath = path.join(
-                        parser.output,
-                        file.replace(path.extname(file), ".json")
-                    );
+                        const newContent = JSON.stringify(parsedData, null, 4);
+                        const outputFilePath = path.join(
+                            parser.output,
+                            file.replace(path.extname(file), ".json")
+                        );
 
-                    fs.writeFileSync(outputFilePath, newContent);
-                } catch (error) {
-                    console.error(
-                        `\n[parser:${parser.name}] Error parsing file ${filePath}\n`,
-                        error
-                    );
+                        fs.writeFileSync(outputFilePath, newContent);
+                    } catch (error) {
+                        console.error(
+                            `\n[parser:${parser.name}] Error parsing file ${filePath}\n`,
+                            error
+                        );
+                    }
                 }
             }
         }
+
+        resolve();
+    });
+}
+
+function generateMarkdownTable() {
+    function fileExistsInParserDir(baseFilename, parserDir) {
+        const outputPath = path.join(parserDir, `${baseFilename}.json`);
+        return fs.existsSync(outputPath);
     }
+
+    const files = fs.readdirSync(TARGET_FOLDER);
+
+    // Dynamic table header based on PARSERS
+    let headerNames = PARSERS.map((parser) => parser.name);
+    let markdownTable =
+        "| File Name | " +
+        headerNames.join(" | ") +
+        " |\n|---| " +
+        headerNames.map(() => ":---:").join(" | ") +
+        " |\n";
+
+    for (const file of files) {
+        const baseFilename = path.basename(file, path.extname(file));
+
+        const fileStatuses = PARSERS.map((parser) => {
+            return fileExistsInParserDir(baseFilename, parser.output)
+                ? "✅"
+                : "❌";
+        });
+
+        markdownTable += `| ${baseFilename} | ${fileStatuses.join(" | ")} |\n`;
+    }
+
+    fs.writeFileSync("../../README.md", markdownTable);
 }
 
 async function processFiles() {
@@ -132,7 +168,10 @@ async function processFiles() {
     await Promise.all(files.map((file) => convertEncodingOfFile(file)));
 
     // 4. Finally, convert and save the files
-    convertAndSaveFiles();
+    await convertAndSaveFiles();
+
+    // 5. Generate the README.md
+    generateMarkdownTable();
 }
 
 processFiles();
