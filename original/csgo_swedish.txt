@@ -6,9 +6,9 @@
 // ---------------------------------------------------------------------------------------------
 // GAMEUI_ENGLISH.txt
 
-		"GameUI_MainMenuMovieScene"	"Huvudmenyns bakgrundsmiljö"
-		"GameUI_MainMenuMovieScene_Vanity"	"Ändra bakgrundsmiljön"
-		"GameUI_MainMenuMovieScene_Tooltip"	"Denna inställning låter dig anpassa huvudmenyns bakgrundsmiljö, som sätter stämningen för hela spelets visuella upplevelse."
+		"GameUI_MainMenuMovieScene"	"Huvudmenyns bakgrund"
+		"GameUI_MainMenuMovieScene_Vanity"	"Ändra bakgrunden"
+		"GameUI_MainMenuMovieScene_Tooltip"	"Denna inställning låter dig anpassa huvudmenyns bakgrund som sätter stämningen för hela spelets visuella upplevelse."
 		"GameUI_DisplayMode"		"Färgläge"
 		"GameUI_DisplayMonitor"		"Datorskärm"
 		"GameUI_DisplayTV"		"TV"
@@ -18362,6 +18362,11 @@
 //
 //
 //
+	"StickerKit_desc_paris2023_signature_fashr" "Detta klistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023."
+	"StickerKit_desc_paris2023_signature_fashr_glitter" "Detta glitterklistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023."
+	"StickerKit_desc_paris2023_signature_fashr_holo" "Detta holoklistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023."
+	"StickerKit_desc_paris2023_signature_fashr_gold" "Detta guldklistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023."
+
 	//
 		// 2023 BLAST.tv Paris CS:GO Major Championship Strings Block End
 		// ======================================

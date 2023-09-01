@@ -2,9 +2,9 @@
     "lang": {
         "Language": "swedish",
         "Tokens": {
-            "GameUI_MainMenuMovieScene": "Huvudmenyns bakgrundsmiljö",
-            "GameUI_MainMenuMovieScene_Vanity": "Ändra bakgrundsmiljön",
-            "GameUI_MainMenuMovieScene_Tooltip": "Denna inställning låter dig anpassa huvudmenyns bakgrundsmiljö, som sätter stämningen för hela spelets visuella upplevelse.",
+            "GameUI_MainMenuMovieScene": "Huvudmenyns bakgrund",
+            "GameUI_MainMenuMovieScene_Vanity": "Ändra bakgrunden",
+            "GameUI_MainMenuMovieScene_Tooltip": "Denna inställning låter dig anpassa huvudmenyns bakgrund som sätter stämningen för hela spelets visuella upplevelse.",
             "GameUI_DisplayMode": "Färgläge",
             "GameUI_DisplayMonitor": "Datorskärm",
             "GameUI_DisplayTV": "TV",
@@ -15277,6 +15277,10 @@
             "CSGO_TournamentJournal_rio2022_Silver": "Silvermynt för Rio 2022",
             "CSGO_TournamentJournal_rio2022_Gold": "Guldmynt för Rio 2022",
             "CSGO_TournamentJournal_rio2022_Crystal": "Diamantmynt för Rio 2022",
+            "StickerKit_desc_paris2023_signature_fashr": "Detta klistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023.",
+            "StickerKit_desc_paris2023_signature_fashr_glitter": "Detta glitterklistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023.",
+            "StickerKit_desc_paris2023_signature_fashr_holo": "Detta holoklistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023.",
+            "StickerKit_desc_paris2023_signature_fashr_gold": "Detta guldklistermärke är signerat av den professionella spelaren Dion Derksen som spelade för Fnatic under BLAST.tv:s CS:GO-majormästerskap i Paris 2023.",
             "StickerKit_comm02_pandamonium": "Pandamonium",
             "StickerKit_desc_comm02_pandamonium": "\n",
             "coupon_pandamonium": "Klistermärke | Pandamonium",
