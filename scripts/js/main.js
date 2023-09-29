@@ -159,7 +159,7 @@ function generateMarkdownTable() {
 
 async function processFiles() {
     // 1. First move files to the target folder
-    await moveFilesToTarget();
+    // await moveFilesToTarget();
 
     // 2. Then, get a list of all files in the TARGET_FOLDER
     const files = fs.readdirSync(TARGET_FOLDER);
