@@ -478,7 +478,7 @@
 		"loadingscreen_title_de_overpass_2"		"Sito della bomba B"
 		"loadingscreen_title_de_overpass_3"		"Collegamento"
 		"loadingscreen_title_de_overpass_4"		"Festa"
-		"loadingscreen_title_de_overpass_5"		"Mostro"
+		"loadingscreen_title_de_overpass_5"		"Parco inferiore"
 
 		"loadingscreen_title_de_vertigo"		"Vertigo"
 		"loadingscreen_title_de_vertigo_1"		"Sito della bomba A"
@@ -2585,7 +2585,7 @@
 		"Attrib_SpraysHint"							"${+attack} per applicare il graffito"
 		"Attrib_SpraysHint_Auto"					"Rilascia <b>${+spray_menu}</b> per applicare il graffito"
 		"CSGO_Spray_Cursor_Hint"					"<img src='info_icon.png' width='14' height='14' vspace='-13'/><b>%s1</b> per abilitare il cursore"
-		"CSGO_No_Sprays"							"Non possiedi alcun graffito aperto.\n Puoi ottenere i graffiti come oggetto casuale a fine partita, da un'offerta o dal Mercato."
+		"CSGO_No_Sprays"							"Non possiedi alcun graffito aperto.\n Puoi ottenere i graffiti da un pacchetto settimanale, da un'offerta o dal Mercato."
 		"CSGO_No_Spray_Equipped"					"Non hai equipaggiato alcun graffito"
 		"CSGO_Spray_Auto_Toggle"					"Graffito rapido (applica al rilascio del tasto)"
 
@@ -26203,7 +26203,8 @@ Certo che no, cazzo."
 		"SFUI_Map_dz_vineyard"	"Vineyard"
 		"SFUI_Map_dz_ember"		"Ember"
 		
-		"SFUI_Map_workshop_preview"	"Anteprima"
+		"SFUI_Map_workshop_preview_dust2"	"Anteprima di Dust II"
+		"SFUI_Map_workshop_preview_ancient"	"Anteprima di Ancient"
 		
 		// Single player dialog
 		"SFUI_CreateSinglePlayerTitle"		"GIOCATORE SINGOLO"
@@ -30086,7 +30087,7 @@ Certo che no, cazzo."
 		"SFUI_Settings_Audio_FOV"			"Correzione della prospettiva"
 		"SFUI_Settings_Audio_FOV_Tip"			"<b>Sì (predefinito):</b> le sorgenti sonore verranno elaborate con precisione rispetto al tuo campo visivo guardando lo schermo del PC. Gli emettitori di suoni che si trovano ai bordi del tuo campo visivo sembreranno trovarsi leggermente davanti a te. Gli emettitori di suoni fuori dal tuo campo visivo e direttamente ai tuoi lati riprodurranno suoni rispettivamente al tuo canale sinistro/destro.<br/><br/><b>No:</b> gli emettitori di suoni ai bordi del tuo campo visivo verranno riprodotti quasi completamente ai tuoi canali sinistro/destro rispettivamente. Ideale per chi gioca molto vicino allo schermo o usa schermi indossabili, oppure per i giocatori che preferiscono motori audio classici. Il posizionamento potrebbe trarre in inganno ad alcune angolazioni verso l'ascoltatore."
 		"SFUI_Settings_Audio_FOV_Off"			"No."
-		"SFUI_Settings_Audio_FOV_On"			"Sì."
+		"SFUI_Settings_Audio_FOV_On"			"Sì"
 
 		"SFUI_Settings_Menu_Music_Volume"							"Volume del menu principale"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Volume dell'inizio del round"
@@ -30718,8 +30719,8 @@ Certo che no, cazzo."
 		"SFUI_Lobby_LeaderMatchmaking_Type_TeamChallenge"	"Sfida diretta"
 		"SFUI_Lobby_LeaderMatchmaking_Type_PremierPrivateQueue"	"Coda privata Premier"
 
-		"SFUI_OfficialDatacenterID_1"		"Costa nord-occidentale degli Stati Uniti"
-		"SFUI_OfficialDatacenterID_2"		"Costa nord-orientale degli Stati Uniti"
+		"SFUI_OfficialDatacenterID_1"		"Seattle, USA"
+		"SFUI_OfficialDatacenterID_2"		"Virginia, USA"
 		"SFUI_OfficialDatacenterID_3"		"Francoforte"
 		"SFUI_OfficialDatacenterID_4"		"Corea"
 		"SFUI_OfficialDatacenterID_5"		"Singapore"
@@ -30739,14 +30740,14 @@ Certo che no, cazzo."
 		"SFUI_OfficialDatacenterID_19"		"Giappone"
 		"SFUI_OfficialDatacenterID_20"		"Hong Kong"
 		"SFUI_OfficialDatacenterID_21"		"Spagna"
-		"SFUI_OfficialDatacenterID_22"		"Sud-ovest degli Stati Uniti"
-		"SFUI_OfficialDatacenterID_23"		"Sud-est degli Stati Uniti"
+		"SFUI_OfficialDatacenterID_22"		"California, USA"
+		"SFUI_OfficialDatacenterID_23"		"Atlanta, USA"
 		"SFUI_OfficialDatacenterID_24"		"Hong Kong"
 		"SFUI_OfficialDatacenterID_25"		"Tianjin, Cina"
 		"SFUI_OfficialDatacenterID_26"		"India Est"
-		"SFUI_OfficialDatacenterID_27"		"Zona centro-nord degli Stati Uniti"
+		"SFUI_OfficialDatacenterID_27"		"Chicago, USA"
 		"SFUI_OfficialDatacenterID_28"		"Polonia"
-		// "SFUI_OfficialDatacenterID_29"		"TBD"
+		"SFUI_OfficialDatacenterID_29"		"Olanda"
 		// "SFUI_OfficialDatacenterID_30"		"TBD"
 		// "SFUI_OfficialDatacenterID_31"		"TBD"
 		// "SFUI_OfficialDatacenterID_32"		"TBD"
@@ -30760,9 +30761,20 @@ Certo che no, cazzo."
 		// "SFUI_OfficialDatacenterID_40"		"TBD"
 		// "SFUI_OfficialDatacenterID_41"		"TBD"
 		"SFUI_OfficialDatacenterID_42"		"Cina, Chengdu"
+		"SFUI_OfficialDatacenterID_43"		"New York, USA"
 
 		"SFUI_UserAlert_HighPings"			"Il tuo ping migliore su server ufficiali è %s1 ms."
 		"SFUI_UserAlert_Unreachable"		"Impossibile contattare i server ufficiali."
+		"SFUI_UserAlert_UnreachableText"	"Impossibile connettersi a server ufficiali. Potrebbe esserci un problema con la tua connessione internet o con la configurazione del tuo firewall. Verifica le impostazioni di rete e riprova."
+		"SFUI_UserAlert_Unreachable_Reason-102"	"Le risorse di rete richieste non sono disponibili e la configurazione di rete non è stata aggiornata."
+		"SFUI_UserAlert_Unreachable_Reason-101"	"Diversi tentativi di acquisizione delle risorse di rete richieste sono falliti."
+		"SFUI_UserAlert_Unreachable_Reason-100"	"Le risorse di rete richieste non sono attualmente disponibili."
+		"SFUI_UserAlert_Unreachable_Reason-10"	"Continueremo a cercare di stabilire la connessione in background."
+		"SFUI_UserAlert_Unreachable_Reason1"	"Impossibile avviare la connessione di rete."
+		"SFUI_UserAlert_Unreachable_Reason2"	"In attesa delle risorse di rete richieste."
+		"SFUI_UserAlert_Unreachable_Reason3"	"Tempo scaduto in attesa di stabilire la connessione di rete."
+		"SFUI_UserAlert_Unreachable_Reason100"	"Connessione di rete stabilita con successo, ma i server ufficiali non sono raggiungibili."
+		"SFUI_UserAlert_Unreachable_Reason0"	"Si è verificato un errore di rete sconosciuto."
 
 		"SFUI_UserAlertNoteType_1"			"I server della regione %s1 stanno riscontrando un carico eccessivo."
 		"SFUI_UserAlertNoteType_2"			"I server della regione %s1 sono offline per manutenzione."
@@ -35821,7 +35833,7 @@ Vuoi attivare il tuo pass ora?"
 		"matchdraft_opponent_team"			"Squadra avversaria"
 
 		//Presets
-		"presets_title"						"Preimpostazioni di selezione mappa"
+		"presets_title"						"Selezione predefinita mappe"
 		"presets_save_tooltip"				"Salva nei preferiti"
 		"presets_favorites_tooltip"			"I tuoi preferiti"
 		"presets_select_all"				"Seleziona tutte le mappe"
@@ -36354,7 +36366,7 @@ Vuoi attivare il tuo pass ora?"
 		"Scoreboard_mvps"								"MVP"
 		"Scoreboard_mvps_header"						"★"
 		"Scoreboard_score"								"Punti"
-		"Scoreboard_score_header"						"Punteggio"
+		"Scoreboard_score_header"						"Punti"
 		"Scoreboard_hsp"								"%HS"
 		"Scoreboard_hsp_val"							"{d:stat_d_hsp}%"
 		"Scoreboard_3k"									"3U"
@@ -36452,7 +36464,7 @@ Vuoi attivare il tuo pass ora?"
 
 		"eom-win"										"RISULTATO DELLA PARTITA"
 		"eom-voting"									"VOTAZIONE"
-		"eom-rank"										"NUOVO GRADO"
+		"eom-rank"										"PUNTI ESP"
 		"eom-skillgroup"								"VALUTAZIONE DELLE ABILITÀ"
 
 		"eom-victory"									"VITTORIA!"
@@ -36529,7 +36541,7 @@ Vuoi attivare il tuo pass ora?"
 		//
 		///////////////////////////////////////////////////////////
 		
-		"eom-skillgroup-win:p{matcheswon}"				"Vittoria in modalità {s:rating_type}#|#Vittorie"
+		"eom-skillgroup-win:p{matcheswon}"				"{s:rating_type} partita vinta#|#{s:rating_type} partite vinte"
 		"eom-skillgroup-needed-wins:p{winsneeded}"		"Vinci {d:winsneeded} partita per visualizzare il tuo gruppo di abilità#|#Vinci {d:winsneeded} partite per visualizzare il tuo gruppo di abilità"
 		"eom-skillgroup-expired"						"Vinci <b>1</b> partita {s:rating_type} per aggiornare il tuo gruppo di abilità scaduto"
 		"eom-skillgroup-expired-premier"				"Vinci <b>1</b> partita {s:rating_type} per aggiornare la tua valutazione CS scaduta"
@@ -37709,8 +37721,8 @@ Vuoi attivare il tuo pass ora?"
 		"csgo_player_left_game"					"%s1 ha abbandonato la partita. (%s2)"
 
 
-// crow_mask_40135_comment
-// crow_mask_40136_comment
+// crow_mask_40147_comment
+// crow_mask_40148_comment
 }
 
 

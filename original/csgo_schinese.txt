@@ -478,7 +478,7 @@
 		"loadingscreen_title_de_overpass_2"		"炸弹安放区 B"
 		"loadingscreen_title_de_overpass_3"		"连接通道"
 		"loadingscreen_title_de_overpass_4"		"气球"
-		"loadingscreen_title_de_overpass_5"		"大嘴怪"
+		"loadingscreen_title_de_overpass_5"		"公园下层"
 
 		"loadingscreen_title_de_vertigo"		"殒命大厦"
 		"loadingscreen_title_de_vertigo_1"		"炸弹安放区 A"
@@ -2581,7 +2581,6 @@
 		"Attrib_SpraysHint"							"${+attack} 喷涂鸦"
 		"Attrib_SpraysHint_Auto"					"放开<b>${+spray_menu}</b>以快速涂鸦"
 		"CSGO_Spray_Cursor_Hint"					"<img src='info_icon.png' width='14' height='14' vspace='-13'/><b>%s1</b>来启用光标"
-		"CSGO_No_Sprays"							"您没有未开启的涂鸦\n您可以通过物品掉落，或者在社区或市场上购买获得涂鸦"
 		"CSGO_No_Spray_Equipped"					"您尚未装备任何涂鸦"
 		"CSGO_Spray_Auto_Toggle"					"快速涂鸦（按键释放时应用）"
 
@@ -26196,8 +26195,8 @@
 		"SFUI_Map_de_swamp"			"失落沼泽"
 		"SFUI_Map_de_anubis"		"阿努比斯"
 		"SFUI_Map_de_chlorine"		"科洛林"
-		"SFUI_Map_lobby_mapveto"	"“狂牙大行动”优先权"
-		"SFUI_Map_Tooltip_Desc_lobby_mapveto" "使用“狂牙大行动”优先权时，会通过特别的禁选流程，来决定服役生涯地图和初始队伍。"
+		"SFUI_Map_lobby_mapveto"	"优先"
+		"SFUI_Map_Tooltip_Desc_lobby_mapveto" "在优先竞技模式中，会通过特别的禁选流程，来决定服役生涯地图和初始队伍。"
 
 		"SFUI_Map_de_ancient"		"远古遗迹"
 		"SFUI_Map_de_engage"		"车展大厅"
@@ -26221,8 +26220,6 @@
 		"SFUI_Map_de_hive"		"蜂巢研究所"
 		"SFUI_Map_dz_vineyard"	"葡萄庄园"
 		"SFUI_Map_dz_ember"		"余烬岛"
-		
-		"SFUI_Map_workshop_preview"	"预览"
 		
 		// Single player dialog
 		"SFUI_CreateSinglePlayerTitle"		"单人游戏"
@@ -30102,13 +30099,12 @@
 		"SFUI_Settings_Pan_Behavior"			"左/右声道独立"
 		"SFUI_Settings_Pan_Behavior_Tip"		"<b>0% - 物理精准（默认）：</b> 物理建模的声音平移行为最准确地反映了发射器位置。<br/><br/><b>100% - 左/右声道独立：</b> 直接位于播放器侧面的声音发射器将被硬平移，并尽量减少与相反的左/右声道的混合。这可提供强烈辨别左右的感觉，但在某些角度可能会误导听众。适合喜欢传统声音平移行为的玩家。"
 		"SFUI_Settings_Audio_FOV"			"透视矫正"
-		"SFUI_Settings_Audio_FOV_Tip"			"<b>是（默认）：</b> 当你看着电脑时，声源将根据你的视野准确呈现在屏幕上。位于你视野边缘的发声器会在你前方稍微发出声音。位于屏幕外且直接位于你一侧的声音发射器听起来将分别完全平移到左或右。<br/><br/><b>否：</b> 视野边缘的声音发射器将分别强烈地平移到左或右。非常适合那些非常靠近屏幕玩游戏、使用可穿戴设备或喜欢传统声音引擎的玩家。在某些角度可能会误导听众。"
 		"SFUI_Settings_Audio_FOV_Off"			"否"
 		"SFUI_Settings_Audio_FOV_On"			"是"
 
 		"SFUI_Settings_Menu_Music_Volume"							"主菜单音量"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"回合开始音量"
-		"SFUI_Settings_Action_Round_Music_Volume"					"Round Action Volume"
+		"SFUI_Settings_Action_Round_Music_Volume"					"回合开始行动音量"
 		"SFUI_Settings_End_Round_Music_Volume"						"回合结束音量"
 		"SFUI_Settings_Map_Objective_Music_Volume"					"炸弹/人质音量"
 		"SFUI_Settings_Ten_Second_Warning_Music_Volume"				"十秒警告音量"
@@ -30732,12 +30728,10 @@
 		"SFUI_Lobby_MatchReadyPlayers"		"%s1 / 10 名玩家已准备完毕"
 
 		"SFUI_Lobby_LeaderMatchmaking_Type_Tournament"		"锦标赛模式"
-		"SFUI_Lobby_LeaderMatchmaking_Type_TeamSearch"		"“狂牙大行动”优先权"
+		"SFUI_Lobby_LeaderMatchmaking_Type_TeamSearch"		"优先竞技模式"
 		"SFUI_Lobby_LeaderMatchmaking_Type_TeamChallenge"	"直接挑战"
 		"SFUI_Lobby_LeaderMatchmaking_Type_PremierPrivateQueue"	"优先权私人队列"
 
-		"SFUI_OfficialDatacenterID_1"		"美国西北部"
-		"SFUI_OfficialDatacenterID_2"		"美国东北部"
 		"SFUI_OfficialDatacenterID_3"		"法兰克福"
 		"SFUI_OfficialDatacenterID_4"		"韩国"
 		"SFUI_OfficialDatacenterID_5"		"新加坡"
@@ -30757,14 +30751,10 @@
 		"SFUI_OfficialDatacenterID_19"		"日本"
 		"SFUI_OfficialDatacenterID_20"		"中国香港"
 		"SFUI_OfficialDatacenterID_21"		"西班牙"
-		"SFUI_OfficialDatacenterID_22"		"美国西南部"
-		"SFUI_OfficialDatacenterID_23"		"美国东南部"
 		"SFUI_OfficialDatacenterID_24"		"中国香港"
 		"SFUI_OfficialDatacenterID_25"		"中国天津"
 		"SFUI_OfficialDatacenterID_26"		"印度东部"
-		"SFUI_OfficialDatacenterID_27"		"美国中北部"
 		"SFUI_OfficialDatacenterID_28"		"波兰"
-		// "SFUI_OfficialDatacenterID_29"		"TBD"
 		// "SFUI_OfficialDatacenterID_30"		"TBD"
 		// "SFUI_OfficialDatacenterID_31"		"TBD"
 		// "SFUI_OfficialDatacenterID_32"		"TBD"
@@ -30778,10 +30768,8 @@
 		// "SFUI_OfficialDatacenterID_40"		"TBD"
 		// "SFUI_OfficialDatacenterID_41"		"TBD"
 		"SFUI_OfficialDatacenterID_42"		"中国，成都"
-
 		"SFUI_UserAlert_HighPings"			"您连接官方服务器的最低延迟是 %s1 毫秒。"
 		"SFUI_UserAlert_Unreachable"		"连接到任意官方服务器失败。"
-
 		"SFUI_UserAlertNoteType_1"			"%s1服务器目前负载过高。"
 		"SFUI_UserAlertNoteType_2"			"%s1服务器目前因维护处于脱机状态。"
 
@@ -35238,6 +35226,7 @@
 
 		//Purchase
 		"popup_cartpreview_button"		"预览"
+		"popup_cartpreview_title"		"预览"
 		"popup_purchase_title"			"购买"
 
 		"popup_purchase_desc"			"<b>{s:itemname}</b>"
@@ -35701,19 +35690,19 @@
 		"play_maps_section_unranked"		"混战模式地图组"
 		"play_maps_section_ranked"			"竞技模式地图组"
 		"play_maps_section_comp"			"竞技模式地图"
-		"play_maps_section_capt"			"“狂牙大行动”优先权"
-		"play_maps_section_capt_maps_header" "“狂牙大行动”优先权 - 服役生涯地图组"
+		"play_maps_section_capt"			"优先竞技模式"
+		"play_maps_section_capt_maps_header" "优先竞技模式 - 服役生涯地图组"
 
 		"play_maps_section_tooltip_ranked"	"您的段位将被用来寻找与您水平相称的玩家。段位会基于您的表现进行调整。在点击“接受”后放弃比赛将受到惩罚。"
 		"play_maps_section_tooltip_unranked"	"组队将不受到段位限制并且比赛结果也不会影响段位。在点击“接受”后放弃比赛将受到惩罚。"
 		"play_maps_section_tooltip_comp"	"在竞技模式地图中，通过您的段位来匹配适合您技能水平的比赛。您的段位则是根据您在比赛中的表现来进行评定的。\n\n在混战模式地图中，组队将不受限制，并且比赛结果也不会影响段位。\n\n若在点击“接受”后放弃比赛的话，则会受到相应的惩罚。"
-		"play_maps_section_tooltip_capt"	"通过您的段位来匹配适合您技能水平的比赛。您的段位则是根据您在比赛中的表现来进行评定的。\n\n使用“狂牙大行动”优先权时，会通过特别的禁选流程，来决定服役生涯地图和初始队伍。\n\n若在点击“接受”后放弃比赛的话，则会受到相应的惩罚。"
-		"play_maps_section_detailed_rules_capt" "继续下一步，开始游戏<b>“狂牙大行动”优先权</b>.\n\n<b>专属匹配：</b> 进入大行动通行证持有者专属队列\n\n<b>首先开启头脑风暴：</b>与队友通力合作，在禁/选环节中选择一张服役生涯地图。\n\n<b>是时候展示真正的技巧了：</b> 可以在您的大行动数据菜单里单独查看“狂牙大行动”优先权的相关数据。"
-		"play_maps_section_detailed_rules_capt_limitedtime" "<b>全员可用：</b> 在限定时间内，进入下一步并体验“狂牙大行动”优先权。\n\n<b>选择 / 禁用：</b> 在全新的“选择 / 禁用”阶段中，与你的队员协作在服役生涯地图组中展现你的技术。"
+		"play_maps_section_tooltip_capt"	"通过您的段位来匹配适合您技能水平的比赛。您的段位则是根据您在比赛中的表现来进行评定的。\n\n在优先竞技模式中，会通过特别的禁选流程，来决定服役生涯地图和初始队伍。\n\n若在点击“接受”后放弃比赛的话，则会受到相应的惩罚。"
+		"play_maps_section_detailed_rules_capt" "继续下一步，开始游戏<b>优先竞技模式</b>.\n\n<b>专属匹配：</b> 进入大行动通行证持有者专属队列\n\n<b>首先开启头脑风暴：</b>与队友通力合作，在禁/选环节中选择一张服役生涯地图。\n\n<b>是时候展示真正的技巧了：</b> 可以在您的大行动数据菜单里单独查看优先竞技模式的相关数据。"
+		"play_maps_section_detailed_rules_capt_limitedtime" "<b>全员可用：</b> 在限定时间内，进入下一步并体验优先竞技模式。\n\n<b>选择 / 禁用：</b> 在全新的“选择 / 禁用”阶段中，与你的队员协作在服役生涯地图组中展现你的技术。"
 		"play_maps_section_detailed_rules_capt_loadingscreen" "赛前选择/禁用状态：\n\n• 决定最后一轮禁用或选择初始队伍\n\n• 禁用2张地图\n• 再禁用3张地图\n• 最后1轮地图禁用\n• 选择初始队伍\n• 加油噢！"
-		"play_maps_popup_premier_title" "体验“狂牙大行动”优先权"
+		"play_maps_popup_premier_title" "体验优先竞技模式"
 		"play_maps_popup_premier_available_title" "全员可用"
-		"play_maps_popup_premier_available_desc" "在限定时间内，进入下一步并体验“狂牙大行动”优先权。"
+		"play_maps_popup_premier_available_desc" "在限定时间内，进入下一步并体验优先竞技模式。"
 		"play_maps_popup_premier_pick_title" "选择 / 禁用"
 		"play_maps_popup_premier_pick_desc" "在全新的“选择 / 禁用”阶段中，在服役生涯地图组里与你的队员协作展现你的技术。"
 
@@ -36044,6 +36033,9 @@
 		"practicesettings_infammo_button"			"无限弹药"
 		"practicesettings_infwarmup_tooltip"		"<b>启用后</b>，比赛将一直维持在热身模式，且不会有电脑玩家加入。"
 		"practicesettings_infwarmup_button"			"无限热身"
+
+		"PlayMenuReplayNewUserTrainingButton"		"重播训练日"
+
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Game Mode Desc
@@ -36540,7 +36532,7 @@
 		//
 		///////////////////////////////////////////////////////////
 		
-		"eom-skillgroup-win:p{matcheswon}"				"{s:rating_type} 比赛胜利次数#|#比赛胜利次数"
+		"eom-skillgroup-win:p{matcheswon}"				"{s:rating_type} 比赛胜利次数#|#{s:rating_type} 比赛胜利次数"
 		"eom-skillgroup-needed-wins:p{winsneeded}"		"赢得 {d:winsneeded} 场比赛来显示您的段位#|#赢得 {d:winsneeded} 场比赛来显示您的段位"
 		"eom-skillgroup-expired"						"赢得 <b>1</b> {s:rating_type} 场比赛来刷新您过期的段位"
 		"eom-skillgroup-expired-premier"				"赢得 <b>1</b> {s:rating_type} 场比赛来刷新您过期的 CS 综合得分"
@@ -37070,7 +37062,7 @@
 		///////////////////////////////////////////////////////////
 
 		"playerstats_mode_comp_all"			"全部 5v5"
-		"playerstats_mode_comp_capt"		"“狂牙大行动”优先权"
+		"playerstats_mode_comp_capt"		"优先竞技模式"
 		"playerstats_mode_comp_active"		"竞技模式 （炸弹拆除）"
 		"playerstats_mode_comp_other"		"竞技模式 （人质营救）"
 		"playerstats_mode_comp_scrim"		"混战模式"
@@ -37721,8 +37713,8 @@
 		"csgo_player_left_game"					"玩家 %s1 离开了游戏（%s2）"
 
 
-// crow_mask_40135_comment
-// crow_mask_40136_comment
+// crow_mask_40147_comment
+// crow_mask_40148_comment
 }
 
 

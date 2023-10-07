@@ -398,7 +398,7 @@
 		"LoadingProgress_CSFunLoading9"		"Bekészítjük a füstöt..."
 		"LoadingProgress_CSFunLoading10"	"Kiegyenlítjük a visszarúgást..."
 		"LoadingProgress_CSFunLoading11"	"Felmálházunk..."
-		"LoadingProgress_CSFunLoading12"	"Felfújjuk a firkát..."
+		"LoadingProgress_CSFunLoading12"	"Átvisszük a szórásképet..."
 		"LoadingProgress_CSFunLoading13"	"Rálátást számolunk..."
 		"LoadingProgress_CSFunLoading14"	"Biztosítjuk a pozíciókat..."
 		"LoadingProgress_CSFunLoading15"	"Összeszámoljuk a nyitóöléseket..."
@@ -478,7 +478,7 @@
 		"loadingscreen_title_de_overpass_2"		"„B” bombahely"
 		"loadingscreen_title_de_overpass_3"		"Összekötő"
 		"loadingscreen_title_de_overpass_4"		"Parti"
-		"loadingscreen_title_de_overpass_5"		"Szörnyeteg"
+		"loadingscreen_title_de_overpass_5"		"Alsó park"
 
 		"loadingscreen_title_de_vertigo"		"Vertigo"
 		"loadingscreen_title_de_vertigo_1"		"„A” bombahely"
@@ -2585,7 +2585,7 @@
 		"Attrib_SpraysHint"							"${+attack} falfirka elhelyezéséhez"
 		"Attrib_SpraysHint_Auto"					"Falfirka elhelyezése a(z) <b>${+spray_menu}</b> felengedésével"
 		"CSGO_Spray_Cursor_Hint"					"<img src='info_icon.png' width='14' height='14' vspace='-13'/><b>%s1</b> egérmutató engedélyezéséhez"
-		"CSGO_No_Sprays"							"Egyetlen kinyitott falfirkád sincs.\nFalfirkát tárgydobásként, ajánlatból vagy a Piacról szerezhetsz."
+		"CSGO_No_Sprays"							"Egyetlen kinyitott falfirkád sincs.\nFalfirkát ellátmánycsomagból, ajánlatból vagy a Piacról szerezhetsz."
 		"CSGO_No_Spray_Equipped"					"Nincs felszerelt falfirkád."
 		"CSGO_Spray_Auto_Toggle"					"Gyors falfirka (falfirka elhelyezése gombfelengedéssel)"
 
@@ -3132,8 +3132,8 @@
 		"CSGO_CollectibleCoin_TenYearService_Desc"	"Több, mint 10 éve tagja a Counter-Strike közösségnek."
 		"CSGO_CollectibleCoin_CsgoTenYearAnniversaryMemorabilia"		"10. Születésnapi Érem"
 		"CSGO_CollectibleCoin_CsgoTenYearAnniversaryMemorabilia_Desc"	"Együtt ünnepelte a CS:GO 10. születésnapját a közösséggel.\n\n<i>Tíz évnyi fejlövés, szóló győzelem és a közösség ünneplése. Boldog 10. születésnapot, CS:GO!</i>"
-		"CSGO_CollectibleCoin_CoinCsgo"	"Global Offensive kitűző"
-		"CSGO_CollectibleCoin_CoinCsgo_Desc"	"Ez a kitűző a Counter-Strike: Global Offensive közösség hű tagjainak állít emléket a Counter-Strike 2 megjelenése előtti időkből. <i>A legendák örökké élnek.</i>"
+		"CSGO_CollectibleCoin_CoinCsgo"	"Global Offensive Érem"
+		"CSGO_CollectibleCoin_CoinCsgo_Desc"	"Ez az érem a Counter-Strike: Global Offensive közösség hű tagjainak állít emléket a Counter-Strike 2 megjelenése előtti időkből. <i>A legendák örökké élnek.</i>"
 
 		"CSGO_CollectibleCoin_DH2013_Champion"				"A DreamHack 2013 bajnoka"
 		"CSGO_CollectibleCoin_DH2013_Champion_Desc"			"Ezt a bajnoksági trófeát a DreamHack SteelSeries 2013 CS:GO bajnokság bajnoka kapta."
@@ -26585,7 +26585,8 @@
 		"SFUI_Map_dz_vineyard"	"Vineyard"
 		"SFUI_Map_dz_ember"		"Ember"
 		
-		"SFUI_Map_workshop_preview"	"Előnézet"
+		"SFUI_Map_workshop_preview_dust2"	"Dust II előnézet"
+		"SFUI_Map_workshop_preview_ancient"	"Ancient előnézet"
 		
 		// Single player dialog
 		"SFUI_CreateSinglePlayerTitle"		"EGYJÁTÉKOS MÓD"
@@ -31120,8 +31121,8 @@
 		"SFUI_Lobby_LeaderMatchmaking_Type_TeamChallenge"	"Közvetlen kihívás"
 		"SFUI_Lobby_LeaderMatchmaking_Type_PremierPrivateQueue"	"Premier privát sor"
 
-		"SFUI_OfficialDatacenterID_1"		"USA északnyugat"
-		"SFUI_OfficialDatacenterID_2"		"USA északkelet"
+		"SFUI_OfficialDatacenterID_1"		"USA, Seattle"
+		"SFUI_OfficialDatacenterID_2"		"USA, Virginia"
 		"SFUI_OfficialDatacenterID_3"		"Frankfurt"
 		"SFUI_OfficialDatacenterID_4"		"Korea"
 		"SFUI_OfficialDatacenterID_5"		"Szingapúr"
@@ -31141,14 +31142,13 @@
 		"SFUI_OfficialDatacenterID_19"		"Japán"
 		"SFUI_OfficialDatacenterID_20"		"Hongkong"
 		"SFUI_OfficialDatacenterID_21"		"Spanyolország"
-		"SFUI_OfficialDatacenterID_22"		"USA délnyugat"
-		"SFUI_OfficialDatacenterID_23"		"USA délkelet"
+		"SFUI_OfficialDatacenterID_22"		"USA, Kalifornia"
+		"SFUI_OfficialDatacenterID_23"		"USA, Atlanta"
 		"SFUI_OfficialDatacenterID_24"		"Hongkong"
 		"SFUI_OfficialDatacenterID_25"		"Kína, Tiencsin"
 		"SFUI_OfficialDatacenterID_26"		"Kelet-India"
-		"SFUI_OfficialDatacenterID_27"		"USA észak-közép"
+		"SFUI_OfficialDatacenterID_27"		"USA, Chicago"
 		"SFUI_OfficialDatacenterID_28"		"Lengyelország"
-		// "SFUI_OfficialDatacenterID_29"		"TBD"
 		// "SFUI_OfficialDatacenterID_30"		"TBD"
 		// "SFUI_OfficialDatacenterID_31"		"TBD"
 		// "SFUI_OfficialDatacenterID_32"		"TBD"
@@ -31162,9 +31162,19 @@
 		// "SFUI_OfficialDatacenterID_40"		"TBD"
 		// "SFUI_OfficialDatacenterID_41"		"TBD"
 		"SFUI_OfficialDatacenterID_42"		"Kína, Csengdu"
+		"SFUI_OfficialDatacenterID_43"		"USA, New York"
 
 		"SFUI_UserAlert_HighPings"			"A legjobb pinged a hivatalos szerverekhez %s1 ms."
 		"SFUI_UserAlert_Unreachable"		"Egyetlen hivatalos szervert sem sikerült elérni."
+		"SFUI_UserAlert_Unreachable_Reason-102"	"Nem érhetők el a szükséges hálózati erőforrások, és a hálózati konfiguráció frissítése nem sikerült."
+		"SFUI_UserAlert_Unreachable_Reason-101"	"A szükséges hálózati erőforrások megszerzésére irányuló többszörös kísérlet sikertelen volt."
+		"SFUI_UserAlert_Unreachable_Reason-100"	"A szükséges hálózati erőforrások jelenleg nem érhetők el."
+		"SFUI_UserAlert_Unreachable_Reason-10"	"A háttérben tovább próbálkozunk a kapcsolat létrehozásával."
+		"SFUI_UserAlert_Unreachable_Reason1"	"Nem sikerült inicializálni a hálózati kapcsolatot."
+		"SFUI_UserAlert_Unreachable_Reason2"	"Várakozás a szükséges hálózati erőforrásokra."
+		"SFUI_UserAlert_Unreachable_Reason3"	"Időtúllépés a hálózati kapcsolat létrehozására várakozáskor."
+		"SFUI_UserAlert_Unreachable_Reason100"	"A hálózati kapcsolat sikeresen létrejött, de nem érhetők el hivatalos szerverek."
+		"SFUI_UserAlert_Unreachable_Reason0"	"Ismeretlen hálózati hiba lépett fel."
 
 		"SFUI_UserAlertNoteType_1"			"A(z) %s1 szerverek nagy terhelés alatt vannak."
 		"SFUI_UserAlertNoteType_2"			"A(z) %s1 szerverek karbantartás miatt nem működnek."
@@ -36942,8 +36952,8 @@
 		"rankup_redemption_store_closed"				"Heti jutalmak felvéve"
 		"rankup_redemption_store_closed_desc"			"Az ellátmánycsomag-jutalmak a heti első TP rangod megszerzésekor frissülnek."
 		"rankup_redemption_store_closed_nextrank_desc"	"Az ellátmánycsomag-jutalmaid a heti első TP rangod megszerzésekor fognak frissülni."
-		"rankup_redemption_store_earn_xp"				"Szerezz TP rangot"
-		"rankup_redemption_store_earn_xp_desc"			"Az ellátmánycsomag-jutalmak a heti első TP rangod megszerzésekor kerülnek felfedésre."
+		"rankup_redemption_store_earn_xp"				"Szerezz TP-rangot"
+		"rankup_redemption_store_earn_xp_desc"			"Az ellátmánycsomag-jutalmak a heti első TP-rangod megszerzésekor kerülnek felfedésre."
 		"rankup_redemption_store_claim_desc"			"E jutalmak a következő ellátmánycsomag frissítésedig vehetők fel."
 		"rankup_redemption_case_warning"				"A kinyitáshoz megvásárolt kulcs szükséges."
 
@@ -36953,7 +36963,7 @@
 		//
 		///////////////////////////////////////////////////////////
 		
-		"eom-skillgroup-win:p{matcheswon}"				"nyert {s:rating_type} mecs#|#nyert meccs"
+		"eom-skillgroup-win:p{matcheswon}"				"nyert {s:rating_type} meccs#|#nyert {s:rating_type} meccs"
 		"eom-skillgroup-needed-wins:p{winsneeded}"		"Nyerj {d:winsneeded} meccset ügyességcsoportod megjelenítéséhez.#|#Nyerj {d:winsneeded} meccset ügyességcsoportod megjelenítéséhez."
 		"eom-skillgroup-expired"						"Lejárt ügyességcsoportod frissítéséhez nyerj <b>1</b> {s:rating_type} meccset."
 		"eom-skillgroup-expired-premier"				"Lejárt CS besorolásod frissítéséhez nyerj <b>1</b> {s:rating_type} meccset."
@@ -38134,8 +38144,8 @@
 		"csgo_player_left_game"					"%s1 elhagyta a játékot (%s2)"
 
 
-// crow_mask_40135_comment
-// crow_mask_40136_comment
+// crow_mask_40147_comment
+// crow_mask_40148_comment
 }
 
 

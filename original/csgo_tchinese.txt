@@ -424,8 +424,6 @@
 		"loadingscreen_title_de_overpass_2"		"炸彈地點 B"
 		"loadingscreen_title_de_overpass_3"		"連接通道"
 		"loadingscreen_title_de_overpass_4"		"氣球"
-		"loadingscreen_title_de_overpass_5"		"怪獸塗鴉"
-
 		"loadingscreen_title_de_vertigo"		"Vertigo"
 		"loadingscreen_title_de_vertigo_1"		"炸彈地點 A"
 		"loadingscreen_title_de_vertigo_2"		"炸彈地點 B"
@@ -2538,7 +2536,6 @@
 		"Attrib_SpraysHint"							"${+attack} 以使用塗鴉"
 		"Attrib_SpraysHint_Auto"					"放開 <b>${+spray_menu}</b> 以使用塗鴉"
 		"CSGO_Spray_Cursor_Hint"					"<img src='info_icon.png' width='14' height='14' vspace='-13'/><b>%s1</b> 以啟用游標"
-		"CSGO_No_Sprays"							"您沒有任何已開封的塗鴉\n 您可以透過物品隨機掉落、交易，或是從市集取得塗鴉"
 		"CSGO_No_Spray_Equipped"					"您未裝備任何塗鴉"
 		"CSGO_Spray_Auto_Toggle"					"快速塗鴉（釋放按鍵後套用）"
 
@@ -2736,7 +2733,11 @@
 		"CSGO_official_leaderboard_season_7_xp_guardian"	"已獲得的守衛經驗值"
 		"CSGO_official_leaderboard_season_7_xp_events"	"已獲得的事件經驗值"
 		"CSGO_official_leaderboard_season_7_2v2_wins"	"Wingman Wins"
-//
+
+		// premier 1
+		"official_leaderboard_premier_season1_name"			"第 1 賽季"
+
+		//
 
 		"CSGO_official_leaderboard_mission_embedded"	"任務排行榜"
 
@@ -2791,6 +2792,13 @@
 		"leaderboard_region_abbr_Europe"		"<font color=\"#FFDD00\">EU</font>"
 		"leaderboard_region_abbr_Asia"			"<font color=\"#fc8200\">AS</font>"
 		"leaderboard_region_abbr_Australia"		"<font color=\"#008bfc\">AU</font>"
+		"leaderboard_region_abbr_Africa"		"<font color=\"#19bf00\">AF</font>"
+		"leaderboard_region_abbr_NorthAmerica"		"<font color=\"#d281fc\">NA</font>"
+		"leaderboard_region_abbr_SouthAmerica"		"<font color=\"#02c1e3\">SA</font>"
+		"leaderboard_region_abbr_China"			"<font color=\"#ff5959\">CN</font>"
+
+
+
 		"mapwinrecord_graph_title:p"				"最近的勝場數#|#最近的勝場數"
 		
 		"CSGO_Operation_Maps_Season_4_Active"		"現役地圖組包括 Dust II、Nuke、Mirage、Inferno、Cobblestone、Overpass、Cache"
@@ -26928,8 +26936,6 @@
 		"SFUI_Map_dz_vineyard"	"Vineyard"
 		"SFUI_Map_dz_ember"		"Ember"
 		
-		"SFUI_Map_workshop_preview"	"預覽"
-		
 		// Single player dialog
 		"SFUI_CreateSinglePlayerTitle"		"單人遊戲"
 		"SFUI_VariesByMap"					"地圖循環"
@@ -31434,8 +31440,6 @@
 		"SFUI_Lobby_LeaderMatchmaking_Type_TeamChallenge"	"直接挑戰"
 		"SFUI_Lobby_LeaderMatchmaking_Type_PremierPrivateQueue"	"優先權私人佇列"
 
-		"SFUI_OfficialDatacenterID_1"		"美國西北"
-		"SFUI_OfficialDatacenterID_2"		"美國東北"
 		"SFUI_OfficialDatacenterID_3"		"法蘭克福"
 		"SFUI_OfficialDatacenterID_4"		"韓國"
 		"SFUI_OfficialDatacenterID_5"		"新加坡"
@@ -31455,14 +31459,10 @@
 		"SFUI_OfficialDatacenterID_19"		"日本"
 		"SFUI_OfficialDatacenterID_20"		"香港"
 		"SFUI_OfficialDatacenterID_21"		"西班牙"
-		"SFUI_OfficialDatacenterID_22"		"美國西南"
-		"SFUI_OfficialDatacenterID_23"		"美國東南"
 		"SFUI_OfficialDatacenterID_24"		"香港"
 		"SFUI_OfficialDatacenterID_25"		"中國天津"
 		"SFUI_OfficialDatacenterID_26"		"印度東部"
-		"SFUI_OfficialDatacenterID_27"		"美國中北"
 		"SFUI_OfficialDatacenterID_28"		"波蘭"
-		// "SFUI_OfficialDatacenterID_29"		"TBD"
 		// "SFUI_OfficialDatacenterID_30"		"TBD"
 		// "SFUI_OfficialDatacenterID_31"		"TBD"
 		// "SFUI_OfficialDatacenterID_32"		"TBD"
@@ -31475,7 +31475,6 @@
 		"SFUI_OfficialDatacenterID_39"		"韓國"
 "SFUI_UserAlert_HighPings"			"您連至官方伺服器的最低延遲為 %s1 ms。"
 		"SFUI_UserAlert_Unreachable"		"無法連線至任何官方伺服器。"
-
 		"SFUI_UserAlertNoteType_1"			"在 %s1 的伺服器目前處於高負載狀態。"
 		"SFUI_UserAlertNoteType_2"			"在 %s1 的伺服器目前已離線進行維修。"
 
@@ -37165,14 +37164,9 @@
 		"scoreboard_arsenal_2"							"季軍"
 
 		"scoreboard_timeline_ot:p{scoreboard_ot}"		"延長賽#|#延長賽 {d:scoreboard_ot}"
-//////////////////////////////////////////////////////////////////
-		//
-		//	END OF MATCH
-		//
-		///////////////////////////////////////////////////////////
-		
-		"eom-skillgroup-win:p{matcheswon}"				"{s:rating_type}比賽勝場數#|#{s:rating_type}比賽勝場數"
-		"eom-skillgroup-expired"						"贏得 <b>1</b> 場{s:rating_type}比賽以刷新過期的技術組"
+//
+//
+"eom-skillgroup-expired"						"贏得 <b>1</b> 場{s:rating_type}比賽以刷新過期的技術組"
 		"eom-skillgroup-expired-premier"				"贏得 <b>1</b> 場{s:rating_type}比賽以刷新過期的 CS 評級"
 		"eom-skillgroup-recalibrating"					"技術組正在重新校準，再贏得 <b>1</b> 場{s:rating_type}比賽以顯示技術組"
 		"eom-skillgroup-higher"							"進階技術組"
@@ -38351,8 +38345,8 @@
 		"csgo_player_left_game"					"玩家 %s1 離開了遊戲（%s2）"
 
 
-// crow_mask_40135_comment
-// crow_mask_40136_comment
+// crow_mask_40147_comment
+// crow_mask_40148_comment
 }
 
 
