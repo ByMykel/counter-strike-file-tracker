@@ -30232,7 +30232,6 @@
 		"SFUI_Settings_HUD_Color_9"					"Verde"
 		"SFUI_Settings_HUD_Color_10"				"Aguamarina"
 		"SFUI_Settings_HUD_Color_11"				"Rosa"
-
 		"SFUI_Settings_HUD_BackgroundAlpha"			"Opacidad del HUD"
 		"SFUI_Settings_HUD_BackgroundAlpha_Info"	"Ajusta la opacidad de los indicadores de dinero, salud, posición y munición."
 		"SFUI_Settings_HUD_Style"					"Estilo de la salud y la munición"
@@ -30256,13 +30255,8 @@
 		"SFUI_Settings_AccountPrivacy_Profile_valEnabled" "Siempre compartido"
 		"SFUI_Settings_AccountPrivacy_Profile_valDisabled" "Desactivado"
 
-		"SFUI_Settings_UniqueTeammateColors"	"Mostrar colores de aliados en Competitivo"
 		"SFUI_Settings_TeammateColorsShow"		"Mostrar colores"
 		"SFUI_Settings_TeammateColorsShowLetters"		"Colores y letras"
-		"SFUI_Settings_OverheadIdTeammateColors" "Usar los colores de aliados en el id. del equipo"
-
-		"SFUI_Settings_TeammateColorsLetters"	"Mostrar letras sobre los colores de aliados"
-
 		"SFUI_Settings_LobbyDefaultAccess"		"Permisos por defecto de la sala de amigos"
 		"SFUI_Settings_LobbyAccessFGN"			"Amigos, grupo y cercanos pueden unirse"
 		"SFUI_Settings_LobbyAccessNearby"		"Amigos y jugadores cercanos"
@@ -30652,8 +30646,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_NowPlaying_Bot"			"JUGANDO COMO BOT"
-		"miniscoreboard_playercount"	"{d:left_side_alive} vs. {d:right_side_alive}"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Weapon Select Panel
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -30710,34 +30702,22 @@
 		"SFUI_Lobby_LeaderMatchmaking_Type_TeamChallenge"	"Desafío directo"
 		"SFUI_Lobby_LeaderMatchmaking_Type_PremierPrivateQueue"	"Cola privada Premier"
 
-		"SFUI_OfficialDatacenterID_3"		"Fráncfort"
-		"SFUI_OfficialDatacenterID_4"		"Corea"
 		"SFUI_OfficialDatacenterID_5"		"Singapur"
 		"SFUI_OfficialDatacenterID_6"		"Emiratos Árabes Unidos"
 		"SFUI_OfficialDatacenterID_7"		"Australia"
-		"SFUI_OfficialDatacenterID_8"		"Suecia"
-		"SFUI_OfficialDatacenterID_9"		"Austria"
 		"SFUI_OfficialDatacenterID_10"		"Brasil"
 		"SFUI_OfficialDatacenterID_11"		"Sudáfrica"
 		"SFUI_OfficialDatacenterID_12"		"China (Shanghái)"
 		// "SFUI_OfficialDatacenterID_13"	"TBD"
 		"SFUI_OfficialDatacenterID_14"		"Chile"
 		"SFUI_OfficialDatacenterID_15"		"Perú"
-		"SFUI_OfficialDatacenterID_16"		"India"
 		"SFUI_OfficialDatacenterID_17"		"China (Cantón)"
 		// "SFUI_OfficialDatacenterID_18"	"TBD"
 		"SFUI_OfficialDatacenterID_19"		"Japón"
 		"SFUI_OfficialDatacenterID_20"		"Hong Kong"
-		"SFUI_OfficialDatacenterID_21"		"España"
 		"SFUI_OfficialDatacenterID_24"		"Hong Kong"
 		"SFUI_OfficialDatacenterID_25"		"China (Tianjin)"
-		"SFUI_OfficialDatacenterID_26"		"Este de la India"
-		"SFUI_OfficialDatacenterID_28"		"Polonia"
-		// "SFUI_OfficialDatacenterID_30"		"TBD"
-		// "SFUI_OfficialDatacenterID_31"		"TBD"
-		// "SFUI_OfficialDatacenterID_32"		"TBD"
-		"SFUI_OfficialDatacenterID_33"		"Finlandia"
-		"SFUI_OfficialDatacenterID_34"		"São Paulo"
+"SFUI_OfficialDatacenterID_34"		"São Paulo"
 		// "SFUI_OfficialDatacenterID_35"		"US West"
 		// "SFUI_OfficialDatacenterID_36"		"Germany"
 		// "SFUI_OfficialDatacenterID_37"		"Hong Kong"
@@ -34319,7 +34299,6 @@
 	"Panorama_vote_no_pc_instruction"			"<font color='#ff0000'>F2</font> para NO"
 	"Panorama_Vote_Header_AutoInstantSurrender"	"¿Rendirse inmediatamente?"
 	"Panorama_Vote_Text_AutoInstantSurrender"	"Un compañero de equipo ha abandonado la partida.<br/>• Si te rindes, esta partida contará como una derrota.<br/>• Cualquier voto favorable (SÍ) finalizará inmediatamente la partida."
-
 	"Survival_SpawnSelect_ChooseDeployment"		"Elige tu ubicación de despliegue"
     "Survival_SpawnSelect_ReadyCount"           "LISTOS: {d:spawnselect-player-select-count}/{d:spawnselect-player-total-count}"
 	"Survival_SpawnSelect_NotReady"						"NO ESTÁS LISTO"
@@ -35693,7 +35672,6 @@
 		"match_ready_match_data_modifier"	"{s:mode} • {s:modifier} • {s:map}"
 		"match_ready_match_unranked_warning"	"<b>Escaramuza</b>: no se ajustará tu grupo de habilidad."
 		"match_ready_match_unranked_warning_2"	"Esta partida no afectará a tu grupo de habilidad."
-		
 		// Play Main dropdown
 		"play_setting_online"				"Matchmaking"
 		"play_setting_offline"				"Práctica"
@@ -37691,8 +37669,8 @@
 		"csgo_player_left_game"					"El jugador %s1 ha abandonado la partida (%s2)"
 
 
-// crow_mask_40147_comment
-// crow_mask_40148_comment
+// crow_mask_40176_comment
+// crow_mask_40177_comment
 }
 
 

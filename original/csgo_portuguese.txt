@@ -2069,7 +2069,7 @@
 		//	- reload your gun when enemies aren't around
 
 		"csgo_instr_explain_zoom"							"Usa a mira telescópica"
-		"csgo_instr_explain_silencer"						"Encaixa ou desencaixa o silenciador"
+		"csgo_instr_explain_silencer"						"Enrosca ou desenrosca o silenciador"
 		"csgo_instr_explain_inspect"						"Mantém premido para examinares a tua arma"	// not 'gun', could be knife or tool
 		"csgo_instr_explain_reload"							"Recarrega a tua arma"
 		"csgo_instr_explain_use_door"						"Usa a porta"
@@ -26316,6 +26316,7 @@
 		
 		"SFUI_Map_workshop_preview_dust2"	"Dust II (pré-visualização)"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient (pré-visualização)"
+		"SFUI_Map_workshop_preview_inferno"	"Inferno (pré-visualização)"
 		
 		// Single player dialog
 		"SFUI_CreateSinglePlayerTitle"		"UM JOGADOR"
@@ -26391,6 +26392,19 @@
 		"SFUI_Open_Map_Workshop"			"Ver seleção no Workshop"
 		"SFUI_Workshop_Desc_Sp"				"O Workshop de Mapas do Counter-Strike é uma central para mapas criados pela comunidade. Podes subscrevê-los e testá-los localmente com bots."
 		"SFUI_Workshop_Desc"				"O Workshop de Mapas do Counter-Strike é uma central para mapas criados pela comunidade. Podes subscrevê-los e usar a opção \"Partida rápida comunitária\" para encontrares o melhor servidor com esses mapas."
+
+		"Workshop_Confirm_Download_Popup_Title" "Confirmar download do Workshop"
+		"Workshop_Confirm_New_Download" "É necessário transferir um mapa do Workshop para continuar. Não transferiste este mapa anteriormente. Queres transferir e abrir este mapa?"
+		"Workshop_Subscriptions" "Subscrições:"
+		"Workshop_favorites" "Favoritos:"
+		"Workshop_upvotes" "Votos positivos"
+		"Workshop_downvotes" "Votos negativos"
+		"Workshop_score" "Pontos"
+		"Workshop_created" "Data de criação"
+		"Workshop_size" "Tamanho"
+		"Workshop_View" "Ver no Workshop"
+		"Workshop_Allow" "Permitir"
+		"Workshop_Deny" "Recusar"
 
 		"SFUI_Workshop_Desc_Pw"				"Aqui podes ver os mapas do Workshop que subscreveste. Usa a opção \"Partida rápida comunitária\" para encontrares o melhor servidor com esses mapas."
 		"SFUI_Workshop_Desc_Sp_Pw"			"Aqui podes ver os mapas do Workshop que subscreveste. Podes testá-los localmente com bots."
@@ -30279,6 +30293,11 @@
 		"SFUI_Settings_SplitMode_Vert" "Lado a lado"
 		"SFUI_Settings_SplitMode_Horz" "Por cima / Por baixo"
 
+		"SFUI_Settings_Network_ProblemAutoShow"   "Mostrar problemas de ligação à rede"
+		"SFUI_Settings_Network_ProblemAutoShow_Info"   "Permite que o jogo apresente automaticamente um indicador de problemas de ligação no canto superior direito quando ocorrer uma grande perda de pacotes de dados ou instabilidade geral na rede."
+		"SFUI_Settings_Network_ProblemAutoShow_Auto"  "Automaticamente"
+		"SFUI_Settings_Network_ProblemAutoShow_Off"   "Desativado"
+
 		"SFUI_Settings_Network_Bandwidth"		  "Largura de banda máxima aceitável"
 		"SFUI_Settings_Network_Bandwidth_Info"    "Permite especificar a largura de banda que os servidores de partidas online podem usar.\n\nEspecificar uma quantidade baixa pode ajudar a evitar perda de pacotes se o teu fornecedor de acesso à internet ou router perder pacotes de rede.\n\nContudo, uma quantidade insuficiente pode resultar em pacotes de rede atrasados quando o servidor envia atualizações de outros jogadores através da rede para o teu cliente."
 		"SFUI_Settings_Network_Bandwidth_Min"	   "Extremamente limitada"
@@ -30365,6 +30384,7 @@
 		"SFUI_Settings_HUD_Color_9"					"Verde"
 		"SFUI_Settings_HUD_Color_10"				"Turquesa"
 		"SFUI_Settings_HUD_Color_11"				"Rosa"
+		"SFUI_Settings_HUD_Color_12"				"Cor do jogador"
 
 		"SFUI_Settings_HUD_BackgroundAlpha"			"Opacidade da interface"
 		"SFUI_Settings_HUD_BackgroundAlpha_Info"	"Ajusta a opacidade dos indicadores de dinheiro, vida, localização e munições."
@@ -30389,12 +30409,12 @@
 		"SFUI_Settings_AccountPrivacy_Profile_valEnabled" "Sempre partilhado"
 		"SFUI_Settings_AccountPrivacy_Profile_valDisabled" "Desativada"
 
-		"SFUI_Settings_UniqueTeammateColors"	"Mostrar cores de aliados no modo Competitivo"
+		"SFUI_Settings_UniqueTeammateColors"	"Mostrar cores de jogadores no modo Competitivo"
 		"SFUI_Settings_TeammateColorsShow"		"Mostrar cores"
 		"SFUI_Settings_TeammateColorsShowLetters"		"Cores e letras"
-		"SFUI_Settings_OverheadIdTeammateColors" "Usar cores em ID de aliados"
+		"SFUI_Settings_OverheadIdTeammateColors" "Usar cores de jogadores no texto sobre a cabeça"
 
-		"SFUI_Settings_TeammateColorsLetters"	"Letras por cima das cores de aliados"
+		"SFUI_Settings_TeammateColorsLetters"	"Letras por cima das cores de jogadores"
 
 		"SFUI_Settings_LobbyDefaultAccess"		"Permissões predefinidas de lobbies"
 		"SFUI_Settings_LobbyAccessFGN"			"Amigos, grupo e jogadores próximos"
@@ -30440,6 +30460,10 @@
 		"SFUI_Settings_TeamOverheadID_default"	"Quando estiver no campo de visão"
 		"SFUI_Settings_TeamOverheadID_minimal"	"Sempre"
 		"SFUI_Settings_TeamOverheadID_maximal"	"Sempre c/ equipamento"
+
+		"SFUI_Settings_MiniScoreboardPlayerCount"	"Mostrar n.º de jogadores"
+		"SFUI_Settings_MiniScoreboardPlayerCount_Tooltip"	"Durante a parte ativa de uma ronda, os avatares dos jogadores serão substituídos pelo número de jogadores em cada equipa no miniplacar de pontuações."
+
 
 		"SFUI_TeamOverheadID"					"Mostrar equipamento de aliados"
 
@@ -30785,7 +30809,8 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_NowPlaying_Bot"			"A JOGAR COMO BOT"
-		"miniscoreboard_playercount"	"{d:left_side_alive} vs {d:right_side_alive}"
+		"miniscoreboard_playercount-left"	"{d:left_side_alive}"
+		"miniscoreboard_playercount-right"	"{d:right_side_alive}"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Weapon Select Panel
@@ -30845,37 +30870,37 @@
 
 		"SFUI_OfficialDatacenterID_1"		"EUA, Seattle"
 		"SFUI_OfficialDatacenterID_2"		"EUA, Virgínia"
-		"SFUI_OfficialDatacenterID_3"		"Frankfurt"
+		"SFUI_OfficialDatacenterID_3"		"Europa, Alemanha"
 		"SFUI_OfficialDatacenterID_4"		"Coreia do Sul"
 		"SFUI_OfficialDatacenterID_5"		"Singapura"
 		"SFUI_OfficialDatacenterID_6"		"Emirados Árabes Unidos"
 		"SFUI_OfficialDatacenterID_7"		"Austrália"
-		"SFUI_OfficialDatacenterID_8"		"Suécia"
-		"SFUI_OfficialDatacenterID_9"		"Áustria"
+		"SFUI_OfficialDatacenterID_8"		"Europa, Suécia"
+		"SFUI_OfficialDatacenterID_9"		"Europa, Áustria"
 		"SFUI_OfficialDatacenterID_10"		"Brasil"
 		"SFUI_OfficialDatacenterID_11"		"África do Sul"
 		"SFUI_OfficialDatacenterID_12"		"China, Xangai"
 		// "SFUI_OfficialDatacenterID_13"	"TBD"
 		"SFUI_OfficialDatacenterID_14"		"Chile"
 		"SFUI_OfficialDatacenterID_15"		"Peru"
-		"SFUI_OfficialDatacenterID_16"		"Índia"
+		"SFUI_OfficialDatacenterID_16"		"Índia, Mumbai"
 		"SFUI_OfficialDatacenterID_17"		"China, Cantão"
 		// "SFUI_OfficialDatacenterID_18"	"TBD"
 		"SFUI_OfficialDatacenterID_19"		"Japão"
 		"SFUI_OfficialDatacenterID_20"		"Hong Kong"
-		"SFUI_OfficialDatacenterID_21"		"Espanha"
+		"SFUI_OfficialDatacenterID_21"		"Europa, Espanha"
 		"SFUI_OfficialDatacenterID_22"		"EUA, Califórnia"
 		"SFUI_OfficialDatacenterID_23"		"EUA, Atlanta"
 		"SFUI_OfficialDatacenterID_24"		"Hong Kong"
 		"SFUI_OfficialDatacenterID_25"		"China, Tianjin"
-		"SFUI_OfficialDatacenterID_26"		"Leste da Índia"
+		"SFUI_OfficialDatacenterID_26"		"Índia, Chenai"
 		"SFUI_OfficialDatacenterID_27"		"EUA, Chicago"
-		"SFUI_OfficialDatacenterID_28"		"Polónia"
-		"SFUI_OfficialDatacenterID_29"		"Holanda"
+		"SFUI_OfficialDatacenterID_28"		"Europa, Polónia"
+		"SFUI_OfficialDatacenterID_29"		"EU, Países Baixos"
 		// "SFUI_OfficialDatacenterID_30"		"TBD"
 		// "SFUI_OfficialDatacenterID_31"		"TBD"
 		// "SFUI_OfficialDatacenterID_32"		"TBD"
-		"SFUI_OfficialDatacenterID_33"		"Finlândia"
+		"SFUI_OfficialDatacenterID_33"		"Europa, Finlândia"
 		"SFUI_OfficialDatacenterID_34"		"São Paulo"
 		// "SFUI_OfficialDatacenterID_35"		"US West"
 		// "SFUI_OfficialDatacenterID_36"		"Germany"
@@ -30886,6 +30911,7 @@
 		// "SFUI_OfficialDatacenterID_41"		"TBD"
 		"SFUI_OfficialDatacenterID_42"		"China, Chengdu"
 		"SFUI_OfficialDatacenterID_43"		"EUA, Nova Iorque"
+		"SFUI_OfficialDatacenterID_44"		"Europa, Finlândia"
 
 		"SFUI_UserAlert_HighPings"			"O teu ping melhor para servidores oficiais é de %s1 ms."
 		"SFUI_UserAlert_Unreachable"		"Não foi possível contactar nenhum servidor oficial."
@@ -34474,6 +34500,7 @@
 	"Panorama_vote_no_pc_instruction"			"<font color='#ff0000'>F2</font> - NÃO"
 	"Panorama_Vote_Header_AutoInstantSurrender"	"Desistir imediatamente?"
 	"Panorama_Vote_Text_AutoInstantSurrender"	"Um companheiro de equipa abandonou a partida.<br/>• Se a tua equipa se render, esta partida irá contar como uma derrota.<br/>• Qualquer voto em SIM irá terminar a partida de imediato."
+	"Panorama_Vote_Text_AutoInstantSurrender2"	"Um companheiro de equipa abandonou a partida.<br/>• Se a tua equipa se render, esta partida irá contar como uma derrota."
 
 	"Survival_SpawnSelect_ChooseDeployment"		"Escolhe onde queres começar"
     "Survival_SpawnSelect_ReadyCount"           "PRONTOS: {d:spawnselect-player-select-count}/{d:spawnselect-player-total-count}"
@@ -34684,7 +34711,7 @@
 
 		"CSGO_Notice_Alert_Match_Point"				"RONDA DECISIVA"
 		"CSGO_Notice_Alert_Final_Round"				"RONDA FINAL"
-		"CSGO_Notice_Alert_Last_Round_Half"			"ÚLTIMA RONDA DA 1ª PARTE"
+		"CSGO_Notice_Alert_Last_Round_Half"			"ÚLTIMA RONDA DA 1.ª PARTE"
 		"CSGO_Notice_Alert_Warmup_Period"			"<span class=\"MatchStartAlert\">Aquecimento</span> <span class=\"MatchAlertTimer\">{s:time_remaining}</span>"
 		"CSGO_Notice_Alert_Warmup_Period_Ending"	"<span class=\"MatchStartAlert\">Aquecimento a acabar</span> <span class=\"MatchAlertTimer\">{s:time_remaining}</span>"
 		"CSGO_Notice_Alert_Waiting_For_Players"		"À ESPERA DE JOGADORES <span class=\"MatchAlertTimer\">{s:time_remaining}</span>"
@@ -35848,6 +35875,8 @@
 		"match_ready_match_data_modifier"	"{s:mode} • {s:modifier} • {s:map}"
 		"match_ready_match_unranked_warning"	"<b>Escaramuça</b>: o teu Grupo de Habilidade não será ajustado."
 		"match_ready_match_unranked_warning_2"	"Esta partida não afetará o teu Grupo de Habilidade"
+		"match_ready_gameserver"			"Servidor em: {s:region} - {d:ping} ms"
+		"datacenter_ping"					"{d:ping} ms"
 		
 		// Play Main dropdown
 		"play_setting_online"				"Matchmaking"
@@ -37868,8 +37897,8 @@
 		"csgo_player_left_game"					"%s1 abandonou a partida (%s2)"
 
 
-// crow_mask_40147_comment
-// crow_mask_40148_comment
+// crow_mask_40176_comment
+// crow_mask_40177_comment
 }
 
 

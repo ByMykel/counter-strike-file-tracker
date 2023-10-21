@@ -7,14 +7,8 @@ import { parse as parse2 } from "vdf-parser";
 import { parse as parse3 } from "kvparser";
 
 const CONFIG = JSON.parse(fs.readFileSync("../../config.json", "utf-8"));
-
-// Files to copy and parse
 const SOURCE_PATHS = CONFIG.SOURCE_PATHS;
-
-// Folder for original unparsed data
 const TARGET_FOLDER = CONFIG.TARGET_FOLDER;
-
-// All the JS Valve Data Format (VDF) / KeyValues parsers
 const PARSERS = [
     {
         name: "@node-steam/vdf",
@@ -33,7 +27,6 @@ const PARSERS = [
     },
 ];
 
-// Ensure the target folder exist
 if (!fs.existsSync(TARGET_FOLDER)) {
     fs.mkdirSync(TARGET_FOLDER, { recursive: true });
 }
@@ -46,7 +39,6 @@ function convertEncodingOfFile(file) {
     return new Promise((resolve, reject) => {
         const filePath = path.join(TARGET_FOLDER, file);
 
-        // Detect file encoding
         const fileEncoding = detectFileEncoding(filePath);
 
         if (fileEncoding !== "UTF-16LE") {
@@ -95,7 +87,6 @@ function convertAndSaveFiles() {
 
             if (fs.statSync(filePath).isFile()) {
                 for (const parser of PARSERS) {
-                    // Ensure the output folders exist
                     fs.mkdirSync(parser.output, { recursive: true });
 
                     try {
@@ -125,38 +116,6 @@ function convertAndSaveFiles() {
     });
 }
 
-function generateMarkdownTable() {
-    function fileExistsInParserDir(baseFilename, parserDir) {
-        const outputPath = path.join(parserDir, `${baseFilename}.json`);
-        return fs.existsSync(outputPath);
-    }
-
-    const files = fs.readdirSync(TARGET_FOLDER);
-
-    // Dynamic table header based on PARSERS
-    let headerNames = PARSERS.map((parser) => parser.name);
-    let markdownTable =
-        "| File Name | " +
-        headerNames.join(" | ") +
-        " |\n|---| " +
-        headerNames.map(() => ":---:").join(" | ") +
-        " |\n";
-
-    for (const file of files) {
-        const baseFilename = path.basename(file, path.extname(file));
-
-        const fileStatuses = PARSERS.map((parser) => {
-            return fileExistsInParserDir(baseFilename, parser.output)
-                ? "✅"
-                : "❌";
-        });
-
-        markdownTable += `| ${baseFilename} | ${fileStatuses.join(" | ")} |\n`;
-    }
-
-    fs.writeFileSync("../../README.md", markdownTable);
-}
-
 async function processFiles() {
     // 1. First move files to the target folder
     await moveFilesToTarget();
@@ -169,9 +128,6 @@ async function processFiles() {
 
     // 4. Finally, convert and save the files
     await convertAndSaveFiles();
-
-    // 5. Generate the README.md
-    generateMarkdownTable();
 }
 
 processFiles();

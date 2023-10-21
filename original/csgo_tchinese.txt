@@ -2789,6 +2789,8 @@
 		"leaderboard_region_Africa"				"非洲（AF）"
 		"leaderboard_region_NorthAmerica"		"北美（NA）"
 		"leaderboard_region_SouthAmerica"		"南美（SA）"
+		"leaderboard_region_China"				"中國（CN）"
+
 		"leaderboard_region_abbr_Europe"		"<font color=\"#FFDD00\">EU</font>"
 		"leaderboard_region_abbr_Asia"			"<font color=\"#fc8200\">AS</font>"
 		"leaderboard_region_abbr_Australia"		"<font color=\"#008bfc\">AU</font>"
@@ -6479,7 +6481,7 @@
 //	bonus tokens
 
 	  "quest_bonus_headshot"							"如果同時是爆頭"
-	  "quest_bonus_zoomed"								"當開啟準鏡"
+	  "quest_bonus_zoomed"								"於開啟瞄準鏡時"
   	  "quest_bonus_not_zoomed"							"於沒有開瞄準鏡時"
 	  "quest_bonus_chickens"							"當目標是一隻雞"
 
@@ -26402,6 +26404,7 @@
 		"Store_DetailsItem"		"詳細資料"
 		"Store_FreeBackpackSpace"	"物品欄空位： %s1"
 
+		"store_nav_home"		"首頁"
 		"StoreCheckout_NoItems"			"您的購物車是空的！"
 		"StoreCheckout_TooManyItems"	"您的購物車商品太多啦！"
 		"StoreCheckout_Loading"			"結帳中..."
@@ -30438,7 +30441,7 @@
 		"SFUI_MuteBind"					"靜音玩家（記分板）"
 		"SFUI_CallVote"					"投票表決"
 		"SFUI_ChooseTeam"				"選擇隊伍"
-		"SFUI_ToggleConsole"			"切換命令列"
+		"SFUI_ToggleConsole"			"開關命令列"
 		"SFUI_RadialWeaponMenu"			"放射狀武器選單"
 		"SFUI_RadialWeaponMenu_Desc"	"以滑動滑鼠的方式透過快速選單變更武器。可直接移動到特定手榴彈或道具的欄位，不需繞整個武器輪盤。"
 
@@ -30901,9 +30904,9 @@
 		"SFUI_Settings_Secure_Launch"			"信任啟動"
 		"SFUI_Settings_Secure_Launch_Info"		"防止大部分第三方程式影響絕對武力遊戲程序。\n啟用此項會提升配對時的信用分數。\n"
 		"SFUI_Settings_Secure_Launch_Change"	"變更此設定需要重新啟動。您是否要立即重新啟動？\n"
-		"SFUI_Settings_Restart_Secure_Button"	"重啟受信任"
-		"SFUI_Settings_Restart_Untrusted_Button"	"以不受信模式重啟"
-		"SFUI_Settings_Restart_Trusted_Button"	"重啟受信任"
+		"SFUI_Settings_Restart_Secure_Button"	"以信任模式重新啟動"
+		"SFUI_Settings_Restart_Untrusted_Button"	"關閉信任模式重新啟動"
+		"SFUI_Settings_Restart_Trusted_Button"	"以信任模式重新啟動"
 		"SFUI_Settings_Restart_Insecure_Button"	"以不安全模式重啟"
 		"SFUI_Close_Buy_menu_on_purchase"		"購買完成後關閉購買選單"
 		"SFUI_Open_Buy_menu_with_use"			"以使用鍵開啟購買選單"
@@ -30962,6 +30965,7 @@
 		"SFUI_Settings_HUD_Color_9"					"綠"
 		"SFUI_Settings_HUD_Color_10"				"水藍"
 		"SFUI_Settings_HUD_Color_11"				"粉紅"
+		"SFUI_Settings_HUD_Color_12"				"玩家色標"
 
 		"SFUI_Settings_HUD_BackgroundAlpha"			"HUD 背景透明度"
 		"SFUI_Settings_HUD_BackgroundAlpha_Info"	"調整金錢、生命值、位置、彈藥量顯示的背景透明度。"
@@ -30986,12 +30990,12 @@
 		"SFUI_Settings_AccountPrivacy_Profile_valEnabled" "保持分享"
 		"SFUI_Settings_AccountPrivacy_Profile_valDisabled" "已停用"
 
-		"SFUI_Settings_UniqueTeammateColors"	"在競技模式中顯示隊友的獨特色標"
+		"SFUI_Settings_UniqueTeammateColors"	"在競技模式中顯示玩家的獨特色標"
 		"SFUI_Settings_TeammateColorsShow"		"顯示顏色"
 		"SFUI_Settings_TeammateColorsShowLetters"		"顏色和文字"
-		"SFUI_Settings_OverheadIdTeammateColors" "隊伍識別使用隊友色標"
+		"SFUI_Settings_OverheadIdTeammateColors" "隊伍識別使用玩家色標"
 
-		"SFUI_Settings_TeammateColorsLetters"	"在隊友色標上顯示文字"
+		"SFUI_Settings_TeammateColorsLetters"	"在玩家色標上顯示文字"
 
 		"SFUI_Settings_LobbyDefaultAccess"		"預設大廳好友權限"
 		"SFUI_Settings_LobbyAccessFGN"			"好友、群組以及附近的玩家"
@@ -31037,6 +31041,10 @@
 		"SFUI_Settings_TeamOverheadID_default"	"僅在視線內顯示"
 		"SFUI_Settings_TeamOverheadID_minimal"	"永遠顯示"
 		"SFUI_Settings_TeamOverheadID_maximal"	"永遠顯示並追加顯示身上裝備"
+
+		"SFUI_Settings_MiniScoreboardPlayerCount"	"大型玩家計數"
+		"SFUI_Settings_MiniScoreboardPlayerCount_Tooltip"	"在回合尚未結束期間，在小型記分板上以各隊存活玩家人數取代玩家個人圖示。"
+
 
 		"SFUI_TeamOverheadID"					"顯示隊伍裝備"
 
@@ -31382,7 +31390,8 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_NowPlaying_Bot"			"以電腦玩家進行遊戲中"
-		"miniscoreboard_playercount"	"{d:left_side_alive} vs {d:right_side_alive}"
+		"miniscoreboard_playercount-left"	"{d:left_side_alive}"
+		"miniscoreboard_playercount-right"	"{d:right_side_alive}"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Weapon Select Panel
@@ -31440,34 +31449,22 @@
 		"SFUI_Lobby_LeaderMatchmaking_Type_TeamChallenge"	"直接挑戰"
 		"SFUI_Lobby_LeaderMatchmaking_Type_PremierPrivateQueue"	"優先權私人佇列"
 
-		"SFUI_OfficialDatacenterID_3"		"法蘭克福"
-		"SFUI_OfficialDatacenterID_4"		"韓國"
 		"SFUI_OfficialDatacenterID_5"		"新加坡"
 		"SFUI_OfficialDatacenterID_6"		"阿拉伯聯合大公國"
 		"SFUI_OfficialDatacenterID_7"		"澳洲"
-		"SFUI_OfficialDatacenterID_8"		"瑞典"
-		"SFUI_OfficialDatacenterID_9"		"奧地利"
 		"SFUI_OfficialDatacenterID_10"		"巴西"
 		"SFUI_OfficialDatacenterID_11"		"南非"
 		"SFUI_OfficialDatacenterID_12"		"中國上海"
 		// "SFUI_OfficialDatacenterID_13"	"TBD"
 		"SFUI_OfficialDatacenterID_14"		"智利"
 		"SFUI_OfficialDatacenterID_15"		"秘魯"
-		"SFUI_OfficialDatacenterID_16"		"印度"
 		"SFUI_OfficialDatacenterID_17"		"中國廣州"
 		// "SFUI_OfficialDatacenterID_18"	"TBD"
 		"SFUI_OfficialDatacenterID_19"		"日本"
 		"SFUI_OfficialDatacenterID_20"		"香港"
-		"SFUI_OfficialDatacenterID_21"		"西班牙"
 		"SFUI_OfficialDatacenterID_24"		"香港"
 		"SFUI_OfficialDatacenterID_25"		"中國天津"
-		"SFUI_OfficialDatacenterID_26"		"印度東部"
-		"SFUI_OfficialDatacenterID_28"		"波蘭"
-		// "SFUI_OfficialDatacenterID_30"		"TBD"
-		// "SFUI_OfficialDatacenterID_31"		"TBD"
-		// "SFUI_OfficialDatacenterID_32"		"TBD"
-		"SFUI_OfficialDatacenterID_33"		"芬蘭"
-		"SFUI_OfficialDatacenterID_34"		"聖保羅"
+"SFUI_OfficialDatacenterID_34"		"聖保羅"
 		// "SFUI_OfficialDatacenterID_35"		"US West"
 		// "SFUI_OfficialDatacenterID_36"		"Germany"
 		// "SFUI_OfficialDatacenterID_37"		"Hong Kong"
@@ -35028,7 +35025,6 @@
 	"Panorama_vote_no_pc_instruction"			"<font color='#ff0000'>F2</font> 投反對票"
 	"Panorama_Vote_Header_AutoInstantSurrender"	"立即投降？"
 	"Panorama_Vote_Text_AutoInstantSurrender"	"一名隊友拋棄了比賽。<br/>• 如果您投降，此比賽會算作敗北。<br/>• 出現任何「是」的投票將會立即結束比賽。"
-
 	"Survival_SpawnSelect_ChooseDeployment"		"選擇您的部署地點"
     "Survival_SpawnSelect_ReadyCount"           "就緒情況: {d:spawnselect-player-select-count}/{d:spawnselect-player-total-count}"
 	"Survival_SpawnSelect_NotReady"						"您未準備好"
@@ -36384,7 +36380,6 @@
 		"match_ready_match_data_modifier"	"{s:mode} • {s:modifier} • {s:map}"
 		"match_ready_match_unranked_warning"	"<b>混戰</b>：您的技術組將不會調整。"
 		"match_ready_match_unranked_warning_2"	"這場比賽將不會影響您的技術組。"
-		
 		// Play Main dropdown
 		"play_setting_online"				"遊戲配對"
 		"play_setting_offline"				"練習"
@@ -37164,6 +37159,11 @@
 		"scoreboard_arsenal_2"							"季軍"
 
 		"scoreboard_timeline_ot:p{scoreboard_ot}"		"延長賽#|#延長賽 {d:scoreboard_ot}"
+ 
+
+		// RANK UP REDEMPTION STORE 
+
+		"rankup_redemption_store_popup_title"			"週度補給包"
 //
 //
 "eom-skillgroup-expired"						"贏得 <b>1</b> 場{s:rating_type}比賽以刷新過期的技術組"
@@ -38345,8 +38345,8 @@
 		"csgo_player_left_game"					"玩家 %s1 離開了遊戲（%s2）"
 
 
-// crow_mask_40147_comment
-// crow_mask_40148_comment
+// crow_mask_40176_comment
+// crow_mask_40177_comment
 }
 
 
