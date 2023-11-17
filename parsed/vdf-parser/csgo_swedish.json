@@ -2329,10 +2329,7 @@
             "CSGO_official_leaderboard_season_7_kills_op": "Dödade",
             "CSGO_official_leaderboard_season_7_hsp_op": "Andel huvudskott",
             "CSGO_official_leaderboard_season_7_mvps_op": "MVPs",
-            "CSGO_official_leaderboard_season_7_2v2_wins": [
-                "Wingman-vinster",
-                "Wingman Wins"
-            ],
+            "CSGO_official_leaderboard_season_7_2v2_wins": "Wingman-vinster",
             "CSGO_official_leaderboard_season_7_2v2_rank": "Wingman-rank",
             "CSGO_official_leaderboard_season_7_5v5_wins": "Weapons Expert-vinster",
             "CSGO_official_leaderboard_season_7_5v5_rank": "Weapons Expert-rank",

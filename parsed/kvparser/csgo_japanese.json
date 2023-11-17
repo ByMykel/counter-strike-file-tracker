@@ -1752,7 +1752,6 @@
             "CSGO_official_leaderboard_season_6_mvps_op": "MVP数",
             "CSGO_official_leaderboard_season_7_mvps_cm": "MVP数",
             "CSGO_official_leaderboard_season_7_mvps_op": "MVP数",
-            "CSGO_official_leaderboard_season_7_2v2_wins": "Wingman Wins",
             "CSGO_Event_Desc": "このアイテムは %s1 を記念するものです。",
             "CSGO_Event_Details_Desc": "%s2 と %s3 の %s1 マッチ中にドロップしました。",
             "CSGO_Event_Details_MvpDesc": "これは %s1 で行われた %s2 と %s3 の試合でドロップしたもので、そのラウンドで最も活躍した %s4 のサインが書かれています。",

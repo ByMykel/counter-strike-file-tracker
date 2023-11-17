@@ -2439,10 +2439,7 @@
             "CSGO_official_leaderboard_season_7_kills_op": "Zabití",
             "CSGO_official_leaderboard_season_7_hsp_op": "Procento headshotů",
             "CSGO_official_leaderboard_season_7_mvps_op": "Nejlepší hráč",
-            "CSGO_official_leaderboard_season_7_2v2_wins": [
-                "Výhry módu",
-                "Wingman Wins"
-            ],
+            "CSGO_official_leaderboard_season_7_2v2_wins": "Výhry módu",
             "CSGO_official_leaderboard_season_7_2v2_rank": "Hodnocení módu",
             "CSGO_official_leaderboard_season_7_5v5_wins": "Výhry módu",
             "CSGO_official_leaderboard_season_7_5v5_rank": "Hodnocení módu",

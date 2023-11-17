@@ -2294,10 +2294,7 @@
             "CSGO_official_leaderboard_season_7_kills_op": "Doden",
             "CSGO_official_leaderboard_season_7_hsp_op": "Hoofdschotpercentage",
             "CSGO_official_leaderboard_season_7_mvps_op": "MVP's",
-            "CSGO_official_leaderboard_season_7_2v2_wins": [
-                "Wingman-overwinningen",
-                "Wingman Wins"
-            ],
+            "CSGO_official_leaderboard_season_7_2v2_wins": "Wingman-overwinningen",
             "CSGO_official_leaderboard_season_7_2v2_rank": "Wingman-rang",
             "CSGO_official_leaderboard_season_7_5v5_wins": "Weapons Expert-overwinningen",
             "CSGO_official_leaderboard_season_7_5v5_rank": "Weapons Expert-rang",
