@@ -1688,6 +1688,15 @@
                 "266778": {
                     "icon_path": "econ/default_generated/weapon_glock_gs_glock_elite_camo_heavy"
                 },
+                "266808": {
+                    "icon_path": "econ/default_generated/weapon_glock_cu_glock_moon_rabbit_newcs2_light"
+                },
+                "266809": {
+                    "icon_path": "econ/default_generated/weapon_glock_cu_glock_moon_rabbit_newcs2_medium"
+                },
+                "266810": {
+                    "icon_path": "econ/default_generated/weapon_glock_cu_glock_moon_rabbit_newcs2_heavy"
+                },
                 "267052": {
                     "icon_path": "econ/default_generated/weapon_glock_cu_glock_moon_rabbit_light"
                 },
@@ -2092,6 +2101,15 @@
                 },
                 "463326": {
                     "icon_path": "econ/default_generated/weapon_ak47_cu_ak47_cogthings_heavy"
+                },
+                "463392": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_newcs2_light"
+                },
+                "463393": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_newcs2_medium"
+                },
+                "463394": {
+                    "icon_path": "econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_newcs2_heavy"
                 },
                 "463636": {
                     "icon_path": "econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light"
@@ -2776,6 +2794,15 @@
                 },
                 "594402": {
                     "icon_path": "econ/default_generated/weapon_awp_cu_awp_chroma_pink_heavy"
+                },
+                "594468": {
+                    "icon_path": "econ/default_generated/weapon_awp_gs_awp_limbo_snake_newcs2_light"
+                },
+                "594469": {
+                    "icon_path": "econ/default_generated/weapon_awp_gs_awp_limbo_snake_newcs2_medium"
+                },
+                "594470": {
+                    "icon_path": "econ/default_generated/weapon_awp_gs_awp_limbo_snake_newcs2_heavy"
                 },
                 "594712": {
                     "icon_path": "econ/default_generated/weapon_awp_gs_awp_limbo_snake_light"
@@ -4163,6 +4190,15 @@
                 "1053174": {
                     "icon_path": "econ/default_generated/weapon_m4a1_cu_m4a4_elite_tactical_heavy"
                 },
+                "1053244": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_cu_m4a4_temukau_newcs2_light"
+                },
+                "1053245": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_cu_m4a4_temukau_newcs2_medium"
+                },
+                "1053246": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_cu_m4a4_temukau_newcs2_heavy"
+                },
                 "1053488": {
                     "icon_path": "econ/default_generated/weapon_m4a1_cu_m4a4_temukau_light"
                 },
@@ -4568,6 +4604,15 @@
                 "1118714": {
                     "icon_path": "econ/default_generated/weapon_mac10_cu_mac10_monkeyflage_heavy"
                 },
+                "1118784": {
+                    "icon_path": "econ/default_generated/weapon_mac10_cu_mac10_sakkaku_newcs2_light"
+                },
+                "1118785": {
+                    "icon_path": "econ/default_generated/weapon_mac10_cu_mac10_sakkaku_newcs2_medium"
+                },
+                "1118786": {
+                    "icon_path": "econ/default_generated/weapon_mac10_cu_mac10_sakkaku_newcs2_heavy"
+                },
                 "1119028": {
                     "icon_path": "econ/default_generated/weapon_mac10_cu_mac10_sakkaku_light"
                 },
@@ -4937,6 +4982,15 @@
                 "1249802": {
                     "icon_path": "econ/default_generated/weapon_p90_gs_p90_tangled_heavy"
                 },
+                "1249872": {
+                    "icon_path": "econ/default_generated/weapon_p90_gs_p90_neoqueen_newcs2_light"
+                },
+                "1249873": {
+                    "icon_path": "econ/default_generated/weapon_p90_gs_p90_neoqueen_newcs2_medium"
+                },
+                "1249874": {
+                    "icon_path": "econ/default_generated/weapon_p90_gs_p90_neoqueen_newcs2_heavy"
+                },
                 "1250116": {
                     "icon_path": "econ/default_generated/weapon_p90_gs_p90_neoqueen_light"
                 },
@@ -5089,6 +5143,15 @@
                 },
                 "1511878": {
                     "icon_path": "econ/default_generated/weapon_mp5sd_gs_mp5_kid_necronomicon_heavy"
+                },
+                "1512008": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_newcs2_light"
+                },
+                "1512009": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_newcs2_medium"
+                },
+                "1512010": {
+                    "icon_path": "econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_newcs2_heavy"
                 },
                 "1512252": {
                     "icon_path": "econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_light"
@@ -5413,6 +5476,15 @@
                 },
                 "1577494": {
                     "icon_path": "econ/default_generated/weapon_ump45_gs_ump_roadblock_heavy"
+                },
+                "1577564": {
+                    "icon_path": "econ/default_generated/weapon_ump45_cu_ump_clutch_kick_newcs2_light"
+                },
+                "1577565": {
+                    "icon_path": "econ/default_generated/weapon_ump45_cu_ump_clutch_kick_newcs2_medium"
+                },
+                "1577566": {
+                    "icon_path": "econ/default_generated/weapon_ump45_cu_ump_clutch_kick_newcs2_heavy"
                 },
                 "1577808": {
                     "icon_path": "econ/default_generated/weapon_ump45_cu_ump_clutch_kick_light"
@@ -6305,6 +6377,15 @@
                 "1774002": {
                     "icon_path": "econ/default_generated/weapon_mag7_cu_mag7_predictor_heavy"
                 },
+                "1774108": {
+                    "icon_path": "econ/default_generated/weapon_mag7_cu_mag7_insomnia_newcs2_light"
+                },
+                "1774109": {
+                    "icon_path": "econ/default_generated/weapon_mag7_cu_mag7_insomnia_newcs2_medium"
+                },
+                "1774110": {
+                    "icon_path": "econ/default_generated/weapon_mag7_cu_mag7_insomnia_newcs2_heavy"
+                },
                 "1774352": {
                     "icon_path": "econ/default_generated/weapon_mag7_cu_mag7_insomnia_light"
                 },
@@ -7124,6 +7205,15 @@
                 "1970178": {
                     "icon_path": "econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_heavy"
                 },
+                "1970776": {
+                    "icon_path": "econ/default_generated/weapon_tec9_cu_tec9_freedom_newcs2_light"
+                },
+                "1970777": {
+                    "icon_path": "econ/default_generated/weapon_tec9_cu_tec9_freedom_newcs2_medium"
+                },
+                "1970778": {
+                    "icon_path": "econ/default_generated/weapon_tec9_cu_tec9_freedom_newcs2_heavy"
+                },
                 "1971020": {
                     "icon_path": "econ/default_generated/weapon_tec9_cu_tec9_freedom_light"
                 },
@@ -7402,6 +7492,15 @@
                 },
                 "2101706": {
                     "icon_path": "econ/default_generated/weapon_hkp2000_cu_p2k_flying_dream_heavy"
+                },
+                "2101804": {
+                    "icon_path": "econ/default_generated/weapon_hkp2000_cu_p2000_decline_newcs2_light"
+                },
+                "2101805": {
+                    "icon_path": "econ/default_generated/weapon_hkp2000_cu_p2000_decline_newcs2_medium"
+                },
+                "2101806": {
+                    "icon_path": "econ/default_generated/weapon_hkp2000_cu_p2000_decline_newcs2_heavy"
                 },
                 "2102048": {
                     "icon_path": "econ/default_generated/weapon_hkp2000_cu_p2000_decline_light"
@@ -7996,6 +8095,15 @@
                 },
                 "2232762": {
                     "icon_path": "econ/default_generated/weapon_mp9_gs_mp9_starlight_heavy"
+                },
+                "2232880": {
+                    "icon_path": "econ/default_generated/weapon_mp9_cu_mp9_superlight_newcs2_light"
+                },
+                "2232881": {
+                    "icon_path": "econ/default_generated/weapon_mp9_cu_mp9_superlight_newcs2_medium"
+                },
+                "2232882": {
+                    "icon_path": "econ/default_generated/weapon_mp9_cu_mp9_superlight_newcs2_heavy"
                 },
                 "2233124": {
                     "icon_path": "econ/default_generated/weapon_mp9_cu_mp9_superlight_light"
@@ -8735,6 +8843,15 @@
                 "2363910": {
                     "icon_path": "econ/default_generated/weapon_p250_gs_p250_visions_heavy"
                 },
+                "2363972": {
+                    "icon_path": "econ/default_generated/weapon_p250_cu_p250_rebuilt_newcs2_light"
+                },
+                "2363973": {
+                    "icon_path": "econ/default_generated/weapon_p250_cu_p250_rebuilt_newcs2_medium"
+                },
+                "2363974": {
+                    "icon_path": "econ/default_generated/weapon_p250_cu_p250_rebuilt_newcs2_heavy"
+                },
                 "2364216": {
                     "icon_path": "econ/default_generated/weapon_p250_cu_p250_rebuilt_light"
                 },
@@ -8977,6 +9094,15 @@
                 },
                 "2494926": {
                     "icon_path": "econ/default_generated/weapon_scar20_sp_scar_chickenfight_heavy"
+                },
+                "2495028": {
+                    "icon_path": "econ/default_generated/weapon_scar20_gs_scar_fragments_black_newcs2_light"
+                },
+                "2495029": {
+                    "icon_path": "econ/default_generated/weapon_scar20_gs_scar_fragments_black_newcs2_medium"
+                },
+                "2495030": {
+                    "icon_path": "econ/default_generated/weapon_scar20_gs_scar_fragments_black_newcs2_heavy"
                 },
                 "2495272": {
                     "icon_path": "econ/default_generated/weapon_scar20_gs_scar_fragments_black_light"
@@ -9283,6 +9409,15 @@
                 },
                 "2560510": {
                     "icon_path": "econ/default_generated/weapon_sg556_cu_sg553_cyber_dragon_heavy"
+                },
+                "2560596": {
+                    "icon_path": "econ/default_generated/weapon_sg556_cu_sg553_cyberforce_newcs2_light"
+                },
+                "2560597": {
+                    "icon_path": "econ/default_generated/weapon_sg556_cu_sg553_cyberforce_newcs2_medium"
+                },
+                "2560598": {
+                    "icon_path": "econ/default_generated/weapon_sg556_cu_sg553_cyberforce_newcs2_heavy"
                 },
                 "2560840": {
                     "icon_path": "econ/default_generated/weapon_sg556_cu_sg553_cyberforce_light"
@@ -9868,6 +10003,15 @@
                 },
                 "3936682": {
                     "icon_path": "econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_insomnia_heavy"
+                },
+                "3936808": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_newcs2_light"
+                },
+                "3936809": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_newcs2_medium"
+                },
+                "3936810": {
+                    "icon_path": "econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_newcs2_heavy"
                 },
                 "3937052": {
                     "icon_path": "econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_light"
@@ -10660,6 +10804,15 @@
                 },
                 "4198886": {
                     "icon_path": "econ/default_generated/weapon_revolver_gs_revolver_purple_elite_heavy"
+                },
+                "4198988": {
+                    "icon_path": "econ/default_generated/weapon_revolver_gs_r8_banana_newcs2_light"
+                },
+                "4198989": {
+                    "icon_path": "econ/default_generated/weapon_revolver_gs_r8_banana_newcs2_medium"
+                },
+                "4198990": {
+                    "icon_path": "econ/default_generated/weapon_revolver_gs_r8_banana_newcs2_heavy"
                 },
                 "4199232": {
                     "icon_path": "econ/default_generated/weapon_revolver_gs_r8_banana_light"
@@ -15143,6 +15296,114 @@
                 "34409342": {
                     "icon_path": "econ/default_generated/weapon_knife_skeleton_sp_nightstripe_heavy"
                 },
+                "34472328": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_so_purple_light"
+                },
+                "34472329": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_so_purple_medium"
+                },
+                "34472330": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_so_purple_heavy"
+                },
+                "34473572": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_an_tiger_orange_light"
+                },
+                "34473573": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_an_tiger_orange_medium"
+                },
+                "34473574": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_an_tiger_orange_heavy"
+                },
+                "34473576": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_aq_damascus_light"
+                },
+                "34473577": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_aq_damascus_medium"
+                },
+                "34473578": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_aq_damascus_heavy"
+                },
+                "34473588": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_marble_fade_light"
+                },
+                "34473589": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_marble_fade_medium"
+                },
+                "34473590": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_marble_fade_heavy"
+                },
+                "34473592": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_aq_steel_knife_light"
+                },
+                "34473593": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_aq_steel_knife_medium"
+                },
+                "34473594": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_aq_steel_knife_heavy"
+                },
+                "34473596": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_ruby_marbleized_light"
+                },
+                "34473597": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_ruby_marbleized_medium"
+                },
+                "34473598": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_ruby_marbleized_heavy"
+                },
+                "34473600": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_sapphire_marbleized_light"
+                },
+                "34473601": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_sapphire_marbleized_medium"
+                },
+                "34473602": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_sapphire_marbleized_heavy"
+                },
+                "34473604": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_blackpearl_marbleized_light"
+                },
+                "34473605": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_blackpearl_marbleized_medium"
+                },
+                "34473606": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_blackpearl_marbleized_heavy"
+                },
+                "34473608": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase1_light"
+                },
+                "34473609": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase1_medium"
+                },
+                "34473610": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase1_heavy"
+                },
+                "34473612": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase2_light"
+                },
+                "34473613": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase2_medium"
+                },
+                "34473614": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase2_heavy"
+                },
+                "34473616": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase3_light"
+                },
+                "34473617": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase3_medium"
+                },
+                "34473618": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase3_heavy"
+                },
+                "34473620": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase4_light"
+                },
+                "34473621": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase4_medium"
+                },
+                "34473622": {
+                    "icon_path": "econ/default_generated/weapon_knife_kukri_am_doppler_phase4_heavy"
+                },
                 "309697940": {
                     "icon_path": "econ/default_generated/studded_brokenfang_gloves_operation10_metalic_green_light"
                 },
@@ -18067,207 +18328,207 @@
             }
         },
         "paint_kits": {
-            "1220": {
-                "name": "cu_mag7_insomnia",
-                "description_string": "#PaintKit_cu_mag7_insomnia",
-                "description_tag": "#PaintKit_cu_mag7_insomnia_Tag",
+            "1159": {
+                "name": "cu_mag7_insomnia_newcs2",
+                "description_string": "#PaintKit_cu_mag7_insomnia_newcs2",
+                "description_tag": "#PaintKit_cu_mag7_insomnia_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             },
-            "1221": {
-                "name": "cu_ak_head_shot_holo",
-                "description_string": "#PaintKit_cu_ak_head_shot_holo",
-                "description_tag": "#PaintKit_cu_ak_head_shot_holo_Tag",
+            "1160": {
+                "name": "cu_ak_head_shot_holo_newcs2",
+                "description_string": "#PaintKit_cu_ak_head_shot_holo_newcs2",
+                "description_tag": "#PaintKit_cu_ak_head_shot_holo_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             },
-            "1222": {
-                "name": "gs_awp_limbo_snake",
-                "description_string": "#PaintKit_gs_awp_limbo_snake",
-                "description_tag": "#PaintKit_gs_awp_limbo_snake_Tag",
+            "1161": {
+                "name": "gs_awp_limbo_snake_newcs2",
+                "description_string": "#PaintKit_gs_awp_limbo_snake_newcs2",
+                "description_tag": "#PaintKit_gs_awp_limbo_snake_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.800000"
             },
-            "1223": {
-                "name": "cu_m4a1s_feeding_frenzy",
-                "description_string": "#PaintKit_cu_m4a1s_feeding_frenzy",
-                "description_tag": "#PaintKit_cu_m4a1s_feeding_frenzy_Tag",
+            "1162": {
+                "name": "cu_m4a1s_feeding_frenzy_newcs2",
+                "description_string": "#PaintKit_cu_m4a1s_feeding_frenzy_newcs2",
+                "description_tag": "#PaintKit_cu_m4a1s_feeding_frenzy_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.800000"
             },
-            "1224": {
-                "name": "cu_p2000_decline",
-                "description_string": "#PaintKit_cu_p2000_decline",
-                "description_tag": "#PaintKit_cu_p2000_decline_Tag",
+            "1163": {
+                "name": "cu_p2000_decline_newcs2",
+                "description_string": "#PaintKit_cu_p2000_decline_newcs2",
+                "description_tag": "#PaintKit_cu_p2000_decline_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             },
-            "1225": {
-                "name": "cu_mp9_superlight",
-                "description_string": "#PaintKit_cu_mp9_superlight",
-                "description_tag": "#PaintKit_cu_mp9_superlight_Tag",
+            "1164": {
+                "name": "cu_mp9_superlight_newcs2",
+                "description_string": "#PaintKit_cu_mp9_superlight_newcs2",
+                "description_tag": "#PaintKit_cu_mp9_superlight_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             },
-            "1226": {
-                "name": "gs_scar_fragments_black",
-                "description_string": "#PaintKit_gs_scar_fragments_black",
-                "description_tag": "#PaintKit_gs_scar_fragments_black_Tag",
+            "1165": {
+                "name": "gs_scar_fragments_black_newcs2",
+                "description_string": "#PaintKit_gs_scar_fragments_black_newcs2",
+                "description_tag": "#PaintKit_gs_scar_fragments_black_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.780000"
             },
-            "1227": {
-                "name": "cu_glock_moon_rabbit",
-                "description_string": "#PaintKit_cu_glock_moon_rabbit",
-                "description_tag": "#PaintKit_cu_glock_moon_rabbit_Tag",
+            "1166": {
+                "name": "cu_glock_moon_rabbit_newcs2",
+                "description_string": "#PaintKit_cu_glock_moon_rabbit_newcs2",
+                "description_tag": "#PaintKit_cu_glock_moon_rabbit_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.750000"
             },
-            "1228": {
-                "name": "cu_m4a4_temukau",
-                "description_string": "#PaintKit_cu_m4a4_temukau",
-                "description_tag": "#PaintKit_cu_m4a4_temukau_Tag",
+            "1167": {
+                "name": "cu_m4a4_temukau_newcs2",
+                "description_string": "#PaintKit_cu_m4a4_temukau_newcs2",
+                "description_tag": "#PaintKit_cu_m4a4_temukau_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.800000"
             },
-            "1229": {
-                "name": "cu_mac10_sakkaku",
-                "description_string": "#PaintKit_cu_mac10_sakkaku",
-                "description_tag": "#PaintKit_cu_mac10_sakkaku_Tag",
+            "1168": {
+                "name": "cu_mac10_sakkaku_newcs2",
+                "description_string": "#PaintKit_cu_mac10_sakkaku_newcs2",
+                "description_tag": "#PaintKit_cu_mac10_sakkaku_newcs2_Tag",
                 "wear_remap_min": "0.210000",
                 "wear_remap_max": "0.790000"
             },
-            "1230": {
-                "name": "cu_p250_rebuilt",
-                "description_string": "#PaintKit_cu_p250_rebuilt",
-                "description_tag": "#PaintKit_cu_p250_rebuilt_Tag",
+            "1169": {
+                "name": "cu_p250_rebuilt_newcs2",
+                "description_string": "#PaintKit_cu_p250_rebuilt_newcs2",
+                "description_tag": "#PaintKit_cu_p250_rebuilt_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.900000"
             },
-            "1231": {
-                "name": "cu_mp5sd_quick_liquidation",
-                "description_string": "#PaintKit_cu_mp5sd_quick_liquidation",
-                "description_tag": "#PaintKit_cu_mp5sd_quick_liquidation_Tag",
+            "1170": {
+                "name": "cu_mp5sd_quick_liquidation_newcs2",
+                "description_string": "#PaintKit_cu_mp5sd_quick_liquidation_newcs2",
+                "description_tag": "#PaintKit_cu_mp5sd_quick_liquidation_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             },
-            "1232": {
-                "name": "gs_r8_banana",
-                "description_string": "#PaintKit_gs_r8_banana",
-                "description_tag": "#PaintKit_gs_r8_banana_Tag",
+            "1171": {
+                "name": "gs_r8_banana_newcs2",
+                "description_string": "#PaintKit_gs_r8_banana_newcs2",
+                "description_tag": "#PaintKit_gs_r8_banana_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             },
-            "1233": {
-                "name": "gs_p90_neoqueen",
-                "description_string": "#PaintKit_gs_p90_neoqueen",
-                "description_tag": "#PaintKit_gs_p90_neoqueen_Tag",
+            "1172": {
+                "name": "gs_p90_neoqueen_newcs2",
+                "description_string": "#PaintKit_gs_p90_neoqueen_newcs2",
+                "description_tag": "#PaintKit_gs_p90_neoqueen_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.600000"
             },
-            "1234": {
-                "name": "cu_sg553_cyberforce",
-                "description_string": "#PaintKit_cu_sg553_cyberforce",
-                "description_tag": "#PaintKit_cu_sg553_cyberforce_Tag",
+            "1173": {
+                "name": "cu_sg553_cyberforce_newcs2",
+                "description_string": "#PaintKit_cu_sg553_cyberforce_newcs2",
+                "description_tag": "#PaintKit_cu_sg553_cyberforce_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "0.900000"
             },
-            "1235": {
-                "name": "cu_tec9_freedom",
-                "description_string": "#PaintKit_cu_tec9_freedom",
-                "description_tag": "#PaintKit_cu_tec9_freedom_Tag",
+            "1174": {
+                "name": "cu_tec9_freedom_newcs2",
+                "description_string": "#PaintKit_cu_tec9_freedom_newcs2",
+                "description_tag": "#PaintKit_cu_tec9_freedom_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             },
-            "1236": {
-                "name": "cu_ump_clutch_kick",
-                "description_string": "#PaintKit_cu_ump_clutch_kick",
-                "description_tag": "#PaintKit_cu_ump_clutch_kick_Tag",
+            "1175": {
+                "name": "cu_ump_clutch_kick_newcs2",
+                "description_string": "#PaintKit_cu_ump_clutch_kick_newcs2",
+                "description_tag": "#PaintKit_cu_ump_clutch_kick_newcs2_Tag",
                 "wear_remap_min": "0.000000",
                 "wear_remap_max": "1.000000"
             }
         },
         "paint_kits_rarity": {
-            "cu_mag7_insomnia": "rare",
-            "cu_ak_head_shot_holo": "legendary",
-            "gs_awp_limbo_snake": "mythical",
-            "cu_m4a1s_feeding_frenzy": "rare",
-            "cu_p2000_decline": "mythical",
-            "cu_mp9_superlight": "rare",
-            "gs_scar_fragments_black": "rare",
-            "cu_glock_moon_rabbit": "rare",
-            "cu_m4a4_temukau": "legendary",
-            "cu_ump_clutch_kick": "legendary",
-            "cu_mac10_sakkaku": "mythical",
-            "cu_p250_rebuilt": "rare",
-            "cu_mp5sd_quick_liquidation": "rare",
-            "gs_r8_banana": "mythical",
-            "gs_p90_neoqueen": "mythical",
-            "cu_sg553_cyberforce": "rare",
-            "cu_tec9_freedom": "rare"
+            "cu_mag7_insomnia_newcs2": "rare",
+            "cu_ak_head_shot_holo_newcs2": "legendary",
+            "gs_awp_limbo_snake_newcs2": "mythical",
+            "cu_m4a1s_feeding_frenzy_newcs2": "rare",
+            "cu_p2000_decline_newcs2": "mythical",
+            "cu_mp9_superlight_newcs2": "rare",
+            "gs_scar_fragments_black_newcs2": "rare",
+            "cu_glock_moon_rabbit_newcs2": "rare",
+            "cu_m4a4_temukau_newcs2": "legendary",
+            "cu_ump_clutch_kick_newcs2": "legendary",
+            "cu_mac10_sakkaku_newcs2": "mythical",
+            "cu_p250_rebuilt_newcs2": "rare",
+            "cu_mp5sd_quick_liquidation_newcs2": "rare",
+            "gs_r8_banana_newcs2": "mythical",
+            "gs_p90_neoqueen_newcs2": "mythical",
+            "cu_sg553_cyberforce_newcs2": "rare",
+            "cu_tec9_freedom_newcs2": "rare"
         },
         "item_sets": {
-            "set_community_32": {
-                "name": "#CSGO_set_community_32",
-                "set_description": "#CSGO_set_community_32_desc",
+            "set_community_33": {
+                "name": "#CSGO_set_community_33",
+                "set_description": "#CSGO_set_community_33_desc",
                 "is_collection": "1",
                 "items": {
-                    "[cu_mag7_insomnia]weapon_mag7": "1",
-                    "[cu_mp9_superlight]weapon_mp9": "1",
-                    "[gs_scar_fragments_black]weapon_scar20": "1",
-                    "[cu_p250_rebuilt]weapon_p250": "1",
-                    "[cu_mp5sd_quick_liquidation]weapon_mp5sd": "1",
-                    "[cu_sg553_cyberforce]weapon_sg556": "1",
-                    "[cu_tec9_freedom]weapon_tec9": "1",
-                    "[cu_m4a1s_feeding_frenzy]weapon_m4a1_silencer": "1",
-                    "[cu_glock_moon_rabbit]weapon_glock": "1",
-                    "[cu_mac10_sakkaku]weapon_mac10": "1",
-                    "[gs_r8_banana]weapon_revolver": "1",
-                    "[gs_p90_neoqueen]weapon_p90": "1",
-                    "[cu_ump_clutch_kick]weapon_ump45": "1",
-                    "[cu_p2000_decline]weapon_hkp2000": "1",
-                    "[gs_awp_limbo_snake]weapon_awp": "1",
-                    "[cu_ak_head_shot_holo]weapon_ak47": "1",
-                    "[cu_m4a4_temukau]weapon_m4a1": "1"
+                    "[cu_mag7_insomnia_newcs2]weapon_mag7": "1",
+                    "[cu_mp9_superlight_newcs2]weapon_mp9": "1",
+                    "[gs_scar_fragments_black_newcs2]weapon_scar20": "1",
+                    "[cu_p250_rebuilt_newcs2]weapon_p250": "1",
+                    "[cu_mp5sd_quick_liquidation_newcs2]weapon_mp5sd": "1",
+                    "[cu_sg553_cyberforce_newcs2]weapon_sg556": "1",
+                    "[cu_tec9_freedom_newcs2]weapon_tec9": "1",
+                    "[cu_m4a1s_feeding_frenzy_newcs2]weapon_m4a1_silencer": "1",
+                    "[cu_glock_moon_rabbit_newcs2]weapon_glock": "1",
+                    "[cu_mac10_sakkaku_newcs2]weapon_mac10": "1",
+                    "[gs_r8_banana_newcs2]weapon_revolver": "1",
+                    "[gs_p90_neoqueen_newcs2]weapon_p90": "1",
+                    "[cu_ump_clutch_kick_newcs2]weapon_ump45": "1",
+                    "[cu_p2000_decline_newcs2]weapon_hkp2000": "1",
+                    "[gs_awp_limbo_snake_newcs2]weapon_awp": "1",
+                    "[cu_ak_head_shot_holo_newcs2]weapon_ak47": "1",
+                    "[cu_m4a4_temukau_newcs2]weapon_m4a1": "1"
                 }
             }
         },
         "client_loot_lists": {
-            "crate_community_32_rare": {
-                "[cu_mag7_insomnia]weapon_mag7": "1",
-                "[cu_mp9_superlight]weapon_mp9": "1",
-                "[gs_scar_fragments_black]weapon_scar20": "1",
-                "[cu_p250_rebuilt]weapon_p250": "1",
-                "[cu_mp5sd_quick_liquidation]weapon_mp5sd": "1",
-                "[cu_sg553_cyberforce]weapon_sg556": "1",
-                "[cu_tec9_freedom]weapon_tec9": "1"
+            "crate_community_33_rare": {
+                "[cu_mag7_insomnia_newcs2]weapon_mag7": "1",
+                "[cu_mp9_superlight_newcs2]weapon_mp9": "1",
+                "[gs_scar_fragments_black_newcs2]weapon_scar20": "1",
+                "[cu_p250_rebuilt_newcs2]weapon_p250": "1",
+                "[cu_mp5sd_quick_liquidation_newcs2]weapon_mp5sd": "1",
+                "[cu_sg553_cyberforce_newcs2]weapon_sg556": "1",
+                "[cu_tec9_freedom_newcs2]weapon_tec9": "1"
             },
-            "crate_community_32_mythical": {
-                "[cu_m4a1s_feeding_frenzy]weapon_m4a1_silencer": "1",
-                "[cu_glock_moon_rabbit]weapon_glock": "1",
-                "[cu_mac10_sakkaku]weapon_mac10": "1",
-                "[gs_r8_banana]weapon_revolver": "1",
-                "[gs_p90_neoqueen]weapon_p90": "1"
+            "crate_community_33_mythical": {
+                "[cu_m4a1s_feeding_frenzy_newcs2]weapon_m4a1_silencer": "1",
+                "[cu_glock_moon_rabbit_newcs2]weapon_glock": "1",
+                "[cu_mac10_sakkaku_newcs2]weapon_mac10": "1",
+                "[gs_r8_banana_newcs2]weapon_revolver": "1",
+                "[gs_p90_neoqueen_newcs2]weapon_p90": "1"
             },
-            "crate_community_32_legendary": {
-                "[gs_awp_limbo_snake]weapon_awp": "1",
-                "[cu_ump_clutch_kick]weapon_ump45": "1",
-                "[cu_p2000_decline]weapon_hkp2000": "1"
+            "crate_community_33_legendary": {
+                "[gs_awp_limbo_snake_newcs2]weapon_awp": "1",
+                "[cu_ump_clutch_kick_newcs2]weapon_ump45": "1",
+                "[cu_p2000_decline_newcs2]weapon_hkp2000": "1"
             },
-            "crate_community_32_ancient": {
-                "[cu_m4a4_temukau]weapon_m4a1": "1",
-                "[cu_ak_head_shot_holo]weapon_ak47": "1"
+            "crate_community_33_ancient": {
+                "[cu_m4a4_temukau_newcs2]weapon_m4a1": "1",
+                "[cu_ak_head_shot_holo_newcs2]weapon_ak47": "1"
             },
-            "crate_community_32": {
-                "crate_community_32_rare": "1",
-                "crate_community_32_mythical": "1",
-                "crate_community_32_legendary": "1",
-                "crate_community_32_ancient": "1",
-                "set_community_19_unusual": "1"
+            "crate_community_33": {
+                "crate_community_33_rare": "1",
+                "crate_community_33_mythical": "1",
+                "crate_community_33_legendary": "1",
+                "crate_community_33_ancient": "1",
+                "set_community_33_unusual": "1"
             }
         },
         "revolving_loot_lists": {
-            "376": "crate_community_32"
+            "393": "crate_community_33"
         },
         "quest_reward_loot_lists": {
             "1": "set_dust",
