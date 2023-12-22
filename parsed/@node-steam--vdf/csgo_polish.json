@@ -960,6 +960,7 @@
             "Cstrike_TitlesTXT_Game_radio": "%s1 (RADIO)\b:\u0001 %s2",
             "Cstrike_TitlesTXT_Game_required_votes": "Wymagana liczba głosów dla nowej mapy = %s1",
             "Cstrike_TitlesTXT_Game_scoring": "Liczenie punktów rozpocznie się dopiero, gdy obie drużyny będą miały graczy.",
+            "Cstrike_TitlesTXT_Game_teammate_attack": " Gracz \u000f%s1 zaatakował kolegę z drużyny.",
             "Cstrike_TitlesTXT_Game_teammate_kills": "Zabici koledzy z drużyny: %s1 z 3",
             "Cstrike_TitlesTXT_Game_timelimit": "Pozostały czas: %s1:%s2",
             "Cstrike_TitlesTXT_Game_unknown_command": "Nieznane polecenie: %s1",
@@ -1363,6 +1364,9 @@
             "Cstrike_Chat_T": " \u0003%s1: \u0001%s2",
             "Cstrike_Chat_All": " \b[OGÓLNY] \u0003%s1\u0001: %s2",
             "Cstrike_Chat_AllDead": " \b[OGÓLNY] \u0003%s1 \b[MARTWY]\u0001: %s2",
+            "Cstrike_Chat_AllSpec": " \b[OGÓLNY] \u0003%s1 \b[WIDZ]\u0001: %s2",
+            "Cstrike_Chat_Spec": " \u0001 %s1 \b[WIDZ]\u0001: %s2",
+            "Cstrike_Name_Change": " \bGracz %s1 zmienił pseudonim na %s2.",
             "CSGO_Coach_Join_CT": " \u0006* %s1 szkoli w tej chwili drużynę ANTYTERRORYSTÓW.",
             "CSGO_Coach_Join_T": " \u0006* %s1 szkoli w tej chwili drużynę TERRORYSTÓW.",
             "CSGO_No_Longer_Coach": " \u0006* %s1 już nie szkoli.",
@@ -1370,6 +1374,9 @@
             "Chat_SavePlayer_Saved": " \u0006 Gracz %s1 ocalił cię, zabijając gracza %s2!",
             "Chat_SavePlayer_Spectator": " \u0006 Gracz %s1 właśnie ocalił gracza %s2, zabijając gracza %s3!",
             "Pet_Killed": "\u0007Twój kurczak zginął.\u0001 Był twój na %s1 s.",
+            "Cstrike_game_join_spectators": " \bGracz %s1 dołącza do widzów.\\n",
+            "Cstrike_game_join_terrorist": " Gracz %s1 dołącza do terrorystów.\\n",
+            "Cstrike_game_join_ct": " Gracz %s1 dołącza do antyterrorystów.\\n",
             "item_cooldown_rounds": "%s1 (zaopatrzenie za %s2 rund(y))",
             "item_cooldown_minutes": "%s1 (zaopatrzenie za %s2 minut(y))",
             "SFUI_WPNHUD_Pistol": "Pistolet",
@@ -27378,7 +27385,9 @@
             "SFUI_TitlesTXT_Fire_in_the_hole": "\u000fZaczepny!",
             "SFUI_TitlesTXT_Molotov_in_the_hole": "\u0010Mołotow!",
             "SFUI_TitlesTXT_Incendiary_in_the_hole": "\u0010Zapalający!",
+            "SFUI_TitlesTXT_Flashbang_in_the_hole": "\u000bBłyskowy!",
             "SFUI_TitlesTXT_Smoke_in_the_hole": "\u0005Dymny!",
+            "SFUI_TitlesTXT_Decoy_in_the_hole": "\bWabik!",
             "WIN_BOMB_PLANT_NAME": "Ktoś podłożyć nam bomba",
             "WIN_BOMB_PLANT_DESC": "Wygraj rundę, podkładając bombę",
             "BOMB_PLANT_LOW_NAME": "Boomala boomala",
@@ -31304,7 +31313,8 @@
             "Hud_Retake_BombSite": "{s:hud-retake-bombsite}",
             "Hud_Money": "{d:r:hud-money-amount}$",
             "Hud_Money_Signed": "{s:sign}{d:r:hud-money-delta}$",
-            "Propcounter_money": "%s1$"
+            "Propcounter_money": "%s1$",
+            "csgo_player_left_game": " \bGracz %s1 opuścił grę (%s2)."
         }
     }
 }
