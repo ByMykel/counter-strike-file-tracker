@@ -6,6 +6,7 @@ const SteamUser = require("steam-user");
 const fs = require("fs");
 const vpk = require("vpk");
 const parser = require("@node-steam/vdf");
+const { exec } = require("child_process");
 const appId = 730;
 const depotId = 2347770;
 const dir = `./static`;
@@ -64,8 +65,11 @@ function getRequiredVPKFiles(vpkDir) {
     const requiredIndices = [];
 
     for (const fileName of vpkDir.files) {
-        for (const f of vpkFiles) {
-            if (fileName.startsWith(f)) {
+        for (const f of [...vpkFiles, "panorama/images/econ"]) {
+            if (
+                fileName.startsWith(f) &&
+                (fileName.includes(".vtex_c") || fileName.includes(".txt"))
+            ) {
                 console.log(`Found vpk for ${f}: ${fileName}`);
 
                 const archiveIndex = vpkDir.tree[fileName].archiveIndex;
@@ -229,6 +233,10 @@ user.once("loggedOn", async () => {
     const vpkDir = await downloadVPKDir(user, manifest);
     await downloadVPKArchives(user, manifest, vpkDir);
     extractVPKFiles(vpkDir);
+
+    exec(
+        './Decompiler -i "./temp/pak01_dir.vpk" -o "./static" -e "vtex_c" -d -f "panorama/images/econ"'
+    );
 
     try {
         fs.writeFileSync(`${dir}/${manifestIdFile}`, latestManifestId);
