@@ -18,7 +18,7 @@ jobs:
         - uses: actions/checkout@master
         - uses: actions/setup-node@v3
         - name: Download new game files
-          run: npm install && node index.js ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }}
+          run: npm install && node index.js '${{ secrets.USERNAME }}' '${{ secrets.PASSWORD }}'
         - name: Read manifestId.txt
           id: manifestId
           uses: juliangruber/read-file-action@v1
