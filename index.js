@@ -65,11 +65,8 @@ function getRequiredVPKFiles(vpkDir) {
     const requiredIndices = [];
 
     for (const fileName of vpkDir.files) {
-        for (const f of [...vpkFiles, "panorama/images/econ"]) {
-            if (
-                fileName.startsWith(f) &&
-                (fileName.includes(".vtex_c") || fileName.includes(".txt"))
-            ) {
+        for (const f of vpkFiles) {
+            if (fileName.startsWith(f)) {
                 console.log(`Found vpk for ${f}: ${fileName}`);
 
                 const archiveIndex = vpkDir.tree[fileName].archiveIndex;
@@ -170,24 +167,6 @@ function extractVPKFiles(vpkDir) {
     }
 }
 
-/**
- * https://ali-dev.medium.com/how-to-use-promise-with-exec-in-node-js-a39c4d7bbf77
- * 
- * Executes a shell command and return it as a Promise.
- * @param cmd {string}
- * @return {Promise<string>}
- */
-function execShellCommand(cmd) {
- return new Promise((resolve, reject) => {
-  exec(cmd, (error, stdout, stderr) => {
-   if (error) {
-    console.warn(error);
-   }
-   resolve(stdout? stdout : stderr);
-  });
- });
-}
-
 if (process.argv.length != 4) {
     console.error(
         `Missing input arguments, expected 4 got ${process.argv.length}`
@@ -251,10 +230,6 @@ user.once("loggedOn", async () => {
     const vpkDir = await downloadVPKDir(user, manifest);
     await downloadVPKArchives(user, manifest, vpkDir);
     extractVPKFiles(vpkDir);
-
-    await execShellCommand(
-        './Decompiler -i "./temp/pak01_dir.vpk" -o "./static" -e "vtex_c" -d -f "panorama/images/econ"'
-    );
 
     try {
         fs.writeFileSync(`${dir}/${manifestIdFile}`, latestManifestId);
