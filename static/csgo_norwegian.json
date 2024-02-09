@@ -22327,7 +22327,7 @@
             "SFUI_GameModeSkirmishDescSPList": "· Hvert krigsspill har tilpassede regler.\\n· Les en beskrivelse av hvert spill på lasteskjermen og/eller på resultattavlen i spillet.",
             "SFUI_GameModeSkirmishDesc": "Hopp inn i kamper med en unik vri på det klassiske spillopplegget. På slutten av kampen kan du stemme på det neste krigsspillet.",
             "SFUI_GameModeSkirmishDescList": "· Hvert krigsspill har tilpassede regler.\\n· Les en beskrivelse av hvert spill på lasteskjermen og/eller på resultattavlen i spillet.",
-            "SFUI_GameModeGGProgressiveDesc": "Oppgrader våpenet ved å drepe fiender.\\nVinn kampen ved å være den første spilleren som får et drap med gullkniven.",
+            "SFUI_GameModeGGProgressiveDesc": "Oppgrader våpenet ved å drepe fiender.\\nJobb deg oppover til knivnivået og stikk av med det siste drapet for å sikre seieren.",
             "SFUI_GameModeGGProgressiveDescList": "· Våpen oppgraderes ved å drepe fiender\\n· Umiddelbar gjenoppliving\\n· Vennlig ild er AV\\n· Lagkollisjon er AV",
             "SFUI_GameModeCooperativeDesc": "Fullfør oppdrag på offisielle tjenere.\\nDu får belønninger og XP for å fullføre oppdragsmål.",
             "SFUI_GameModeCooperativeDescList": "· Eliminer fiender og følg oppdragsmål\\n· Umiddelbar gjenoppliving\\n· Vennlig ild er AV\\n· Lagkollisjon er AV",

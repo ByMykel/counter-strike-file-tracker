@@ -21685,7 +21685,7 @@
             "SFUI_GameModeSkirmishDescSPList": "· Cada Jogo de Guerra tem as suas próprias regras.\\n· Leia a descrição de cada jogo na tela de carregamento ou no placar durante a partida.",
             "SFUI_GameModeSkirmishDesc": "Participe de uma partida com alterações em mecânicas de jogo clássicas. No fim você terá a opção de votar no próximo Jogo de Guerra.",
             "SFUI_GameModeSkirmishDescList": "· Cada Jogo de Guerra tem as suas próprias regras.\\n· Leia a descrição de cada jogo na tela de carregamento ou no placar durante a partida.",
-            "SFUI_GameModeGGProgressiveDesc": "Receba armas melhores ao eliminar inimigos.\\nVença a rodada sendo o primeiro jogador a matar com a Faca Dourada.",
+            "SFUI_GameModeGGProgressiveDesc": "Avance pelas armas ao eliminar inimigos.\\nAlcance o nível da faca e faça uma última vítima para conquistar a vitória.",
             "SFUI_GameModeGGProgressiveDescList": "· Você recebe armas melhores ao eliminar inimigos\\n· Renascimento instantâneo\\n· Fogo amigo desativado\\n· Colisão entre aliados desativada",
             "SFUI_GameModeCooperativeDesc": "Cumpra missões em servidores oficiais.\\nCumpra os seus objetivos para ganhar recompensas e experiência.",
             "SFUI_GameModeCooperativeDescList": "· Elimine inimigos e cumpra os objetivos das missões\\n· Renascimento instantâneo\\n· Fogo amigo desativado\\n· Colisão entre aliados desativada",
