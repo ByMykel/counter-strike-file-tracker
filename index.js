@@ -27,7 +27,7 @@ const vpkFiles = [
     "resource/csgo_hungarian.txt",
     "resource/csgo_italian.txt",
     "resource/csgo_japanese.txt",
-    "resource/csgo_korean.txt",
+    "resource/csgo_koreana.txt",
     "resource/csgo_latam.txt",
     "resource/csgo_norwegian.txt",
     "resource/csgo_polish.txt",
