@@ -29959,8 +29959,6 @@
             "tournament_items_notice": "Vain yksi passi voidaan aktivoida.\\nOstettu passi ei ole vaihdettavissa/myytävissä viikkoon.",
             "popup_redeem_souvenir_title": "Lunasta matkamuisto tästä ottelusta",
             "popup_redeem_souvenir_action": "Hanki matkamuisto",
-            "popup_redeem_souvenir_desc": "{d:lunastukset} Lunastamattomat matkamuistot",
-            "popup_redeem_souvenir_desc_single": "{d:lunastukset} Matkamuiston lunastus jäljellä",
             "op9_name": "Pirstaleinen verkko",
             "op10_name": "Katkennut torahammas",
             "op11_name": "Ristiaallokko",

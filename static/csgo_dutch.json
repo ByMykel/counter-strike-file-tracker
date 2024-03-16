@@ -23764,8 +23764,6 @@
             "tournament_coin_completed_challenges_int": "<b>{d:challenges}</b> uitdagingen voltooid",
             "popup_redeem_souvenir_title": "Souvenir voor deze wedstrijd inwisselen",
             "popup_redeem_souvenir_action": "Souvenir krijgen",
-            "popup_redeem_souvenir_desc": "{d:redeems} souvenirverzilveringen resterend",
-            "popup_redeem_souvenir_desc_single": "{d:redeems} souvenirverzilvering resterend",
             "op9_name": "Shattered Web",
             "op10_name": "Broken Fang",
             "op11_name": "Riptide",

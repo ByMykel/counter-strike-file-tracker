@@ -29684,8 +29684,6 @@
             "tournament_items_notice": "Solo se puede activar un pase.\\nEl pase comprado no será intercambiable ni comerciable durante una semana.",
             "popup_redeem_souvenir_title": "Canjear un regalo de esta partida",
             "popup_redeem_souvenir_action": "Obtener regalo",
-            "popup_redeem_souvenir_desc": "Te quedan {d:redeems} regalos por canjear",
-            "popup_redeem_souvenir_desc_single": "Te queda {d:redeems} regalo por canjear",
             "op9_name": "Shattered Web",
             "op10_name": "Broken Fang",
             "op11_name": "Riptide",
