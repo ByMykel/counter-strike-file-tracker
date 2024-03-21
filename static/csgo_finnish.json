@@ -24950,7 +24950,6 @@
             "CSGO_Fantasy_Player_Status_eliminated": "<font color='#FF9900'>Karsiutunut</font>",
             "CSGO_Fantasy_Player_Status_byeday": "<font color='##89B2D2'>Välipäivä</font>",
             "CSGO_Fantasy_NoSTickers_In_Table": "Et omista tällä hetkellä yhtään tapahtuman <b>%s1</b> pelaajien nimikirjoittamaa tarraa.\\nVoit ostaa joukkueen nimikirjoituskapselin tai hankkia nimikirjoitetun tarran suoraan kauppapaikalta.",
-            "major_hub_souvenir_package_desc": "Valitse mikä tahansa pelattu ottelu alta ja osta sen matkamuisto hintaan <span class=\\\"major-hub-store__souvenir__price\\\">{s:souvenir_price}</span>",
             "CSGO_Journal_CoverId_3": "OL 21-5",
             "CSGO_Journal_CoverTitle_3": "OPERAATIO LÄPIMURTO",
             "CSGO_Journal_CoverDesc_3": "LÄPIMURTO: OPERAATION LOKI",
