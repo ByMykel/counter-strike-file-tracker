@@ -25081,7 +25081,6 @@
             "pickem_confirm_not_owned": "<b>Deze keuzes kunnen niet worden gemaakt.</b><span class=\\\"premier-pickban__title__text-red\\\">\\nJe hebt de bijbehorende teamstickers nodig om je Pick'Em-keuzes aan te passen.</span>",
             "pickem_apply_drag_hint": "Sleep je keuze hierheen",
             "pickem_apply_immediate": "Je keuzes worden bijgewerkt...",
-            "pickem_teams_remove_all_tooltip": "Clear all picks",
             "eventsched_lan": "LAN-evenement",
             "eventsched_online": "Online evenement",
             "eventsched_show_online": "Online evenementen tonen",
