@@ -27320,7 +27320,7 @@
             "buymenu_prohibited_weapon_hint": "<b>{s:s1}</b> 於此模式無法使用",
             "buymenu_weaponsexpert_reminder": "每場比賽只能購買此武器一次",
             "buymenu_weaponsexpert_supply": "團隊限額：<b>%s1</b>",
-            "buymenu_groundweapons": "已丟棄的武器",
+            "buymenu_groundweapons": "丟下的武器",
             "SFUI_BuyMenu_InfoOrigin_glock": "<img src='flag_AT.png' height='11' width='21''/>",
             "SFUI_BuyMenu_InfoSpecial_glock": "三連發點放射擊",
             "SFUI_BuyMenu_InfoOrigin_deagle": "<img src='flag_IL.png' height='11' width='21''/>",
