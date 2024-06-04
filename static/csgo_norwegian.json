@@ -23954,6 +23954,8 @@
             "SFUI_MainMenu_Vac_Info": "Du er blitt utestengt fra å spille sikre tjenere på grunn av et regelbrudd av denne eller en tilknyttet konto.",
             "SFUI_MainMenu_GameBan_Title": "Spillutestengelse",
             "SFUI_MainMenu_GameBan_Info": "Du er blitt utestengt fra å spille sikre tjenere på grunn av et regelbrudd av denne eller en tilknyttet konto.",
+            "SFUI_MainMenu_AccountLocked_Title": "Konto låst",
+            "SFUI_MainMenu_AccountLocked_Info": "Kontoen din er låst og begrenset fra å spille på sikre tjenere som svar på brudd på Steams abonnementsavtale, eller inntil kontoens eier tar kontakt med Steams kundestøtte.",
             "SFUI_MainMenu_News_Title": "Nyheter",
             "SFUI_MainMenu_News_Title_uppercase": "NYHETER",
             "SFUI_MainMenu_Last_Match": "Rapport fra siste kamp",

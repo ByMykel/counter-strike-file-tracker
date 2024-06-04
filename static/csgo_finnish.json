@@ -23945,6 +23945,8 @@
             "SFUI_MainMenu_Vac_Info": "Sinulta on estetty suojatuilla palvelimilla pelaaminen tämän tai linkitetyn tilin rikkeen vuoksi.",
             "SFUI_MainMenu_GameBan_Title": "Pelikielto",
             "SFUI_MainMenu_GameBan_Info": "Sinulta on estetty suojatuilla palvelimilla pelaaminen tämän tai linkitetyn tilin rikkeen vuoksi.",
+            "SFUI_MainMenu_AccountLocked_Title": "Tili lukittu",
+            "SFUI_MainMenu_AccountLocked_Info": "Tilisi on lukittu ja estetty pelaamasta suojatuilla palvelimilla, koska rikoit Steamin tilaussopimusta. Voit kysyä lisätietoja ottamalla yhteyttä Steamin tukeen.",
             "SFUI_MainMenu_News_Title": "Uutiset",
             "SFUI_MainMenu_News_Title_uppercase": "UUTISET",
             "SFUI_MainMenu_Last_Match": "Viimeisimmän ottelun raportti",

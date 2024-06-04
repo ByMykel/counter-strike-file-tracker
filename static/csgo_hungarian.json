@@ -23525,6 +23525,8 @@
             "SFUI_MainMenu_Vac_Info": "Csalási szabálysértés miatt ezen, vagy egy kapcsolódó fiókon, kitiltásra kerültél a védett szerverekről.",
             "SFUI_MainMenu_GameBan_Title": "Játékkitiltás",
             "SFUI_MainMenu_GameBan_Info": "Csalási szabálysértés miatt ezen, vagy egy kapcsolódó fiókon, kitiltásra kerültél a védett szerverekről.",
+            "SFUI_MainMenu_AccountLocked_Title": "Fiók zárolva",
+            "SFUI_MainMenu_AccountLocked_Info": "A fiókod zárolva van, és el van tiltva a védett szervereken való játéktól a Steam előfizetői szerződés megszegése miatt, vagy amíg a fiók tulajdonosa kapcsolatba nem lép a Steam Támogatással.",
             "SFUI_MainMenu_News_Title": "Hírek",
             "SFUI_MainMenu_News_Title_uppercase": "HÍREK",
             "SFUI_MainMenu_Last_Match": "Legutóbbi meccsjelentés",

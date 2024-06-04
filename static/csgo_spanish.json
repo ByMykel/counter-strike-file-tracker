@@ -23312,6 +23312,8 @@
             "SFUI_MainMenu_Vac_Info": "Se te ha prohibido jugar en servidores seguros debido a una infracción de esta cuenta u otra vinculada.",
             "SFUI_MainMenu_GameBan_Title": "Bloqueo en juego",
             "SFUI_MainMenu_GameBan_Info": "Se te ha prohibido jugar en servidores seguros debido a una infracción de esta cuenta u otra vinculada.",
+            "SFUI_MainMenu_AccountLocked_Title": "Cuenta bloqueada",
+            "SFUI_MainMenu_AccountLocked_Info": "Tu cuenta está bloqueada y no puede jugar en servidores seguros como respuesta a una infracción del Acuerdo de Suscriptor a Steam o hasta que el propietario de la cuenta se ponga en contacto con el Soporte de Steam.",
             "SFUI_MainMenu_News_Title": "Noticias",
             "SFUI_MainMenu_News_Title_uppercase": "NOTICIAS",
             "SFUI_MainMenu_Last_Match": "Informe de última partida",
