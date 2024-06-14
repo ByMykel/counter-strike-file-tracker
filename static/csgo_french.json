@@ -26465,7 +26465,6 @@
             "SFUI_Settings_VOIP_Volume": "Volume de la voix des autres personnes",
             "SFUI_Settings_VOIP_Volume_Tip": "Règle le volume audio des communications vocales en provenance des autres personnes sur le serveur.",
             "SFUI_Settings_voice_always_sample_mic": "Appuyer-pour-parler simplifié",
-            "SFUI_Settings_voice_always_sample_mic_tooltip": "Empêche le périphérique d'entrée de se désactiver afin d'éviter les saccades sur certains systèmes.",
             "SFUI_Settings_VOIP_Positional": "Activer la provenance de la voix des autres personnes",
             "SFUI_Settings_VOIP_Positional_Tip": "Émet les voix en fonction de la position des unités.",
             "SFUI_Settings_VOIP_Threshold": "Seuil de déclenchement du micro",

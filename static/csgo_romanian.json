@@ -26482,7 +26482,6 @@
             "SFUI_Settings_VOIP_Volume": "Volumul vocii celorlalți jucători",
             "SFUI_Settings_VOIP_Volume_Tip": "Reglează volumul general al comunicărilor venite de la ceilalți jucători (comunicare vocală).",
             "SFUI_Settings_voice_always_sample_mic": "Apasă pentru a vorbi (eficient)",
-            "SFUI_Settings_voice_always_sample_mic_tooltip": "Menține dispozitivul de înregistrare activ pentru a evita situațiile în care jocul se poate bloca pentru anumite configurații hardware.",
             "SFUI_Settings_VOIP_Positional": "Poziționarea comunicărilor celorlalți jucători",
             "SFUI_Settings_VOIP_Positional_Tip": "Redă pozițional în joc comunicările din chatul vocal.",
             "SFUI_Settings_VOIP_Threshold": "Prag de declanșare pentru microfon",

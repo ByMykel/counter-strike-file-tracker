@@ -26965,7 +26965,6 @@
             "SFUI_Settings_VOIP_Volume": "其他玩家語音音量",
             "SFUI_Settings_VOIP_Volume_Tip": "整調來自其他玩家語音通訊（VOIP）的整體音量。",
             "SFUI_Settings_voice_always_sample_mic": "簡化隨按即說",
-            "SFUI_Settings_voice_always_sample_mic_tooltip": "保持啟用錄製裝置以避免遊戲於某些硬體上出現凍結的情況。",
             "SFUI_Settings_VOIP_Positional": "其他玩家語音位置",
             "SFUI_Settings_VOIP_Positional_Tip": "依照玩家位置播放遊戲內 VOIP。",
             "SFUI_Settings_VOIP_Threshold": "麥克風觸發臨界值",
