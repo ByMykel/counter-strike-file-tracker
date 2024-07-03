@@ -33554,7 +33554,9 @@
             "Workshop_item_error_image": "Valitse hyväksyttävä jpeg- tai png-kuva, jonka koko on alle {s:max_size} ja vähimmäisleveys ja -korkeus on {d:min_height}.",
             "Workshop_item_ready": "Esine on valmis lähetettäväksi",
             "SFUI_Go_To_Mic_Enable_key": "Siirry mikrofonin näppäinmääritykseen",
-            "SFUI_Go_To_Console_Key_Binding": "Siirry konsolin näppäinmääritykseen"
+            "SFUI_Go_To_Console_Key_Binding": "Siirry konsolin näppäinmääritykseen",
+            "SteamVideo_Bomb_Defused_Title": "Pommi purettiin",
+            "SteamVideo_Round_Number_Label": "Erä %s1"
         }
     }
 }
