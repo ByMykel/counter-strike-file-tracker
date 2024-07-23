@@ -28381,6 +28381,7 @@
             "SFUI_OfficialDatacenterID_42": "China, Chengdu",
             "SFUI_OfficialDatacenterID_43": "US, New York",
             "SFUI_OfficialDatacenterID_44": "EU, Finland",
+            "SFUI_OfficialDatacenterID_45": "EU, England",
             "SFUI_UserAlert_HighPings": "Your best ping to official servers is %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Failed to reach any official servers.",
             "SFUI_UserAlert_UnreachableText": "Failed to reach any official servers. There might be a problem with your internet connection or firewall configuration. Please verify your network settings and try again.",
