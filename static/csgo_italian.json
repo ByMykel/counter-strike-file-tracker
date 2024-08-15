@@ -27041,6 +27041,7 @@
             "SFUI_OfficialDatacenterID_42": "Cina, Chengdu",
             "SFUI_OfficialDatacenterID_43": "New York, USA",
             "SFUI_OfficialDatacenterID_44": "UE, Finlandia",
+            "SFUI_OfficialDatacenterID_45": "Regno Unito",
             "SFUI_UserAlert_HighPings": "Il tuo ping migliore su server ufficiali è %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Impossibile contattare i server ufficiali.",
             "SFUI_UserAlert_UnreachableText": "Impossibile connettersi a server ufficiali. Potrebbe esserci un problema con la tua connessione internet o con la configurazione del tuo firewall. Verifica le impostazioni di rete e riprova.",

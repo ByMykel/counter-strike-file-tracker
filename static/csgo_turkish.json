@@ -27040,6 +27040,7 @@
             "SFUI_OfficialDatacenterID_42": "Çin, Chengdu",
             "SFUI_OfficialDatacenterID_43": "ABD, New York",
             "SFUI_OfficialDatacenterID_44": "AB, Finlandiya",
+            "SFUI_OfficialDatacenterID_45": "Birleşik Krallık",
             "SFUI_UserAlert_HighPings": "Resmî sunuculardaki en iyi ping değerin %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Herhangi bir resmî sunucuya bağlanmak başarısız oldu.",
             "SFUI_UserAlert_UnreachableText": "Resmî sunuculara ulaşılamadı. İnternet bağlantınız veya güvenlik duvarı yapılandırmanızla ilgili biri sorun olabilir. Lütfen ağ ayarlarınızı doğrulayın ve tekrar deneyin.",

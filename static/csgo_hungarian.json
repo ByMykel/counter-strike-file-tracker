@@ -27257,6 +27257,7 @@
             "SFUI_OfficialDatacenterID_42": "Kína, Csengdu",
             "SFUI_OfficialDatacenterID_43": "USA, New York",
             "SFUI_OfficialDatacenterID_44": "EU, Finnország",
+            "SFUI_OfficialDatacenterID_45": "Egyesült Királyság",
             "SFUI_UserAlert_HighPings": "A legjobb pinged a hivatalos szerverekhez %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Egyetlen hivatalos szervert sem sikerült elérni.",
             "SFUI_UserAlert_UnreachableText": "Egyetlen hivatalos szervert sem sikerült elérni. Probléma lehet az internetkapcsolatoddal vagy a tűzfal-konfigurációddal. Kérjük, ellenőrizd a hálózati beállításaidat, és próbáld újra.",

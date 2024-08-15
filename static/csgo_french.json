@@ -27040,6 +27040,7 @@
             "SFUI_OfficialDatacenterID_42": "Chine, Chengdu",
             "SFUI_OfficialDatacenterID_43": "New York, USA",
             "SFUI_OfficialDatacenterID_44": "Europe, Finlande",
+            "SFUI_OfficialDatacenterID_45": "Royaume-Uni",
             "SFUI_UserAlert_HighPings": "Votre meilleur ping aux serveurs officiels est de %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Impossible de joindre les serveurs officiels.",
             "SFUI_UserAlert_UnreachableText": "Impossible de joindre les serveurs officiels. Le problème vient peut-être de votre connexion Internet ou des paramètres de votre pare-feu. Vérifiez vos paramètres réseau, puis réessayez.",

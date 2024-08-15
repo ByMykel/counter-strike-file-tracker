@@ -27040,6 +27040,7 @@
             "SFUI_OfficialDatacenterID_42": "China, Chengdu",
             "SFUI_OfficialDatacenterID_43": "EUA, Nova Iorque",
             "SFUI_OfficialDatacenterID_44": "UE, Finlândia",
+            "SFUI_OfficialDatacenterID_45": "Reino Unido",
             "SFUI_UserAlert_HighPings": "A melhor latência disponível em servidores oficiais é de %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Falha ao conectar-se aos servidores oficiais.",
             "SFUI_UserAlert_UnreachableText": "Não foi possível comunicar-se com os servidores oficiais. Pode haver um problema com a sua conexão à internet ou configuração de firewall. Verifique as suas configurações de rede e tente novamente.",

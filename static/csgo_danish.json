@@ -27829,6 +27829,7 @@
             "SFUI_OfficialDatacenterID_42": "Kina, Chengdu",
             "SFUI_OfficialDatacenterID_43": "USA, New York",
             "SFUI_OfficialDatacenterID_44": "EU, Finland",
+            "SFUI_OfficialDatacenterID_45": "Storbritannien",
             "SFUI_UserAlert_HighPings": "Din bedste ping til officielle servere er %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Var ikke i stand til at nå nogen officielle servere.",
             "SFUI_UserAlert_UnreachableText": "Kunne ikke opnå kontakt med nogen officielle servere. Der kan være et problem hos din internetudbyder eller med firewallkonfigurationen. Bekræft netværksindstillingerne, og prøv igen.",

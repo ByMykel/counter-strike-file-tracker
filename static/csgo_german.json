@@ -27040,6 +27040,7 @@
             "SFUI_OfficialDatacenterID_42": "China, Chengdu",
             "SFUI_OfficialDatacenterID_43": "USA, New York",
             "SFUI_OfficialDatacenterID_44": "Europa, Finnland",
+            "SFUI_OfficialDatacenterID_45": "Vereinigtes Königreich",
             "SFUI_UserAlert_HighPings": "Ihr bester Ping zu den offiziellen Servern ist %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Es konnte keiner der offiziellen Server erreicht werden.",
             "SFUI_UserAlert_UnreachableText": "Offizielle Server konnten nicht erreicht werden. Möglicherweise gibt es ein Problem mit Ihrer Internetverbindung oder Firewall-Konfiguration. Bitte verifizieren Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.",

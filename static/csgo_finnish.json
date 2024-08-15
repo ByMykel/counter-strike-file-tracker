@@ -27678,6 +27678,7 @@
             "SFUI_OfficialDatacenterID_42": "Chengdu, Kiina",
             "SFUI_OfficialDatacenterID_43": "New York, USA",
             "SFUI_OfficialDatacenterID_44": "Eurooppa, Suomi",
+            "SFUI_OfficialDatacenterID_45": "Yhdistynyt kuningaskunta",
             "SFUI_UserAlert_HighPings": "Pienin viiveesi virallisille palvelimille on %s1 millisekuntia.",
             "SFUI_UserAlert_Unreachable": "Virallisiin pelipalvelimiin ei saatu yhteyttä.",
             "SFUI_UserAlert_UnreachableText": "Virallisten palvelimien tavoittaminen epäonnistui. Internetyhteydessäsi tai palomuurimäärityksissäsi saattaa olla ongelma. Tarkista verkkoasetukset ja yritä uudelleen.",

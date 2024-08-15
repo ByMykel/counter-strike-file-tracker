@@ -26478,6 +26478,7 @@
             "SFUI_OfficialDatacenterID_42": "中国 成都",
             "SFUI_OfficialDatacenterID_43": "米国 ニューヨーク",
             "SFUI_OfficialDatacenterID_44": "EU フィンランド",
+            "SFUI_OfficialDatacenterID_45": "イギリス",
             "SFUI_UserAlert_HighPings": "公式サーバーへの最速PINGは %s1 ms です。",
             "SFUI_UserAlert_Unreachable": "公式サーバーに接続できませんでした。",
             "SFUI_UserAlert_UnreachableText": "どの公式サーバーにもアクセスできませんでした。お使いのインターネット接続あるいはファイアウォール設定に問題があるかもしれません。ネットワーク設定を確認してもう一度お試しください。",

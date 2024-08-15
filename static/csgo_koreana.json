@@ -27044,6 +27044,7 @@
             "SFUI_OfficialDatacenterID_42": "중국 청두",
             "SFUI_OfficialDatacenterID_43": "미국 뉴욕",
             "SFUI_OfficialDatacenterID_44": "핀란드",
+            "SFUI_OfficialDatacenterID_45": "영국",
             "SFUI_UserAlert_HighPings": "공식 서버로 가는 핑 최고 기록은 %s1ms입니다.",
             "SFUI_UserAlert_Unreachable": "공식 서버와 연결하지 못했습니다.",
             "SFUI_UserAlert_UnreachableText": "공식 서버에 접속하지 못했습니다. 인터넷 연결이나 방화벽 구성에 문제가 있을 수 있습니다. 네트워크 설정을 확인하고 다시 시도해 주세요.",
