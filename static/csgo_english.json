@@ -26330,7 +26330,6 @@
             "SFUI_How_to_Play_Controller_LTrigger_L2": "Crouch",
             "SFUI_How_to_Play_Controller_Select": "Scoreboard",
             "SFUI_How_to_Play_Controller_Start": "Pause Menu",
-            "SFUI_HOW TO PLAY": "HOW TO PLAY",
             "SFUI_HOW_TO_PLAY": "How to Play",
             "SFUI_How_to_Play_Navigation": "${cancel} Cancel     ${dpad} Navigate     ${rstick} Scroll",
             "SFUI_HowToPlay_IntroductionLabel": "Introduction",
