@@ -30693,6 +30693,7 @@
             "Player_DisconnectReason_ConnectionClosing": "connection closing",
             "Player_DisconnectReason_InputAutomation": "For input automation",
             "Player_DisconnectReason_InputAutomation_Detail": "Kicked for input automation",
+            "Player_DisconnectReason_VacNetAbnormalBehavior": "VAC has detected irregular gameplay",
             "SFUI_GameUI_ProfileDataLoadFailedTitle": "Gamer profile load fail",
             "SFUI_GameUI_ProfileDataLoadFailedMsg": "There was an error loading the gamer profile.  Would you like to attempt to reset the gamer profile losing all game progress and settings?",
             "SFUI_GameUI_ProfileDataLoadFailedTrialMsg": "There was an error loading the gamer profile.  Trial mode requires valid gamer profile",
