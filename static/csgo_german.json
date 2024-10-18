@@ -24217,7 +24217,6 @@
             "popup_remove_patch_button": "Aufnäher entfernen",
             "popup_remove_sticker_button": "Aufkleber abkratzen",
             "popup_remove_sticker_button_negative": "Aufkleber entfernen",
-            "popup_scrape_sticker_level": "Abkratzzustand des Aufklebers",
             "SFUI_Sticker_RemoveImmediate_Desc": "Bitte bestätigen Sie, dass Sie diesen Aufkleber wirklich von dem Gegenstand entfernen möchten. Der entfernte Aufkleber wird dabei zerstört.",
             "SFUI_Sticker_Remove_Desc": "Das weitere Abkratzen dieses Aufklebers zerstört ihn und entfernt ihn von dem Gegenstand.",
             "SFUI_Patch_Remove": "Aufnäher entfernen",

@@ -221,6 +221,7 @@
             "GameUI_Disconnect_SteamVAC": "VAC-udelukket fra sikker server",
             "GameUI_Disconnect_SteamTimeOut": "Valve Anti-Cheat-udfordring udløb. Sørg for, at du ikke bruger nogen programmer, der kan forstyrre VAC, og bekræft, at Steam er korrekt installeret.",
             "GameUI_Disconnect_StringTableMessage": "Kunne ikke skrive opdateringsbeskeden til strengtabellen",
+            "GameUI_SystemInfo_Title": "Systemoplysninger",
             "Workshop_Preview_ShowStatTrak": "Vis StatTrak™",
             "Workshop_Preview_ShowNameTag": "Vis navneskilt",
             "Workshop_Preview_Dialog_Title": "Værkstedsarbejdsbænk",

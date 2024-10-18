@@ -23596,7 +23596,7 @@
             "AddFriend_tooltip": "Vriend toevoegen",
             "FriendsLobby_tooltip": "Meer informatie over lobby's",
             "friends_lobby_count": "+ {s:lobby_count}",
-            "contextmenu_lobby-count:p{lobby_count}": "{d:lobby_count} Lobby #|#{d:lobby_count} Lobby's",
+            "contextmenu_lobby-count:p{lobby_count}": "{d:lobby_count} lobby #|#{d:lobby_count} lobby's",
             "PopupGoTeamMatchmaking_Title": "OFFICIËLE MATCHMAKING",
             "PopupGoTeamMatchmaking_Tooltip_SearchUI": "Lobby's met vijf spelers kunnen het opnemen tegen anderen via matchmaking of rechtstreeks een andere lobby met vijf spelers uitdagen.",
             "PopupGoTeamMatchmaking_RegularMM": "Standaard spel",
