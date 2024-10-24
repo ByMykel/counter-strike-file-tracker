@@ -221,6 +221,7 @@
             "GameUI_Disconnect_SteamVAC": "Bandito dai server protetti dal VAC.",
             "GameUI_Disconnect_SteamTimeOut": "Si è verificato un problema con il Valve Anti-Cheat. Assicurati di non utilizzare programmi che possano interferire con il VAC e verifica che Steam sia installato correttamente.",
             "GameUI_Disconnect_StringTableMessage": "Errore durante la scrittura del messaggio di aggiornamento della tabella delle stringhe.",
+            "GameUI_SystemInfo_Title": "Informazioni di sistema",
             "GameUI_SystemInfo_Attention_Low_System_Memory": "È stata rilevata una quantità insufficiente di memoria di sistema disponibile. Ciò potrebbe causare instabilità o crash del gioco. È consigliabile chiudere tutti i programmi aperti non necessari per aumentare la disponibilità della memoria di sistema.",
             "GameUI_SystemInfo_Attention_LowDiskSpaceForSwapfile": "È stato rilevato uno spazio su disco insufficiente sull'unità del sistema operativo, il che può limitare le dimensioni del file di paging. Ciò potrebbe causare instabilità o crash del gioco. È consigliabile liberare spazio su disco sull'unità di sistema o di modificare le impostazioni dei file di paging nelle proprietà del sistema.",
             "Workshop_Preview_ShowStatTrak": "Mostra StatTrak™",
