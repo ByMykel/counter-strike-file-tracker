@@ -221,6 +221,8 @@
             "GameUI_Disconnect_SteamVAC": "Von VAC-gesicherten Servern ausgeschlossen",
             "GameUI_Disconnect_SteamTimeOut": "Zeitüberschreitung bei der Valve Anti-Cheat-Herausforderung. Bitte stellen Sie sicher, dass keine Programme ausgeführt werden, die mit VAC interferieren, und dass Steam korrekt installiert wurde.",
             "GameUI_Disconnect_StringTableMessage": "Fehler beim Schreiben der Benachrichtigung zum String-Tabellenupdate",
+            "GameUI_SystemInfo_Title": "Systeminformationen",
+            "GameUI_SystemInfo_Attention_Low_System_Memory": "Es wurde festgestellt, dass nur wenig Systemspeicher verfügbar ist. Dies kann dazu führen, dass das Spiel instabil läuft oder abstürzt. Schließen Sie ggf. alle nicht benötigten aktiven Programme, um den verfügbaren Systemspeicher zu erhöhen.",
             "Workshop_Preview_ShowStatTrak": "StatTrak™ anzeigen",
             "Workshop_Preview_ShowNameTag": "Namensschild anzeigen",
             "Workshop_Preview_Dialog_Title": "Workshop-Werkbank",

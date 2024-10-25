@@ -29256,6 +29256,7 @@
             "Player_DisconnectReason_ConnectionClosing": "연결 종료",
             "Player_DisconnectReason_InputAutomation": "자동 입력",
             "Player_DisconnectReason_InputAutomation_Detail": "자동 입력이 감지되어 추방되었습니다.",
+            "Player_DisconnectReason_VacNetAbnormalBehavior": "VAC에서 비정상적인 게임플레이를 감지했습니다.",
             "SFUI_GameUI_ProfileDataLoadFailedTitle": "게이머 프로필을 불러오는 데 실패했습니다",
             "SFUI_GameUI_ProfileDataLoadFailedMsg": "게이머 프로필을 불러오는 데 문제가 발생했습니다. 모든 게임 진행 사항과 설정을 초기화하여 게이머 프로필을 초기화 하시겠습니까?",
             "SFUI_GameUI_ProfileDataLoadFailedTrialMsg": "게이머 프로필을 불러오는 중 문제가 발생했습니다. 체험 모드는 게이머 프로필이 필요합니다.",
