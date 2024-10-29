@@ -223,6 +223,7 @@
             "GameUI_Disconnect_StringTableMessage": "編寫字串資料表更新訊息時遇錯",
             "GameUI_SystemInfo_Title": "系統資訊",
             "GameUI_SystemInfo_Attention_Low_System_Memory": "偵測到可用系統記憶體不足。這可能會導致遊戲不穩定或當機。請考慮關閉任何不必要的程式，以增加可用的系統記憶體。",
+            "GameUI_SystemInfo_Attention_LowDiskSpaceForSwapfile": "偵測到作業系統磁碟機的磁碟空間不足，這會限制您的分頁檔大小。這可能會導致遊戲不穩定或當機。請考慮釋放一些系統磁碟機的磁碟空間，或在系統屬性中調整分頁檔設定。",
             "Workshop_Preview_ShowStatTrak": "顯示 StatTrak™",
             "Workshop_Preview_ShowNameTag": "顯示名稱標籤",
             "Workshop_Preview_Dialog_Title": "工作坊作業台",
