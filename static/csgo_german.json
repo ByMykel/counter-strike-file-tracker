@@ -25863,7 +25863,7 @@
             "SFUI_vote_failed_rematch_explain": "Es wird kein Rückspiel angeboten, da weniger als 10 Spieler verbunden sind.",
             "SFUI_match_cancelled": "Partie abgebrochen",
             "SFUI_match_abort_match_network_event": "Eine Netzwerkunterbrechung führte zum Abbruch des Spiels.\\nDieses Spiel hat keinen Einfluss auf Ihre CS-Wertung/Skill-Gruppe.",
-            "SFUI_match_abort_match_vac_live": "VAC Live hat einen Cheater erkannt und die Partie abgebrochen.\\nDiese Partie hat keinen Einfluss auf Ihre Skill-Wertung.",
+            "SFUI_match_abort_match_vac_live": "VAC Live hat einen Betrüger erkannt und die Partie abgebrochen.\\nDiese Partie hat keinen Einfluss auf Ihre Skill-Gruppe oder CS-Wertung.",
             "SFUI_match_abort_match_abnormal_behavior": "VAC hat ein auffälliges Spielverhalten festgestellt und das Spiel abgebrochen.\\nDer von VAC als auffällig befundene Spieler und seine Lobby haben eine Strafzeit erhalten.",
             "SFUI_match_vac_live_partied_with_cheater": "Für diese Partie wird kein Fortschritt vergeben, da ein Spieler Ihrer Seite vom Spiel ausgeschlossen wurde.",
             "SFUI_match_abort_match_missing_player": "\u0007Das Spiel wird abgebrochen, da ein Spieler keine Verbindung herstellen konnte.",
