@@ -1,6 +1,6 @@
 # counter-strike-file-tracker
 
-This repository provides access to price data for Counter-Strike items via static JSON files. Here's how you can fetch the data:
+This repository provides access to Counter-Strike file data via static JSON files.
 
 ---
 
