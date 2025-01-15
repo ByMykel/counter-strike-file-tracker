@@ -29155,6 +29155,7 @@
             "SFUI_OfficialDatacenterID_44": "歐洲芬蘭",
             "SFUI_OfficialDatacenterID_45": "英國",
             "SFUI_OfficialDatacenterID_49": "中國廣東",
+            "SFUI_OfficialDatacenterID_51": "中國北京",
             "SFUI_UserAlert_HighPings": "您連至官方伺服器的最低延遲為 %s1 ms。",
             "SFUI_UserAlert_Unreachable": "無法連線至任何官方伺服器。",
             "SFUI_UserAlert_UnreachableText": "無法連線至任何官方伺服器。您的網路連線或防火牆配置可能出現問題。請檢查您的網路設定後再試一次。",

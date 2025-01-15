@@ -29299,6 +29299,7 @@
             "SFUI_OfficialDatacenterID_44": "EU – Finland",
             "SFUI_OfficialDatacenterID_45": "Storbritannia",
             "SFUI_OfficialDatacenterID_49": "Kina – Guangdong",
+            "SFUI_OfficialDatacenterID_51": "Kina – Beijing",
             "SFUI_UserAlert_HighPings": "Den beste pingen din til offisielle tjenere er %s1 ms.",
             "SFUI_UserAlert_Unreachable": "Kunne ikke nå noen offisielle tjenere.",
             "SFUI_UserAlert_UnreachableText": "Kunne ikke nå noen offisielle tjenere. Det er mulig du har et problem med internettforbindelsen eller brannmurkonfigurasjonen. Sjekk nettverksinnstillingene dine og prøv igjen.",

@@ -28653,6 +28653,7 @@
             "SFUI_OfficialDatacenterID_44": "欧洲，芬兰",
             "SFUI_OfficialDatacenterID_45": "英国",
             "SFUI_OfficialDatacenterID_49": "中国广东",
+            "SFUI_OfficialDatacenterID_51": "中国北京",
             "SFUI_UserAlert_HighPings": "您连接官方服务器的最低延迟是 %s1 毫秒。",
             "SFUI_UserAlert_Unreachable": "连接到任意官方服务器失败。",
             "SFUI_UserAlert_UnreachableText": "无法访问任何官方服务器。您的互联网连接或防火墙配置可能有问题。请验证您的网络设置，然后重试。",
