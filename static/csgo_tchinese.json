@@ -2589,6 +2589,7 @@
             "season_progress_title": "賽季進度",
             "season_progress_high_rank": "本賽季達成的最高 CS 評級",
             "season_progress_bar_title": "比賽獲勝數",
+            "season_wins": "<b>{d:wins}</b> / {d:threshold}",
             "season_progress_tooltip-title": "賽季進度",
             "season_progress_tooltip-body": "賽季結束時，達到要求的玩家將獲得 1 枚優先權賽季勳章。<br><br>顏色會根據您在賽季期間達到最高的 CS 評級而定，而條塊數目會反映您的總勝場數，每贏 25 場會有 1 條，最多可有 5 條。<br><br>要獲得優先權第 2 賽季勳章，您的帳戶必須處於良好狀態、有 25 場優先權比賽勝場，且在賽季完結時您的 CS 評級需仍有效。",
             "CSGO_Operation_Maps_Season_4_Active": "現役地圖組包括 Dust II、Nuke、Mirage、Inferno、Cobblestone、Overpass、Cache",
