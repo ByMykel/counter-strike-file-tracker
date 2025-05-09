@@ -25522,7 +25522,6 @@
             "SFUI_MapGroup_Tooltip_Desc_Active": "此地圖組包含現役的競賽地圖。",
             "SFUI_MapGroup_Tooltip_Desc_Dust247": "此地圖組包含 Dust II。",
             "SFUI_MapGroup_Tooltip_Desc_Reserves": "此地圖組包含目前沒有在競賽地圖群裡面的地圖。",
-            "SFUI_MapGroup_Tooltip_Desc_CasualDelta": "此地圖組包含來自目前的競技地圖群與候補地圖群中，最熱門的炸彈拆除地圖。",
             "SFUI_MapGroup_Tooltip_Desc_CasualSigma": "此地圖組包含最熱門的社群炸彈拆除地圖、一些來自目前的競技地圖群的地圖，以及一張候補地圖群中的地圖。",
             "SFUI_MapGroup_Tooltip_Desc_DeathMatch": "此地圖組包含所有死鬥模式的地圖。",
             "SFUI_MapGroup_Tooltip_Desc_Demo": "此地圖組包含所有炸彈爆破模式的地圖。",

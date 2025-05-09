@@ -1427,6 +1427,13 @@
             "Oven": "Ovnen",
             "Engine": "Motorbåten",
             "LongDog": "Lang hund",
+            "Church": "Kirken",
+            "TLong": "Lang T",
+            "Bench": "Benken",
+            "CTMid": "Midtre AT",
+            "TMid": "Midtre T",
+            "Toilets": "Toalettene",
+            "Candle": "Stearinlyset",
             "Gravelpit": "Grushaug",
             "Forest": "Skog",
             "Tents": "Telt",
@@ -25668,7 +25675,6 @@
             "SFUI_MapGroup_Tooltip_Desc_Active": "Denne kartgruppen inneholder de nåværende kartene som brukes i konkurransespilling.",
             "SFUI_MapGroup_Tooltip_Desc_Dust247": "Denne kartgruppen inneholder Dust II.",
             "SFUI_MapGroup_Tooltip_Desc_Reserves": "Denne kartgruppen inneholder kart som for tiden ikke spilles i konkurransespilling.",
-            "SFUI_MapGroup_Tooltip_Desc_CasualDelta": "Denne kartgruppen inneholder de mest populære bombedesarmeringskartene fra gjeldende konkurransekart, i tillegg til de beste kartene fra reservegruppen.",
             "SFUI_MapGroup_Tooltip_Desc_CasualSigma": "Denne kartgruppen inneholder de mest populære bombedesarmeringskartene fra samfunnet, noen kart fra gjeldende konkurransekart, i tillegg til et kart fra reservegruppen.",
             "SFUI_MapGroup_Tooltip_Desc_DeathMatch": "Denne kartgruppen inneholder alle kartene for dødskamp.",
             "SFUI_MapGroup_Tooltip_Desc_Demo": "Denne kartgruppen inneholder alle kartene for ødeleggelsesmodus.",
@@ -28938,6 +28944,7 @@
             "SFUI_Settings_Presets": "Gjeldende forhåndsinnstilte videoverdier",
             "SFUI_Settings_Audio_Tip": "CS2 er best med stereohodetelefoner. CS2 har raffinert innebygd lydbehandling og modellering i 3D basert på hver enkelt lydkilde og spillgeometrien. Vi anbefaler at du slår av eventuelle eksterne lydforbedringer eller virtuell kringlyd for å få den beste lytteopplevelsen.",
             "SFUI_Settings_Master_Volume": "Hovedvolum",
+            "SFUI_Settings_BGAmbience_Volume": "Hovedmenyens omgivelsesvolum",
             "SFUI_Settings_Music_Volume": "Hovedvolum for musikk",
             "SFUI_Settings_Music_Volume_InOverlay": "Musikkvolum i Steam-overlegg",
             "SFUI_Settings_Audio_Device": "Lydenhet",
@@ -35660,7 +35667,8 @@
             "SteamVideo_Round_Number_Label": "Runde %s1",
             "SteamVideo_Start_Of_Round_Title": "Rundestart %s1",
             "SteamVideo_MatchScore": "Poeng",
-            "SteamVideo_KDA": "D/Df/M"
+            "SteamVideo_KDA": "D/Df/M",
+            "CS2_Quest_Weapon_Mode": "Utstyrsferdighet: <b>{s:gamemode}</b>, <b>{s:weapon}</b>"
         }
     }
 }
