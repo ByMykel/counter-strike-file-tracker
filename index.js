@@ -46,14 +46,31 @@ const vpkFiles = [
     "scripts/items/items_game.txt",
 ];
 
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function downloadWithRetry(user, appId, depotId, file, filePath, maxRetries = 3) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            await user.downloadFile(appId, depotId, file, filePath);
+            return;
+        } catch (error) {
+            if (attempt === maxRetries) {
+                throw error;
+            }
+            const backoffTime = Math.min(60000 * Math.pow(2, attempt - 1), 300000);
+            console.log(`⚠️ Download failed, retrying in ${backoffTime/60000} minutes (attempt ${attempt}/${maxRetries})`);
+            await delay(backoffTime);
+        }
+    }
+}
+
 async function downloadVPKDir(user, manifest) {
     const dirFile = manifest.manifest.files.find((file) =>
         file.filename.endsWith("csgo\\pak01_dir.vpk")
     );
 
     console.log(`Downloading vpk dir`);
-
-    await user.downloadFile(appId, depotId, dirFile, `${temp}/pak01_dir.vpk`);
+    await downloadWithRetry(user, appId, depotId, dirFile, `${temp}/pak01_dir.vpk`);
 
     vpkDir = new vpk(`${temp}/pak01_dir.vpk`);
     vpkDir.load();
@@ -90,11 +107,8 @@ async function downloadVPKArchives(user, manifest, vpkDir) {
 
     for (let index in requiredIndices) {
         index = parseInt(index);
-
-        // pad to 3 zeroes
         const archiveIndex = requiredIndices[index];
-        const paddedIndex =
-            "0".repeat(3 - archiveIndex.toString().length) + archiveIndex;
+        const paddedIndex = "0".repeat(3 - archiveIndex.toString().length) + archiveIndex;
         const fileName = `pak01_${paddedIndex}.vpk`;
 
         const file = manifest.manifest.files.find((f) =>
@@ -103,10 +117,9 @@ async function downloadVPKArchives(user, manifest, vpkDir) {
         const filePath = `${temp}/${fileName}`;
 
         const status = `[${index + 1}/${requiredIndices.length}]`;
-
         console.log(`${status} Downloading ${fileName}`);
 
-        await user.downloadFile(appId, depotId, file, filePath);
+        await downloadWithRetry(user, appId, depotId, file, filePath);
     }
 }
 
