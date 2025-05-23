@@ -2,7 +2,7 @@ name: Download CS Game Files
 
 on:
   schedule:
-  - cron: "0 7 * * *"
+  - cron: "0 5 * * *"
 
   workflow_dispatch:
 
