@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@node-steam/vdf": "^2.2.0",
-    "steam-user": "^5.2.2",
+    "steam-user": "^5.2.3",
     "vpk": "^0.2.0"
   }
 }
