@@ -2,16 +2,19 @@ name: Download CS Game Files
 
 on:
   schedule:
-  - cron: "0 4 * * *"
+  - cron: "0 * * * *"
 
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs: 
     download:
       runs-on: ubuntu-latest
       
       permissions:
-        # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
         contents: write
       
       steps:
