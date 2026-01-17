@@ -2,11 +2,17 @@
 
 ## Game
 
+<div align="center">
+
 | |
 |---|
 | [items_game.json][items_game] |
 
+</div>
+
 ## Languages
+
+<div align="center">
 
 | | | | |
 |---|---|---|---|
@@ -18,6 +24,8 @@
 | [csgo_schinese.json][schinese] | [csgo_schinese_pw.json][schinese_pw] | [csgo_spanish.json][spanish] | [csgo_swedish.json][swedish] |
 | [csgo_tchinese.json][tchinese] | [csgo_thai.json][thai] | [csgo_turkish.json][turkish] | [csgo_ukrainian.json][ukrainian] |
 | [csgo_vietnamese.json][vietnamese] | | | |
+
+</div>
 
 <!-- Links -->
 [items_game]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/items_game.json
