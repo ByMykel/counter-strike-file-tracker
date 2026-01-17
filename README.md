@@ -1,43 +1,52 @@
-# counter-strike-file-tracker
+<h1 align="center">counter-strike-file-tracker</h1>
 
-This repository provides access to Counter-Strike file data via static JSON files.
+## Game
 
----
+| |
+|---|
+| [items_game.json][items_game] |
 
-##
+## Languages
 
-| Filename                 | Link                                                                                           |
-|--------------------------|------------------------------------------------------------------------------------------------|
-| csgo_brazilian.json      | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_brazilian.json)      |
-| csgo_bulgarian.json      | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_bulgarian.json)      |
-| csgo_czech.json          | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_czech.json)          |
-| csgo_danish.json         | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_danish.json)         |
-| csgo_dutch.json          | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_dutch.json)          |
-| csgo_english.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_english.json)        |
-| csgo_finnish.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_finnish.json)        |
-| csgo_french.json         | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_french.json)         |
-| csgo_german.json         | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_german.json)         |
-| csgo_greek.json          | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_greek.json)          |
-| csgo_hungarian.json      | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_hungarian.json)      |
-| csgo_italian.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_italian.json)        |
-| csgo_japanese.json       | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_japanese.json)       |
-| csgo_koreana.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_koreana.json)        |
-| csgo_latam.json          | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_latam.json)          |
-| csgo_norwegian.json      | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_norwegian.json)      |
-| csgo_polish.json         | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_polish.json)         |
-| csgo_portuguese.json     | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_portuguese.json)     |
-| csgo_romanian.json       | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_romanian.json)       |
-| csgo_russian.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_russian.json)        |
-| csgo_schinese.json       | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_schinese.json)       |
-| csgo_schinese_pw.json    | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_schinese_pw.json)    |
-| csgo_spanish.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_spanish.json)        |
-| csgo_swedish.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_swedish.json)        |
-| csgo_tchinese.json       | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_tchinese.json)       |
-| csgo_thai.json           | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_thai.json)           |
-| csgo_turkish.json        | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_turkish.json)        |
-| csgo_ukrainian.json      | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_ukrainian.json)      |
-| csgo_vietnamese.json     | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_vietnamese.json)     |
-| items_game.json          | [Link](https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/items_game.json)          |
+| | | | |
+|---|---|---|---|
+| [csgo_brazilian.json][brazilian] | [csgo_bulgarian.json][bulgarian] | [csgo_czech.json][czech] | [csgo_danish.json][danish] |
+| [csgo_dutch.json][dutch] | [csgo_english.json][english] | [csgo_finnish.json][finnish] | [csgo_french.json][french] |
+| [csgo_german.json][german] | [csgo_greek.json][greek] | [csgo_hungarian.json][hungarian] | [csgo_italian.json][italian] |
+| [csgo_japanese.json][japanese] | [csgo_koreana.json][koreana] | [csgo_latam.json][latam] | [csgo_norwegian.json][norwegian] |
+| [csgo_polish.json][polish] | [csgo_portuguese.json][portuguese] | [csgo_romanian.json][romanian] | [csgo_russian.json][russian] |
+| [csgo_schinese.json][schinese] | [csgo_schinese_pw.json][schinese_pw] | [csgo_spanish.json][spanish] | [csgo_swedish.json][swedish] |
+| [csgo_tchinese.json][tchinese] | [csgo_thai.json][thai] | [csgo_turkish.json][turkish] | [csgo_ukrainian.json][ukrainian] |
+| [csgo_vietnamese.json][vietnamese] | | | |
 
-
----
+<!-- Links -->
+[items_game]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/items_game.json
+[brazilian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_brazilian.json
+[bulgarian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_bulgarian.json
+[czech]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_czech.json
+[danish]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_danish.json
+[dutch]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_dutch.json
+[english]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_english.json
+[finnish]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_finnish.json
+[french]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_french.json
+[german]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_german.json
+[greek]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_greek.json
+[hungarian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_hungarian.json
+[italian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_italian.json
+[japanese]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_japanese.json
+[koreana]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_koreana.json
+[latam]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_latam.json
+[norwegian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_norwegian.json
+[polish]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_polish.json
+[portuguese]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_portuguese.json
+[romanian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_romanian.json
+[russian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_russian.json
+[schinese]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_schinese.json
+[schinese_pw]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_schinese_pw.json
+[spanish]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_spanish.json
+[swedish]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_swedish.json
+[tchinese]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_tchinese.json
+[thai]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_thai.json
+[turkish]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_turkish.json
+[ukrainian]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_ukrainian.json
+[vietnamese]: https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_vietnamese.json
