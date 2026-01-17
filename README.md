@@ -1,4 +1,4 @@
-<h1 align="center">counter-strike-file-tracker</h1>
+<h1 align="center">Counter-Strike File Tracker</h1>
 
 ## Game
 
