@@ -2,7 +2,13 @@ name: Download CS Game Files
 
 on:
   schedule:
-  - cron: "*/15 * * * *"
+    # Every 15 min, Mon-Fri, 16:00-03:00 UTC (covers both PST/PDT working hours)
+    - cron: "*/15 16-23 * * 1-5"
+    - cron: "*/15 0-3 * * 2-6"   # early UTC hours = still previous day in PT (Tue-Sat UTC = Mon-Fri PT evening)
+
+    # Once an hour on weekends as a safety net
+    - cron: "0 16-23 * * 0,6"
+    - cron: "0 0-3 * * 0,1"
 
   workflow_dispatch:
 
