@@ -35,7 +35,7 @@ jobs:
             path: ./static/manifestId.txt
         - name: Commit & push changes
           id: auto-commit
-          uses: stefanzweifel/git-auto-commit-action@v4
+          uses: stefanzweifel/git-auto-commit-action@v7
           with:
             commit_message: "manifest ${{ steps.manifestId.outputs.content }}"
 
