@@ -41357,7 +41357,6 @@
             "major_store_banner_hint": "Dodaj przedmioty do ulubionych dla szybkiego dostępu",
             "major_store_banner_regions": "DRUŻYNY REGIONALNE",
             "major_store_banner_keychains": "PRZYWIESZKI Z ZAGRANIAMI",
-            "major_store_banner_champions": "NAKLEJKI WIELKICH MISTRZÓW",
             "major_store_banner_org": "NAKLEJKI {s:org-name}",
             "major_store_balance": "{d:balance} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_store_price": "{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
