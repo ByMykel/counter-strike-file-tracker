@@ -1523,7 +1523,7 @@
                 }
             },
             "c4": {
-                "prefab": "weapon_base weapon_supports_keychains",
+                "prefab": "weapon_base weapon_supports_stickers weapon_supports_keychains",
                 "item_type_name": "#CSGO_Type_C4",
                 "item_class": "weapon_c4",
                 "flexible_loadout_category": "c4",
@@ -9166,6 +9166,14 @@
                     "cannot trade": 1
                 },
                 "inv_container_and_tools": "tool"
+            },
+            "1202": {
+                "name": "expired_itemdef",
+                "item_class": "expired_itemdef",
+                "item_type_name": "#expired_itemdef",
+                "item_name": "#expired_itemdef",
+                "item_description": "#expired_itemdef_desc",
+                "image_inventory": "econ/tools/expired_itemdef"
             },
             "1203": {
                 "name": "Weapon Case Key",
@@ -20458,6 +20466,31 @@
                 },
                 "stickers": "agent"
             },
+            "4681": {
+                "name": "pet",
+                "item_class": "pet",
+                "item_type_name": "#CSGO_Type_Pet",
+                "flexible_loadout_slot": "pet",
+                "inv_group_equipment": "pet",
+                "inv_display_slot": "pet",
+                "item_rarity": "rare",
+                "item_quality": "unique",
+                "min_ilevel": 1,
+                "max_ilevel": 1,
+                "image_inventory_size_w": 128,
+                "image_inventory_size_h": 82,
+                "mouse_pressed_sound": "sounds/ui/item_paper_pickup.vsnd",
+                "drop_sound": "sounds/ui/item_paper_pickup.vsnd",
+                "attributes": {
+                    "cannot trade": 1
+                },
+                "used_by_classes": {
+                    "noteam": 1
+                },
+                "capabilities": {
+                    "nameable": 1
+                }
+            },
             "4682": {
                 "name": "Commodity Pin - alyx_04",
                 "prefab": "commodity_pin",
@@ -24920,6 +24953,36 @@
                         "value": 414
                     }
                 }
+            },
+            "4948": {
+                "name": "chicken_egg",
+                "item_class": "chicken_egg",
+                "item_type_name": "#chicken_egg",
+                "item_name": "#chicken_egg",
+                "item_description": "#chicken_egg_desc",
+                "flexible_loadout_slot": "pet",
+                "inv_group_equipment": "pet",
+                "inv_display_slot": "pet",
+                "attributes": {
+                    "pedestal display model": "models/chicken/egg_pristine.vmdl",
+                    "upgrade level": 0
+                },
+                "image_inventory": "econ/pets/chicken_egg"
+            },
+            "4949": {
+                "name": "chicken_feed",
+                "item_class": "chicken_feed",
+                "item_type_name": "#chicken_feed",
+                "item_name": "#chicken_feed",
+                "item_description": "#chicken_feed_desc",
+                "flexible_loadout_slot": "pet",
+                "inv_group_equipment": "pet",
+                "inv_display_slot": "pet",
+                "attributes": {
+                    "pedestal display model": "models/chicken_feed/chicken_feed_bag.vmdl",
+                    "upgrade level": 0
+                },
+                "image_inventory": "econ/pets/chicken_feed_bag"
             },
             "4950": {
                 "name": "Remove Keychain Tool Pack",
@@ -31996,6 +32059,23 @@
                 "loot_list_name": "coupon loot list - jackass_sticker_capsule",
                 "prefab": "coupon_jackass_capsule_prefab"
             },
+            "7043": {
+                "name": "coupon - starjunk95_01",
+                "item_name": "#coupon_starjunk95_01",
+                "item_description": "#coupon_desc",
+                "loot_list_name": "coupon loot list - starjunk95_01",
+                "prefab": "coupon_prefab",
+                "image_inventory": "econ/music_kits/starjunk95_01"
+            },
+            "7044": {
+                "name": "coupon - starjunk95_01_stattrak",
+                "item_name": "#coupon_starjunk95_01_stattrak",
+                "item_description": "#coupon_desc",
+                "loot_list_name": "coupon loot list - starjunk95_01_stattrak",
+                "prefab": "coupon_prefab",
+                "image_inventory": "econ/music_kits/starjunk95_01",
+                "will_produce_stattrak": 1
+            },
             "20000": {
                 "name": "coupon - bossyburger",
                 "item_name": "#coupon_bossyburger",
@@ -35640,6 +35720,14 @@
                 "effect_type": "positive",
                 "stored_as_integer": 1
             },
+            "296": {
+                "name": "pet id",
+                "attribute_class": "pet_id",
+                "description_format": "value_is_additive",
+                "hidden": 1,
+                "effect_type": "positive",
+                "stored_as_integer": 1
+            },
             "297": {
                 "name": "is rental",
                 "attribute_class": "is_rental",
@@ -35692,6 +35780,20 @@
                 "hidden": 1,
                 "effect_type": "positive",
                 "stored_as_integer": 0
+            },
+            "303": {
+                "name": "pet food expiration date",
+                "attribute_class": "deployment_date",
+                "hidden": 1,
+                "effect_type": "neutral",
+                "stored_as_integer": 1
+            },
+            "304": {
+                "name": "pet next upgrade date",
+                "attribute_class": "deplyment_date",
+                "hidden": 1,
+                "effect_type": "neutral",
+                "stored_as_integer": 1
             },
             "305": {
                 "name": "tool preview item id",
@@ -35761,6 +35863,16 @@
                 "effect_type": "negative",
                 "stored_as_integer": 1
             },
+            "313": {
+                "name": "pet seed",
+                "attribute_class": "pet_seed",
+                "group": "only_on_unique",
+                "description_format": "value_is_additive",
+                "description_string": "#Attrib_KeychainSeed",
+                "effect_type": "positive",
+                "stored_as_integer": 1,
+                "hidden": 1
+            },
             "314": {
                 "name": "keychain slot 0 highlight",
                 "attribute_class": "keychain_slot_highlight",
@@ -35815,6 +35927,24 @@
                 "hidden": 1,
                 "effect_type": "positive",
                 "stored_as_integer": 1
+            },
+            "328": {
+                "name": "custom name attr 2",
+                "attribute_class": "custom_name_attr",
+                "attribute_type": "string",
+                "description_format": "value_is_additive",
+                "hidden": 1,
+                "effect_type": "positive",
+                "stored_as_integer": "bytestring"
+            },
+            "329": {
+                "name": "custom name attr 3",
+                "attribute_class": "custom_name_attr",
+                "attribute_type": "string",
+                "description_format": "value_is_additive",
+                "hidden": 1,
+                "effect_type": "positive",
+                "stored_as_integer": "bytestring"
             }
         },
         "sticker_kits": {
@@ -181410,6 +181540,14 @@
                 "public_list_contents": 1,
                 "[shockone_01]musickit": 1
             },
+            "coupon loot list - starjunk95_01": {
+                "public_list_contents": 1,
+                "[starjunk95_01]musickit": 1
+            },
+            "coupon loot list - starjunk95_01_stattrak": {
+                "public_list_contents": 1,
+                "[starjunk95_01]musickit": 1
+            },
             "crate_sticker_pack_community_2024_capsule_rare": {
                 "[paper_this_is_fine_chicken]sticker": 1,
                 "[paper_retro_zeus]sticker": 1,
@@ -188631,6 +188769,13 @@
                 "loc_description": "#MusicKit_shockone_01_desc",
                 "image_inventory": "econ/music_kits/shockone_01",
                 "pedestal_display_model": "models/inventory_items/music_kits/music_kit_shockone_01.vmdl"
+            },
+            "104": {
+                "name": "starjunk95_01",
+                "loc_name": "#MusicKit_starjunk95_01",
+                "loc_description": "#MusicKit_starjunk95_01_desc",
+                "image_inventory": "econ/music_kits/starjunk95_01",
+                "pedestal_display_model": "models/inventory_items/music_kits/music_kit_starjunk95_01.vmdl"
             }
         },
         "quest_definitions": {
@@ -229671,6 +229816,38 @@
                 }
             }
         },
+        "pet_definitions": {
+            "1": {
+                "name": "chicken_egg_01",
+                "loc_name": "#chicken_egg",
+                "loc_description": "#chicken_egg_desc",
+                "pedestal_display_model": "models/chicken/egg_pristine.vmdl"
+            },
+            "2": {
+                "name": "chicken_chick_01",
+                "loc_name": "#pet_chick",
+                "loc_description": "#pet_chick_desc",
+                "pedestal_display_model": "models/chicken/chick.vmdl"
+            },
+            "3": {
+                "name": "chicken_catalana_01",
+                "loc_name": "#pet_chicken",
+                "loc_description": "#pet_chicken_desc",
+                "pedestal_display_model": "models/chicken/chicken.vmdl"
+            },
+            "4": {
+                "name": "chicken_silkie_01",
+                "loc_name": "#pet_chicken",
+                "loc_description": "#pet_chicken_desc",
+                "pedestal_display_model": "models/chicken/chicken_silkie.vmdl"
+            },
+            "5": {
+                "name": "chicken_polish_01",
+                "loc_name": "#pet_chicken",
+                "loc_description": "#pet_chicken_desc",
+                "pedestal_display_model": "models/chicken/chicken_polish.vmdl"
+            }
+        },
         "keychain_definitions": {
             "1": {
                 "name": "kc_missinglink_ava",
@@ -229678,7 +229855,8 @@
                 "loc_description": "#keychain_kc_missinglink_ava_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_ava",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_ava.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_ava.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "2": {
                 "name": "kc_missinglink_banana",
@@ -229686,7 +229864,8 @@
                 "loc_description": "#keychain_kc_missinglink_banana_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_banana",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_banana.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_banana.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "3": {
                 "name": "kc_missinglink_cat",
@@ -229694,7 +229873,8 @@
                 "loc_description": "#keychain_kc_missinglink_cat_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_cat",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_cat.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_cat.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "4": {
                 "name": "kc_missinglink_catbeach",
@@ -229702,7 +229882,8 @@
                 "loc_description": "#keychain_kc_missinglink_catbeach_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_catbeach",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_catbeach.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_catbeach.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "5": {
                 "name": "kc_missinglink_chicken",
@@ -229710,7 +229891,8 @@
                 "loc_description": "#keychain_kc_missinglink_chicken_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_chicken",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_chicken.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_chicken.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "6": {
                 "name": "kc_missinglink_guerilla",
@@ -229719,6 +229901,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_guerilla",
                 "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_guerilla.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1
             },
             "7": {
@@ -229727,7 +229910,8 @@
                 "loc_description": "#keychain_kc_missinglink_howl_desc",
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_howl",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_howl.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_howl.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "8": {
                 "name": "kc_missinglink_kev",
@@ -229735,7 +229919,8 @@
                 "loc_description": "#keychain_kc_missinglink_kev_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_kev",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_kev.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_kev.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "9": {
                 "name": "kc_missinglink_monster",
@@ -229743,7 +229928,8 @@
                 "loc_description": "#keychain_kc_missinglink_monster_desc",
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_monster",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_monster.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_monster.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "10": {
                 "name": "kc_missinglink_sam_catchup",
@@ -229751,7 +229937,8 @@
                 "loc_description": "#keychain_kc_missinglink_sam_catchup_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_catchup",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_catchup.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_catchup.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "11": {
                 "name": "kc_missinglink_sam_diamond",
@@ -229759,7 +229946,8 @@
                 "loc_description": "#keychain_kc_missinglink_sam_diamond_desc",
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_diamond",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_diamond.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_diamond.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "12": {
                 "name": "kc_missinglink_sam_salty",
@@ -229767,7 +229955,8 @@
                 "loc_description": "#keychain_kc_missinglink_sam_salty_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_salty",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_salty.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_salty.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "13": {
                 "name": "kc_missinglink_sam_shape",
@@ -229775,7 +229964,8 @@
                 "loc_description": "#keychain_kc_missinglink_sam_shape_desc",
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_shape",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_shape.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_shape.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "14": {
                 "name": "kc_missinglink_sam_toile",
@@ -229783,7 +229973,8 @@
                 "loc_description": "#keychain_kc_missinglink_sam_toile_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_sam_toile",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_toile.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sam_toile.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "15": {
                 "name": "kc_missinglink_sas",
@@ -229791,7 +229982,8 @@
                 "loc_description": "#keychain_kc_missinglink_sas_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_sas",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sas.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_sas.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "16": {
                 "name": "kc_missinglink_wurst",
@@ -229799,7 +229991,8 @@
                 "loc_description": "#keychain_kc_missinglink_wurst_desc",
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_wurst",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_wurst.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_wurst.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "17": {
                 "name": "kc_wpn_ak_base",
@@ -229807,7 +230000,8 @@
                 "loc_description": "#keychain_kc_wpn_ak_base_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_ak_base",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ak_base.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ak_base.vmdl",
+                "icon_base": "kc_wpn_ak"
             },
             "18": {
                 "name": "kc_wpn_ak_jelly",
@@ -229815,7 +230009,8 @@
                 "loc_description": "#keychain_kc_wpn_ak_jelly_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_ak_jelly",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ak_jelly.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ak_jelly.vmdl",
+                "icon_base": "kc_wpn_ak"
             },
             "19": {
                 "name": "kc_wpn_awp_plastic",
@@ -229823,7 +230018,8 @@
                 "loc_description": "#keychain_kc_wpn_awp_plastic_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_awp_plastic",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_awp_plastic.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_awp_plastic.vmdl",
+                "icon_base": "kc_wpn_awp"
             },
             "20": {
                 "name": "kc_wpn_awp_spoon",
@@ -229831,7 +230027,8 @@
                 "loc_description": "#keychain_kc_wpn_awp_spoon_desc",
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_awp_spoon",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_awp_spoon.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_awp_spoon.vmdl",
+                "icon_base": "kc_wpn_awp"
             },
             "21": {
                 "name": "kc_wpn_ctknife_gold",
@@ -229839,7 +230036,8 @@
                 "loc_description": "#keychain_kc_wpn_ctknife_gold_desc",
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_ctknife_gold",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ctknife_gold.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ctknife_gold.vmdl",
+                "icon_base": "kc_wpn_ctknife"
             },
             "22": {
                 "name": "kc_wpn_ctknife_wood",
@@ -229847,7 +230045,8 @@
                 "loc_description": "#keychain_kc_wpn_ctknife_wood_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_ctknife_wood",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ctknife_wood.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_ctknife_wood.vmdl",
+                "icon_base": "kc_wpn_ctknife"
             },
             "23": {
                 "name": "kc_wpn_m4a1s_comic",
@@ -229855,7 +230054,8 @@
                 "loc_description": "#keychain_kc_wpn_m4a1s_comic_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_m4a1s_comic",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_m4a1s_comic.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_m4a1s_comic.vmdl",
+                "icon_base": "kc_wpn_m4a1s"
             },
             "24": {
                 "name": "kc_wpn_m4a1s_ss",
@@ -229863,7 +230063,8 @@
                 "loc_description": "#keychain_kc_wpn_m4a1s_ss_desc",
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_m4a1s_ss",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_m4a1s_ss.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_m4a1s_ss.vmdl",
+                "icon_base": "kc_wpn_m4a1s"
             },
             "25": {
                 "name": "kc_wpn_mac10_glitter",
@@ -229871,7 +230072,8 @@
                 "loc_description": "#keychain_kc_wpn_mac10_glitter_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_mac10_glitter",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_mac10_glitter.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_mac10_glitter.vmdl",
+                "icon_base": "kc_wpn_mac10"
             },
             "26": {
                 "name": "kc_wpn_mac10_tile",
@@ -229879,7 +230081,8 @@
                 "loc_description": "#keychain_kc_wpn_mac10_tile_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_mac10_tile",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_mac10_tile.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_mac10_tile.vmdl",
+                "icon_base": "kc_wpn_mac10"
             },
             "27": {
                 "name": "kc_wpn_tec9_cap",
@@ -229887,7 +230090,8 @@
                 "loc_description": "#keychain_kc_wpn_tec9_cap_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_tec9_cap",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tec9_cap.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tec9_cap.vmdl",
+                "icon_base": "kc_wpn_tec9"
             },
             "28": {
                 "name": "kc_wpn_tec9_magma",
@@ -229895,7 +230099,8 @@
                 "loc_description": "#keychain_kc_wpn_tec9_magma_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_tec9_magma",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tec9_magma.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tec9_magma.vmdl",
+                "icon_base": "kc_wpn_tec9"
             },
             "29": {
                 "name": "kc_wpn_tknife_crystal",
@@ -229903,7 +230108,8 @@
                 "loc_description": "#keychain_kc_wpn_tknife_crystal_desc",
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_tknife_crystal",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tknife_crystal.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tknife_crystal.vmdl",
+                "icon_base": "kc_wpn_tknife"
             },
             "30": {
                 "name": "kc_wpn_tknife_gold",
@@ -229911,7 +230117,8 @@
                 "loc_description": "#keychain_kc_wpn_tknife_gold_desc",
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_tknife_gold",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tknife_gold.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_tknife_gold.vmdl",
+                "icon_base": "kc_wpn_tknife"
             },
             "31": {
                 "name": "kc_wpn_usp_jewel",
@@ -229919,7 +230126,8 @@
                 "loc_description": "#keychain_kc_wpn_usp_jewel_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_usp_jewel",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_usp_jewel.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_usp_jewel.vmdl",
+                "icon_base": "kc_wpn_usp"
             },
             "32": {
                 "name": "kc_wpn_usp_yarn",
@@ -229927,7 +230135,8 @@
                 "loc_description": "#keychain_kc_wpn_usp_yarn_desc",
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/weapon_1/kc_wpn_usp_yarn",
-                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_usp_yarn.vmdl"
+                "pedestal_display_model": "weapons/keychains/weapon_1/vmdl/kc_wpn_usp_yarn.vmdl",
+                "icon_base": "kc_wpn_usp"
             },
             "33": {
                 "name": "kc_missinglink_bigfoot",
@@ -229935,7 +230144,8 @@
                 "loc_description": "#keychain_kc_missinglink_bigfoot_desc",
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink/kc_missinglink_bigfoot",
-                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_bigfoot.vmdl"
+                "pedestal_display_model": "weapons/keychains/missinglink/vmdl/kc_missinglink_bigfoot.vmdl",
+                "icon_base": "kc_missinglink"
             },
             "36": {
                 "name": "kc_aus2025",
@@ -229980,6 +230190,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_ancientcurse",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_ancientcurse.vmat"
             },
@@ -229990,6 +230201,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_babyserpent",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_babyserpent.vmat"
             },
@@ -230000,6 +230212,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_basketball",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_basketball.vmat"
             },
@@ -230010,6 +230223,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_bodybag",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_bodybag.vmat"
             },
@@ -230020,6 +230234,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_cactus",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_cactus.vmat"
             },
@@ -230030,6 +230245,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_charmburger",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_charmburger.vmat"
             },
@@ -230040,6 +230256,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_cigar",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_cigar.vmat"
             },
@@ -230050,6 +230267,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_cthulhu",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_cthulhu.vmat"
             },
@@ -230060,6 +230278,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_happy",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_happy.vmat"
             },
@@ -230070,6 +230289,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_lilhothead",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_lilhothead.vmat"
             },
@@ -230080,6 +230300,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_lillol",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_lillol.vmat"
             },
@@ -230090,6 +230311,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_melted",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_melted.vmat"
             },
@@ -230100,6 +230322,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_pencil",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_pencil.vmat"
             },
@@ -230110,6 +230333,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_pinata",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_pinata.vmat"
             },
@@ -230120,6 +230344,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_popsicle",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_popsicle.vmat"
             },
@@ -230130,6 +230355,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_sentai",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_sentai.vmat"
             },
@@ -230140,6 +230366,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_sillyelephant",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_sillyelephant.vmat"
             },
@@ -230150,6 +230377,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_slime",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_slime.vmat"
             },
@@ -230160,6 +230388,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_surfsup",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_surfsup.vmat"
             },
@@ -230170,6 +230399,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_winemaker",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_winemaker.vmat"
             },
@@ -230180,6 +230410,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_retrovision",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_retrovision.vmat"
             },
@@ -230190,6 +230421,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_muteghost",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_muteghost.vmat"
             },
@@ -230200,6 +230432,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/missinglink_community_01/kc_missinglink_lilhatchling",
                 "pedestal_display_model": "weapons/keychains/workshop_blanks/kc_missinglink_default.vmdl",
+                "icon_base": "kc_missinglink",
                 "display_seed": 1,
                 "keychain_material": "weapons/keychains/missinglink_community_01/kc_missinglink_lilhatchling.vmat"
             },
@@ -230210,6 +230443,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/drboom/kc_db_200iq",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_200iq.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "62": {
@@ -230219,6 +230453,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/drboom/kc_db_biomech",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_biomech.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "63": {
@@ -230228,6 +230463,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/drboom/kc_db_hellcat",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_hellcat.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "64": {
@@ -230237,6 +230473,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/drboom/kc_db_terror",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_terror.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "65": {
@@ -230246,6 +230483,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/drboom/kc_db_ugly",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_ugly.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "66": {
@@ -230255,6 +230493,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/drboom/kc_db_wood",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_wood.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "67": {
@@ -230264,6 +230503,7 @@
                 "item_rarity": "rare",
                 "image_inventory": "econ/keychains/drboom/kc_db_yinyang",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_yinyang.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "68": {
@@ -230273,6 +230513,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/drboom/kc_db_aztec",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_aztec.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "69": {
@@ -230282,6 +230523,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/drboom/kc_db_bombacat",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_bombacat.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "70": {
@@ -230291,6 +230533,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/drboom/kc_db_clown",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_clown.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "71": {
@@ -230300,6 +230543,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/drboom/kc_db_dimsum",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_dimsum.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "72": {
@@ -230309,6 +230553,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/drboom/kc_db_eviscerate",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_eviscerate.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "73": {
@@ -230318,6 +230563,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/drboom/kc_db_dripfade",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_dripfade.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "74": {
@@ -230327,6 +230573,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/drboom/kc_db_eco",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_eco.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "75": {
@@ -230336,6 +230583,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/drboom/kc_db_eyecritter",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_eyecritter.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "76": {
@@ -230345,6 +230593,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/drboom/kc_db_occult",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_occult.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "77": {
@@ -230354,6 +230603,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/drboom/kc_db_yeti",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_yeti.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "78": {
@@ -230363,6 +230613,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/drboom/kc_db_8ball",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_8ball.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "79": {
@@ -230372,6 +230623,7 @@
                 "item_rarity": "legendary",
                 "image_inventory": "econ/keychains/drboom/kc_db_flash",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_flash.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "80": {
@@ -230381,6 +230633,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/drboom/kc_db_incendiary",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_incendiary.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "81": {
@@ -230390,6 +230643,7 @@
                 "item_rarity": "ancient",
                 "image_inventory": "econ/keychains/drboom/kc_db_lighter",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_lighter.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "82": {
@@ -230399,6 +230653,7 @@
                 "item_rarity": "mythical",
                 "image_inventory": "econ/keychains/drboom/kc_db_drbrian",
                 "pedestal_display_model": "weapons/keychains/drboom/vmdl/kc_db_drbrian.vmdl",
+                "icon_base": "kc_db",
                 "display_seed": 1
             },
             "83": {
