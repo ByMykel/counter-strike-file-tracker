@@ -45,6 +45,7 @@
             "GameUI_SplitInnerAlpha": "내부 분할 투명도",
             "GameUI_SplitOuterAlpha": "외부 분할 투명도",
             "GameUI_SplitRatio": "분할 크기 비율",
+            "GameUI_DynamicSpreadDistanceLimit": "동적 총탄 분산 제한",
             "GameUI_TStyle": "T자형",
             "GameUI_ShowObserverCrosshair": "플레이어 조준선 표시",
             "GameUI_ShowObserverCrosshair_Tooltip": "관전 시 다른 플레이어의 조준선을 표시합니다.",

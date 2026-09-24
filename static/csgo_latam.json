@@ -25,7 +25,7 @@
             "GameUI_CrosshairCode": "Código de mira:",
             "GameUI_CrosshairLength": "Longitud",
             "GameUI_CrosshairDot": "Punto central",
-            "GameUI_IronsightColor": "Usar el color de la mira para el punto de la mira telescópica",
+            "GameUI_IronsightColor": "Usar el color de la mira para la mira telescópica",
             "GameUI_IronsightScale": "Escala del punto de la mira",
             "GameUI_CrosshairRecoil": "Seguir el culatazo",
             "GameUI_CrosshairRecoil_Desc": "La mira deja el centro de la pantalla para seguir el patrón de retroceso del arma.",

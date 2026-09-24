@@ -1827,7 +1827,7 @@
             "winpanel_draw": "Hòa",
             "winpanel_mvp_award": "MVP: %s1",
             "winpanel_mvp_award_kills": "MVP: %s1 do giết nhiều kẻ thù nhất",
-            "winpanel_mvp_award_ace": "MVP: %s1 đạt được ván Giết 5",
+            "winpanel_mvp_award_ace": "MVP: %s1 hạ gục tất cả kẻ thù",
             "winpanel_mvp_award_bombplant": "MVP: %s1 do đặt bom thành công",
             "winpanel_mvp_award_bombdefuse": "MVP: %s1 do gỡ bom thành công",
             "winpanel_mvp_award_rescue": "MVP: %s1 do giải cứu một con tin",
@@ -37539,7 +37539,7 @@
             "SFUI_QMM_State_reconnect_connect": "Đang kết nối lại tới trận đấu...",
             "SFUI_QMM_State_outofdate_outofdate": "<font color='#FF0000'>Phần mềm của bạn cần được cập nhật, xin vui lòng khởi động lại.</font>",
             "SFUI_MainMenu_Outofdate_Title": "Bạn cần phải cập nhật trò chơi",
-            "SFUI_MainMenu_Outofdate_Body": "Để có được bản cập nhật mới nhất, xin hãy khởi động lại trò chơi.",
+            "SFUI_MainMenu_Outofdate_Body": "Để cập nhật bản mới nhất, vui lòng khởi động lại trò chơi.",
             "SFUI_LobbyPrompt_MMFailedTitle": "Tìm trận đấu thất bại",
             "SFUI_LobbyPrompt_MMFailedText": "Không tìm thấy trận đấu để tham gia. Vui lòng thử lại sau.",
             "SFUI_LobbyPrompt_QueueSearchTitle": "Tìm trận đấu",
@@ -42955,10 +42955,10 @@
             "accolade_4k_2": "Tứ qúy",
             "accolade_4k_desc_2": "Giết 4:",
             "accolade_5k": "Át chủ áp đảo",
-            "accolade_5k_desc": "Nhiều pha giết 5 nhất:",
+            "accolade_5k_desc": "Nhiều lần diệt hết kẻ thù nhất:",
             "accolade_5k_value": "{s:accolade-value-string}",
             "accolade_5k_2": "Át chủ bài giấu mặt",
-            "accolade_5k_desc_2": "Giết 5:",
+            "accolade_5k_desc_2": "Tiêu diệt hết kẻ thù:",
             "accolade_headshotkills": "Sát thủ",
             "accolade_headshotkills_desc": "Giết bắn xuyên táo nhiều nhất:",
             "accolade_headshotkills_value": "{s:accolade-value-string}",
@@ -43318,7 +43318,7 @@
             "tooltip-season-rank-week-name": "{s:week-name}",
             "Panorama_winpanel_mvp_award": "MVP",
             "Panorama_winpanel_mvp_award_kills": "MVP",
-            "Panorama_winpanel_mvp_award_ace": "MVP do đạt được ván Giết 5",
+            "Panorama_winpanel_mvp_award_ace": "MVP do hạ gục tất cả kẻ thù",
             "Panorama_winpanel_mvp_award_bombplant": "MVP do đặt bom thành công",
             "Panorama_winpanel_mvp_award_bombdefuse": "MVP do gỡ bom thành công",
             "Panorama_winpanel_mvp_award_rescue": "MVP do giải cứu con tin",
@@ -44199,7 +44199,9 @@
             "tooltip_viewaddon": "Ghé thăm bản đồ tùy chỉnh trên trang Workshop",
             "tooltip_kick_player": "Đuổi người chơi khỏi máy chủ cục bộ",
             "tooltip_short_viewaddon": "Xem bản đồ tùy biến",
-            "tooltip_short_kick_player": "Đuổi"
+            "tooltip_short_kick_player": "Đuổi",
+            "pet_photo_booth_headwear_none": "Không",
+            "pet_photo_booth_headwear_helmet": "Mũ bảo hiểm"
         }
     }
 }

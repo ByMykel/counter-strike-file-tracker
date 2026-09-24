@@ -77,6 +77,8 @@
             "GameUI_Xhair_Copy_Code_Confirm": "Mevcut nişangâhla değiştirilsin mi?",
             "GameUI_Confirm_Write_Setting_Title": "Ayar Değişiklik Talebi",
             "GameUI_Confirm_Write_Setting_Text": "\\\"{s:mapname}\\\" adlı bu Atölye haritası ayarlarını değiştirmeyi talep ediyor. Bunlar arasında nişangâh, radar, ses ve diğer değişiklikler var. Bu değişikliklerin uygulanmasına izin veriyor musun?",
+            "GameUI_ColorPicker_New": "Yeni",
+            "GameUI_ColorPicker_Current": "Mevcut",
             "settings_damage_prediction": "Hasar Tahmini",
             "settings_damage_prediction_info": "Hasar tahmini, istemcilerin sunucudan onay beklemeden verilen hasarın ses/görüntü efektlerini anında oynatmasına olanak tanır. Hasar tahmini, atışların neden olduğu tepkinin daha hızlı hissedilmesini sağlayabilir, ancak zaman zaman tahmin hatası yapma riskini de beraberinde getirebilir (örneğin, vurulma nedeniyle hedefin veya hareketin etkilenmesi veya istemcinin henüz farkında olmadığı bir ölüm). Pingin yüksekken hasar tahmini devrede değildir.",
             "GameUI_PredictBodyShotEffects": "Vücuda Gelen Vuruş Efektlerini Tahmin Et",
@@ -40731,6 +40733,7 @@
             "tooltip_short_canelsearch": "Aramayı İptal Et",
             "tooltip_short_discard_invite": "Daveti Sil",
             "tooltip_short_copycrosshair": "Nişangâhı Kopyala",
+            "tooltip_short_changeclantag": "Klan Etiketi",
             "tooltip_pan_left": "Sola kaydır",
             "tooltip_pan_right": "Sağa kaydır",
             "tooltip_prime_only": "Sadece diğer Seçkin oyuncuların olduğu Dereceli maçları ara. Bu maçta yetenek grubun kullanılır.",
@@ -42625,7 +42628,22 @@
             "tooltip_viewaddon": "Özel haritanın atölye sayfasına git",
             "tooltip_kick_player": "Oyuncuyu yerel sunucudan at",
             "tooltip_short_viewaddon": "Özel Haritayı Görüntüle",
-            "tooltip_short_kick_player": "At"
+            "tooltip_short_kick_player": "At",
+            "SFUI_GameModeRush": "Baskın",
+            "SFUI_Lobby_StatusRichPresence_rush_lobby": "Baskın Lobisinde",
+            "SFUI_Lobby_StatusRichPresence_rush_game": "Baskın Oynuyor",
+            "SFUI_Lobby_StatusRichPresence_rush_watch": "Baskın İzliyor",
+            "SFUI_Lobby_StatusRichPresence_rush_review": "Baskın Oynatıyor",
+            "SFUI_Map_rush_001": "Complex",
+            "SFUI_Mapgroup_rush": "Baskın",
+            "rush_hint_your_tower": "Kule sizin elinizde",
+            "rush_hint_enemy_tower": "Kule düşmanın elinde",
+            "rush_hint_ct_tower": "Kule Anti-Teröristlerin elinde",
+            "rush_hint_t_tower": "Kule Teröristlerin elinde",
+            "rush_countdown_capture_enemy": "Düşman kuleyi ele geçirmeli.",
+            "rush_countdown_capture_ct": "Anti-Teröristler kuleyi ele geçirmeli.",
+            "rush_countdown_capture_t": "Teröristler kuleyi ele geçirmeli.",
+            "rush_use_prompt_tower": "<font color='#ffffff'>Kuleyi etkinleştirmek için [{s:bind_use}] tuşuna bas.</font>"
         }
     }
 }
