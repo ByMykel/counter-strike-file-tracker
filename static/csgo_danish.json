@@ -32338,6 +32338,7 @@
             "SFUI_GameMode_Workshop": "Værksted",
             "SFUI_GameMode_new_user_training": "Træningsdag",
             "SFUI_GameMode_retakes": "Retakes",
+            "SFUI_GameMode_rush": "Rush",
             "ForceNewUserTraining_title": "Træningsdag",
             "ForceNewUserTraining_text": "Er du klar til en kort træningssession?",
             "SFUI_GameModeGGProgressive": "Arms Race",
@@ -43444,7 +43445,8 @@
             "tooltip_viewaddon": "Gå til tilpasset bane på værkstedssiden",
             "tooltip_kick_player": "Smid spiller ud fra lokal server",
             "tooltip_short_viewaddon": "Vis tilpasset bane",
-            "tooltip_short_kick_player": "Smid ud"
+            "tooltip_short_kick_player": "Smid ud",
+            "pet_photo_booth_zoom_mid": "Midten"
         }
     }
 }

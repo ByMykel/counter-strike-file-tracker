@@ -42632,7 +42632,8 @@
             "tooltip_viewaddon": "Benutzerdefinierte Karte im Workshop besuchen",
             "tooltip_kick_player": "Spieler vom lokalem Server werfen",
             "tooltip_short_viewaddon": "Benutzerdefinierte Karte anzeigen",
-            "tooltip_short_kick_player": "Herauswerfen"
+            "tooltip_short_kick_player": "Herauswerfen",
+            "pet_book_hatch_due": "Schlüpft: {s:hatch_day}"
         }
     }
 }
