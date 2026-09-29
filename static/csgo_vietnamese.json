@@ -15,6 +15,7 @@
             "GameUI_FriendlyWarning": "Hồng tâm cảnh báo bắn đồng đội",
             "GameUI_FriendlyWarning_Desc": "Hiện cảnh báo trên hồng tâm khi nhắm vào đồng đội.",
             "GameUI_CrosshairStyle7": "Linh động - 4 bên",
+            "GameUI_CrosshairStyle8": "Tĩnh - Vuông",
             "GameUI_CrosshairStyle_Friendly": "Cảnh báo bắn đồng đội",
             "GameUI_CrosshairFriendlyWarning_Off": "Luôn tắt",
             "GameUI_CrosshairFriendlyWarning_Default": "Chỉ trên hồng tâm mặc định",
