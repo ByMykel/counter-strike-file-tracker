@@ -34890,6 +34890,7 @@
             "SFUI_PlayerDetails_IsFriendly": "Er vennlig",
             "SFUI_PlayerDetails_GoodTeacher": "Er en god lærer",
             "SFUI_PlayerDetails_GoodLeader": "Er en god leder",
+            "SFUI_ReportingPlayers": "Rapporterer {s:target_player}",
             "SFUI_PlayerDetails_AbusiveTextChat": "Støtende tekstsamtale",
             "SFUI_PlayerDetails_AbusiveVoiceChat": "Støtende stemmesamtale",
             "SFUI_PlayerDetails_Abusive": "Støtende kommunikasjon eller profil",

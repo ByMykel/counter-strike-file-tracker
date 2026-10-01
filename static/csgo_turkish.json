@@ -42666,6 +42666,7 @@
             "pet_expired_notification_msg_nofood_egg_2": "O senin tavuğun olacaktı.<br>Ama görünüşe göre başka planların vardı.",
             "pet_expired_notification_msg_0": "Evcil hayvanın gitti.",
             "SFUI_GameModeRush": "Baskın",
+            "SFUI_Rules_Rush_Loading": "Farklı savaş arenalarından oluşan bir seride ilerle.\\n\\nMaçı kazanmak için düşmanın kalesini ele geçir veya 8 raunt kazan.\\n\\nBir raundu kazanmak için süre bittiğinde kuleyi kontrol et.\\n\\nAyarlar:\\n· Zırh satın alınabilir.\\n· Takım üyelerine çarpma AÇIK\\n· Dost ateşi AÇIK",
             "SFUI_Lobby_StatusRichPresence_rush_lobby": "Baskın Lobisinde",
             "SFUI_Lobby_StatusRichPresence_rush_game": "Baskın Oynuyor",
             "SFUI_Lobby_StatusRichPresence_rush_watch": "Baskın İzliyor",
