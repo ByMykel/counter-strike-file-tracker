@@ -14,7 +14,6 @@
             "GameUI_Brightness": "Ljusstyrka",
             "GameUI_FriendlyWarning": "Varning i hårkorset om Friendly Fire",
             "GameUI_FriendlyWarning_Desc": "Visa en varning i hårkorset när du siktar på en kamrat.",
-            "GameUI_CrosshairStyle7": "Dynamisk kvadrant",
             "GameUI_CrosshairStyle_Friendly": "Friendly Fire-varning",
             "GameUI_CrosshairFriendlyWarning_Off": "Alltid av",
             "GameUI_CrosshairFriendlyWarning_Default": "Endast på standardhårkorset",

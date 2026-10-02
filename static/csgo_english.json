@@ -35974,7 +35974,7 @@
             "SFUI_PlayerDetails_IsFriendly": "Is Friendly",
             "SFUI_PlayerDetails_GoodTeacher": "Is a Good Teacher",
             "SFUI_PlayerDetails_GoodLeader": "Is a Good Leader",
-            "SFUI_ReportingPlayers": "Reporting {s:target_player}",
+            "SFUI_ReportingPlayer": "Reporting {s:target_player}",
             "SFUI_PlayerDetails_AbusiveTextChat": "Abusive Text Chat",
             "SFUI_PlayerDetails_AbusiveVoiceChat": "Abusive Voice Chat",
             "SFUI_PlayerDetails_Abusive": "Abusive Communications or Profile",
