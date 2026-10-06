@@ -42965,6 +42965,8 @@
             "pet_book_hint_chick_and_you_pose": "en tus manos",
             "pet_book_hint_chick_park": "Tu {s:growth} en el {s:stage}",
             "pet_book_hint_adolescent_intro": "Tu {s:growth} en {s:stage}",
+            "pet_book_hint_adolescent_road_trip_1": "Tu {s:growth} en {s:stage}.",
+            "pet_book_hint_adolescent_road_trip_2": "Tu {s:growth} en {s:stage}.",
             "pet_book_hint_birthday": "Tu {s:growth} {s:activity}, {s:headwear}. El confeti y las chispas son opcionales.",
             "pet_book_hint_birthday_headwear": "con un sombrero de fiesta",
             "pet_book_hint_birthday_activity": "en pleno salto",
