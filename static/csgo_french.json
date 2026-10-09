@@ -34252,7 +34252,7 @@
             "SFUI_PlayerDetails_IsFriendly": "est Amical",
             "SFUI_PlayerDetails_GoodTeacher": "est un bon Instructeur",
             "SFUI_PlayerDetails_GoodLeader": "est un bon Meneur",
-            "SFUI_ReportingPlayers": "Signalement de {s:target_player}",
+            "SFUI_ReportingPlayer": "Signalement de {s:target_player}",
             "SFUI_PlayerDetails_AbusiveTextChat": "Chat textuel abusif",
             "SFUI_PlayerDetails_AbusiveVoiceChat": "Chat vocal abusif",
             "SFUI_PlayerDetails_Abusive": "Communications ou profil toxiques",

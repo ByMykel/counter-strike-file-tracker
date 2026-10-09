@@ -34248,7 +34248,7 @@
             "SFUI_PlayerDetails_IsFriendly": "Дружелюбен",
             "SFUI_PlayerDetails_GoodTeacher": "Хороший наставник",
             "SFUI_PlayerDetails_GoodLeader": "Хороший лидер",
-            "SFUI_ReportingPlayers": "Жалоба на игрока {s:target_player}",
+            "SFUI_ReportingPlayer": "Жалоба на игрока {s:target_player}",
             "SFUI_PlayerDetails_AbusiveTextChat": "Оскорбления в текстовом чате",
             "SFUI_PlayerDetails_AbusiveVoiceChat": "Оскорбления в голосовом чате",
             "SFUI_PlayerDetails_Abusive": "Оскорбительное поведение или профиль",

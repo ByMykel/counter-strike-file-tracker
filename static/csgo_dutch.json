@@ -34679,7 +34679,7 @@
             "SFUI_PlayerDetails_IsFriendly": "Is vriendelijk",
             "SFUI_PlayerDetails_GoodTeacher": "Is een goede leraar",
             "SFUI_PlayerDetails_GoodLeader": "Is een goede leider",
-            "SFUI_ReportingPlayers": "{s:target_player} melden",
+            "SFUI_ReportingPlayer": "{s:target_player} melden",
             "SFUI_PlayerDetails_AbusiveTextChat": "Aanstootgevende tekstberichten",
             "SFUI_PlayerDetails_AbusiveVoiceChat": "Aanstootgevende voicechat",
             "SFUI_PlayerDetails_Abusive": "Ongepast taalgebruik of profiel",
