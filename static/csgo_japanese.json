@@ -42357,6 +42357,7 @@
             "pet_upgrade_notification_msg_1": "ご覧ください！卵が孵化しています！<br>いよいよヒヨコとご対面です！",
             "pet_upgrade_notification_msg_2": "あなたのヒヨコが若鶏へと成長しています。<br>まもなく立派なメンドリに。",
             "pet_upgrade_notification_msg_3": "若鶏がメンドリへと成長しています。<br>すっかり大きくなって、羽も生えそろいました！",
+            "pet_countdown_timer_toggle": "3秒カウントダウン切替",
             "chicken_egg": "ニワトリの卵",
             "chicken_egg_cannot_bid_own": "すでにペットを飼っているため、このオファーには入札できません。",
             "chicken_feed": "ニワトリのエサ",

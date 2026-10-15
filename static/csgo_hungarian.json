@@ -43152,6 +43152,7 @@
             "pet_upgrade_notification_msg_1": "Nézd! Kikel a tojásod!<br>Ideje találkozni a csibéddel.",
             "pet_upgrade_notification_msg_2": "A csibéd jércévé cseperedik.<br>Már majdnem igazi tyúk.",
             "pet_upgrade_notification_msg_3": "A jércéd tyúkká válik.<br>Teljesen kifejlett és teljesen tollas!",
+            "pet_countdown_timer_toggle": "3 mp-es visszaszámlálás ki/be",
             "chicken_egg": "Tyúktojás",
             "chicken_egg_cannot_bid_own": "Nem licitálhatsz erre az ajánlatra, mert már van kisállatod.",
             "chicken_feed": "Csirketáp",

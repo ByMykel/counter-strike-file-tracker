@@ -42918,6 +42918,7 @@
             "pet_upgrade_notification_msg_1": "Regardez ! Votre œuf est en train d'éclore !<br>C'est l'heure de rencontrer votre poussin.",
             "pet_upgrade_notification_msg_2": "Votre poussin devient poulet.<br>C'est presque une vraie poule.",
             "pet_upgrade_notification_msg_3": "Votre poulet devient poule.<br>Une vraie poule, adulte et pleine de plumes !",
+            "pet_countdown_timer_toggle": "Activer/désactiver le retardateur de 3 secondes",
             "chicken_egg": "Œuf de poule",
             "chicken_egg_cannot_bid_own": "Vous ne pouvez pas enchérir sur cette offre, car vous possédez déjà une mascotte.",
             "chicken_feed": "Nourriture pour poules",
