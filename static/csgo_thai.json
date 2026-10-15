@@ -41295,6 +41295,7 @@
             "CSGO_Workshop_Remove_Installed": "ลบไฟล์ที่ดาวน์โหลด",
             "CSGO_Workshop_Installed_Badge": "ติดตั้งแล้ว",
             "CSGO_Workshop_Legacy_Badge": "ไอเท็ม CS:GO",
+            "CSGO_Workshop_Unsubscribe_Confirm_Title": "ยกเลิกการสมัครสมาชิก",
             "CSGO_Workshop_Unsubscribe_Confirm_Text": "ต้องการยกเลิกการสมัครสมาชิกหรือไม่? Steam จะลบไฟล์หลังจากที่คุณออกจากเกม",
             "CSGO_Workshop_Remove_Confirm_Title": "ลบไฟล์ที่ดาวน์โหลด",
             "CSGO_Workshop_Remove_Confirm_Text": "ต้องการลบไฟล์ที่ดาวน์โหลดหรือไม่? ไฟล์ดังกล่าวจะได้รับการดาวน์โหลดอีกครั้ง หากคุณเข้าร่วมเซิร์ฟเวอร์ที่ใช้ไฟล์เหล่านั้น",

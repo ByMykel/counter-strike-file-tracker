@@ -40648,6 +40648,15 @@
             "CSGO_Workshop_Mode_dm_freeforall": "Mêlée générale",
             "CSGO_Workshop_No_Maps": "Vous n'avez souscrit à aucune carte.<br><br>Faites un tour sur le Steam Workshop pour découvrir de nouvelles cartes et expériences !",
             "CSGO_Workshop_Visit": "Voir le Workshop",
+            "CSGO_Workshop_ViewPage": "Voir la page du Workshop",
+            "CSGO_Workshop_Unsubscribe": "Se désabonner",
+            "CSGO_Workshop_Remove_Installed": "Supprimer les fichiers téléchargés",
+            "CSGO_Workshop_Installed_Badge": "Installé",
+            "CSGO_Workshop_Legacy_Badge": "Item CS:GO",
+            "CSGO_Workshop_Unsubscribe_Confirm_Title": "Se désabonner",
+            "CSGO_Workshop_Unsubscribe_Confirm_Text": "Voulez-vous vraiment vous désabonner ? Steam supprimera les fichiers une fois que vous aurez quitté le jeu.",
+            "CSGO_Workshop_Remove_Confirm_Title": "Supprimer les fichiers téléchargés",
+            "CSGO_Workshop_Remove_Confirm_Text": "Voulez-vous vraiment supprimer les fichiers téléchargés ? Ils seront à nouveau téléchargés si vous rejoignez un serveur qui les utilise.",
             "CSGO_Workshop_Search_Placeholder": "Filtrer les cartes",
             "CSGO_Workshop_Mode_Select_Title": "Choix du mode",
             "CSGO_Workshop_GameModeTags": "Tags de modes de jeu",
@@ -43105,7 +43114,7 @@
             "rush_countdown_capture_enemy": "L'adversaire doit capturer la tour.",
             "rush_countdown_capture_ct": "Les antiterroristes doivent capturer la tour.",
             "rush_countdown_capture_t": "Les terroristes doivent capturer la tour.",
-            "rush_countdown_message": "Plus que {s:countdown_message}\\n{s:countdown_time} s !",
+            "rush_countdown_message": "{s:countdown_message}\\nPlus que {s:countdown_time} s !",
             "rush_use_prompt_tower": "<font color='#ffffff'>Appuyez sur [{s:bind_use}] pour activer la tour.</font>"
         }
     }

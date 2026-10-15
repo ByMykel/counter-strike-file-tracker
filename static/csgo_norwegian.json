@@ -43594,6 +43594,7 @@
             "pet_upgrade_notification_msg_1": "Se! Egget klekkes!<br>På tide å hilse på kyllingen.",
             "pet_upgrade_notification_msg_2": "Kyllingen vokser til en unghøne.<br>Snart en ekte høne.",
             "pet_upgrade_notification_msg_3": "Unghønen blir til en høne.<br>Fullvoksen og fullt fjærkledd!",
+            "pet_countdown_timer_toggle": "Slå på/av 3-sekunders nedtelling",
             "chicken_egg": "Hønseegg",
             "chicken_egg_cannot_bid_own": "Du kan ikke gi bud på dette tilbudet fordi du allerede har et kjæledyr.",
             "chicken_feed": "Hønsefôr",

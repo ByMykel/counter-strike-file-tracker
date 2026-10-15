@@ -43009,6 +43009,7 @@
             "pet_upgrade_notification_msg_1": "Olha! O teu ovo está a chocar!<br>Hora de conheceres o teu pintainho.",
             "pet_upgrade_notification_msg_2": "O teu pintainho está a crescer e a tornar-se uma franga.<br>Não tarda é uma galinha a sério.",
             "pet_upgrade_notification_msg_3": "A tua franga está a tornar-se uma galinha.<br>Já crescidinha e toda emplumada!",
+            "pet_countdown_timer_toggle": "Ativar/desativar contagem decrescente de 3 segundos",
             "chicken_egg": "Ovo de Galinha",
             "chicken_egg_cannot_bid_own": "Não podes licitar nesta oferta porque já tens uma mascote.",
             "chicken_feed": "Ração para Galinhas",
