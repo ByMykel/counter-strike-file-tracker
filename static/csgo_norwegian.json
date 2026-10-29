@@ -1865,6 +1865,7 @@
             "Team_Cash_Award_no_income": " \u0007+$0\u0001 straff for å ha gått tom for tid.",
             "Team_Cash_Award_no_income_suicide": " \u0007+$0\u0001 straff for selvmord.",
             "Team_Cash_Award_Generic": " \u0006+$%s1\u0001 laginntekt.",
+            "Team_Cash_Award_Generic_Negative": " \u0007-$%s1\u0001 laginntekt.",
             "Team_Cash_Award_Custom": " \u0006+$%s1\u0001 %s2",
             "Team_Cash_Award_Dead_Terrorists:f": " \u0006+$%s1\u0001 laginntekt for å ha eliminert {num_enemies} {num_enemies, plural, one{terrorist} other{terrorister}}.",
             "Team_Cash_Award_Dead_CTs:f": " \u0006+$%s1\u0001 laginntekt for å ha eliminert {num_enemies} {num_enemies, plural, one{antiterrorist} other{antiterrorister}}.",

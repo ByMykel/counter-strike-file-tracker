@@ -1865,6 +1865,7 @@
             "Team_Cash_Award_no_income": " \u0007+0\u0001$ di penalità per aver esaurito il tempo.",
             "Team_Cash_Award_no_income_suicide": " \u0007+0\u0001$ di penalità per il suicidio.",
             "Team_Cash_Award_Generic": " +%s1 $ di guadagno di squadra.",
+            "Team_Cash_Award_Generic_Negative": " -%s1 $ di guadagno di squadra.",
             "Team_Cash_Award_Custom": " \u0006+%s1 $\u0001 %s2",
             "Team_Cash_Award_Dead_Terrorists:f": "+%s1 $ alla squadra per aver eliminato {num_enemies} {num_enemies, plural, one{terrorista} other{terroristi}}.",
             "Team_Cash_Award_Dead_CTs:f": "+%s1 $ alla squadra per aver eliminato {num_enemies} {num_enemies, plural, one{Anti-Terrorista} other{Anti-Terroristi}}.",

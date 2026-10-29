@@ -1865,6 +1865,7 @@
             "Team_Cash_Award_no_income": " \u0007+$0\u0001 ：時間結束懲罰",
             "Team_Cash_Award_no_income_suicide": " \u0007+$0\u0001：自殺懲罰",
             "Team_Cash_Award_Generic": " \u0006+$%s1\u0001：隊伍收入",
+            "Team_Cash_Award_Generic_Negative": " \u0006+$%s1\u0001：隊伍收入",
             "Team_Cash_Award_Custom": " \u0006+$%s1\u0001：%s2",
             "Team_Cash_Award_Dead_Terrorists:f": " \u0006+$%s1\u0001 殲滅 {num_enemies} 名{num_enemies, plural, other{恐怖份子}}的隊伍收入",
             "Team_Cash_Award_Dead_CTs:f": " \u0006+$%s1\u0001 殲滅 {num_enemies} 名{num_enemies, plural, other{反恐小組}}的隊伍收入",

@@ -1865,6 +1865,7 @@
             "Team_Cash_Award_no_income": " \u0007+0 $\u0001 наказание за изтичане на времето",
             "Team_Cash_Award_no_income_suicide": " \u0007+0 $\u0001 наказание за самоубийство",
             "Team_Cash_Award_Generic": " \u0006+%s1 $\u0001 отборен доход",
+            "Team_Cash_Award_Generic_Negative": " \u0007-$%s1\u0001 отборен доход",
             "Team_Cash_Award_Custom": " \u0006+%s1 $\u0001 %s2",
             "Team_Cash_Award_Dead_Terrorists:f": " \u0006+%s1 $\u0001 отборен доход за {num_enemies} {num_enemies, plural, one{елиминиран терорист} other{елиминирани терористи}}.",
             "Team_Cash_Award_Dead_CTs:f": " \u0006+%s1 $\u0001 отборен доход за {num_enemies} {num_enemies, plural, one{елиминиран контра терорист} other{елиминирани контра терористи}}.",

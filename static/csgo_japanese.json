@@ -1865,6 +1865,7 @@
             "Team_Cash_Award_no_income": " \u0007+$0\u0001: 時間切れのペナルティ",
             "Team_Cash_Award_no_income_suicide": " \u0007+$0\u0001: セルフキルへのペナルティ",
             "Team_Cash_Award_Generic": " \u0006+$%s1\u0001: チーム報酬",
+            "Team_Cash_Award_Generic_Negative": " \u0007-$%s1\u0001 チーム報酬",
             "Team_Cash_Award_Custom": " \u0006+$%s1\u0001 %s2",
             "Team_Cash_Award_Dead_Terrorists:f": " {num_enemies, plural, other{テロリスト}}を{num_enemies}人倒したチーム報酬： \u0006+$%s1\u0001",
             "Team_Cash_Award_Dead_CTs:f": " {num_enemies, plural, other{CT}}を{num_enemies}人倒したチーム報酬： \u0006+$%s1\u0001",
