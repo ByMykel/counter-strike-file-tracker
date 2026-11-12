@@ -39333,6 +39333,7 @@
             "Panorama_DMBonusPanel_KillAward_Points": "+{d:dm-bonus-points} PUNCTE",
             "Panorama_DMBonusPanel_KillAward_Killpoints": "+{d:dm-bonus-points}",
             "Panorama_Mutators_Title": "Modificatori activi:",
+            "Panorama_Mutator_BigHead": "Mod cu cap-mare",
             "Panorama_DMBonusPanel_Timer": "{s:dm-bonus-timer}",
             "Panorama_DMBonusPanel_Title": "Armă bonus:",
             "Panorama_DMBonusPanel_Weapon": "{s:dm-bonus-weapon}",

@@ -42824,7 +42824,6 @@
             "HUD_overhead_pet_unquoted": "{s:name} von {s:owner}",
             "pet_chick": "Hausküken",
             "pet_chick_desc": "",
-            "pet_chicken": "Haushuhn",
             "pet_chicken_desc": "",
             "pet_low_food_hint": "Ihrem Haustier geht das Futter aus. Besorgen Sie sich bald Nachschub aus einem Wöchentlichen Versorgungspaket.",
             "pet_low_food_hint_name": "{s:name} geht das Futter aus. Besorgen Sie sich bald Nachschub aus einem Wöchentlichen Versorgungspaket.",
