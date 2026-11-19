@@ -35274,7 +35274,6 @@
             "major_hub_store_title_event": "Major-winkel van {s:tournament_name}",
             "major_hub_store_title_hud_store": "{s:tournament_name} Major-hub en -winkel",
             "major_hub_store_desc": "Koop stickers met de handtekeningen van je favoriete teams en spelers.",
-            "major_hub_store_finish_prices": "Goud 3000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, holo 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, glimmend 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> en papier 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Nu verkrijgbaar: kampioenenstickers en highlighthangertjes",
             "major_hub_store_desc_3": "Stickers uit de klassementsserie",
             "major_hub_make_souvenir_title": "Maak souvenirs",

@@ -34851,7 +34851,6 @@
             "major_hub_store_title_event": "Boutique du tournoi majeur {s:tournament_name}",
             "major_hub_store_title_hud_store": "{s:tournament_name} : boutique et hub du tournoi majeur",
             "major_hub_store_desc": "Obtenez des stickers dédicacés de votre équipe et de vos pros préférés.",
-            "major_hub_store_finish_prices": "Or 3 000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, holo 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, premium 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, et classique 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Maintenant disponibles : stickers des champions et porte-bonheurs d'actions décisives",
             "major_hub_store_desc_3": "Les stickers « Classement »",
             "major_hub_make_souvenir_title": "Fabriquer des souvenirs",

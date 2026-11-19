@@ -33433,7 +33433,6 @@
             "major_hub_store_title_event": "{s:tournament_name} Major 商店",
             "major_hub_store_title_hud_store": "{s:tournament_name} Major中心与商店",
             "major_hub_store_desc": "获取您最喜欢的战队和选手的签名印花",
-            "major_hub_store_finish_prices": "金色 3,000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, 全息 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, 闪亮 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, 纸质 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "现已推出 - 冠军选手签名印花和高光纪念挂件",
             "major_hub_store_desc_3": "排名系列印花",
             "major_hub_make_souvenir_title": "制作纪念品",

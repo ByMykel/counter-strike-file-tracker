@@ -34852,7 +34852,6 @@
             "major_hub_store_title_event": "{s:tournament_name} - Negozio del Major",
             "major_hub_store_title_hud_store": "Hub e negozio del Major - {s:tournament_name}",
             "major_hub_store_desc": "Ottieni gli adesivi autografati della tua squadra e del tuo giocatore preferiti",
-            "major_hub_store_finish_prices": "Oro: 3.000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Olografico: 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Foil: 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> e Carta: 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Ora disponibili: adesivi dei campioni e ciondoli dei momenti salienti",
             "major_hub_store_desc_3": "La serie di adesivi Classificati",
             "major_hub_make_souvenir_title": "Crea souvenir",

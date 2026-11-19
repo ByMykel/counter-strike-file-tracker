@@ -35481,7 +35481,6 @@
             "major_hub_store_title_event": "{s:tournament_name} CS2 Major -turnauksen kauppa",
             "major_hub_store_title_hud_store": "{s:tournament_name} Major -turnauksen keskus ja kauppa",
             "major_hub_store_desc": "Hae suosikkijoukkueidesi ja -pelaajiesi nimikirjoitustarrat",
-            "major_hub_store_finish_prices": "Kulta 3 000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, holo 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, kiilto 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> ja paperi 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Nyt saatavilla – mestaritarrat ja -kohokohdat",
             "major_hub_store_desc_3": "Lopullisten sijoitusten tarrat",
             "major_hub_make_souvenir_title": "Luo tuliaisia",

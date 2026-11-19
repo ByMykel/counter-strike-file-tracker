@@ -35490,7 +35490,7 @@
             "major_hub_store_title_event": "{s:tournament_name} – majorbutikken",
             "major_hub_store_title_hud_store": "{s:tournament_name} – majorsentral og butikk",
             "major_hub_store_desc": "Skaff deg klistremerker med lag og spillerautografer",
-            "major_hub_store_finish_prices": "Gull 3000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, holo 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, folie 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> og papir 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
+            "major_hub_store_finish_prices_v": "Gull {d:price_red} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, holo {d:price_pink} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, folie {d:price_purp} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> og papir {d:price_blue} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Tilgjengelig nå – mesterklistremerker og høydepunktsanheng",
             "major_hub_store_desc_3": "Klistremerker fra rangserien",
             "major_hub_make_souvenir_title": "Lag suvenirer",

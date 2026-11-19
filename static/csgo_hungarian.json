@@ -35063,7 +35063,6 @@
             "major_hub_store_title_event": "{s:tournament_name} Major bolt",
             "major_hub_store_title_hud_store": "{s:tournament_name} Major központ és bolt",
             "major_hub_store_desc": "Szerezd be kedvenc csapatod és játékosaid aláírásmatricáit.",
-            "major_hub_store_finish_prices": "Arany 3000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, hologramos 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, fóliás 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> és papír 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Már elérhető – Bajnoki matricák és Kiemelkedő Pillanatok Talizmánok",
             "major_hub_store_desc_3": "A Rangsorolt Sorozat matricák",
             "major_hub_make_souvenir_title": "Készíts emléktárgyakat",

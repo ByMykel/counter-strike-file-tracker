@@ -34283,7 +34283,6 @@
             "major_hub_store_title_event": "{s:tournament_name} Major ショップ",
             "major_hub_store_title_hud_store": "{s:tournament_name} Major ハブ & ショップ",
             "major_hub_store_desc": "お気に入りのチームや選手のサイン入りステッカーを入手しよう",
-            "major_hub_store_finish_prices": "ゴールド 3,000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>、ホログラム 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>、キラ 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>、ペーパー 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "チャンピオンステッカー&ハイライトチャーム 発売中",
             "major_hub_store_desc_3": "ランキングシリーズステッカー",
             "major_hub_make_souvenir_title": "記念品を作成",

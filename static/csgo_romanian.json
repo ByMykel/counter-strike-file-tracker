@@ -34873,7 +34873,6 @@
             "major_hub_store_title_event": "Magazinul campionatului major {s:tournament_name}",
             "major_hub_store_title_hud_store": "Centrul și magazinul campionatului major {s:tournament_name}",
             "major_hub_store_desc": "Obține abțibilduri cu echipele și autografele jucătorilor preferați.",
-            "major_hub_store_finish_prices": "Auriu – 3.000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, holo – 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, înfoliat – 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> și de hârtie – 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Disponibile acum - Abțibilduri cu campioni și brelocuri cu momente deosebite",
             "major_hub_store_desc_3": "Abțibildurile de clasament",
             "major_hub_make_souvenir_title": "Creează suvenire",
