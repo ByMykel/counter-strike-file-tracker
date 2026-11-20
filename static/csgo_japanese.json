@@ -34283,6 +34283,7 @@
             "major_hub_store_title_event": "{s:tournament_name} Major ショップ",
             "major_hub_store_title_hud_store": "{s:tournament_name} Major ハブ & ショップ",
             "major_hub_store_desc": "お気に入りのチームや選手のサイン入りステッカーを入手しよう",
+            "major_hub_store_finish_prices_v": "ゴールド{d:price_red} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>、ホログラム{d:price_pink} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>、キラ {d:price_purp} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>、ペーパー{d:price_blue} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "チャンピオンステッカー&ハイライトチャーム 発売中",
             "major_hub_store_desc_3": "ランキングシリーズステッカー",
             "major_hub_make_souvenir_title": "記念品を作成",

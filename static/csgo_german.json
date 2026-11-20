@@ -34865,6 +34865,7 @@
             "major_hub_store_title_event": "Major-Shop des {s:tournament_name}",
             "major_hub_store_title_hud_store": "Hub und Shop für das Major {s:tournament_name}",
             "major_hub_store_desc": "Holen Sie sich signierte Aufkleber Ihrer Lieblingsspieler und -teams.",
+            "major_hub_store_finish_prices_v": "Gold {d:price_red} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Holo {d:price_pink} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Glanz {d:price_purp} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> und Standard {d:price_blue} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Jetzt erhältlich: Aufkleber der Major-Meister und Highlight-Anhänger",
             "major_hub_store_desc_3": "Endplatzierungsaufkleber",
             "major_hub_make_souvenir_title": "Souvenirs herstellen",

@@ -34851,6 +34851,7 @@
             "major_hub_store_title_event": "{s:tournament_name} Major Dükkânı",
             "major_hub_store_title_hud_store": "{s:tournament_name} Major Merkezi ve Dükkânı",
             "major_hub_store_desc": "Favori takım ve oyuncunun imzalı çıkartmalarını al.",
+            "major_hub_store_finish_prices_v": "Altın {d:price_red} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Holo {d:price_pink} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Parlak {d:price_purp} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> ve Kağıt {d:price_blue} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>",
             "major_hub_store_desc_2": "Şimdi erişilebilir - Şampiyon Çıkartmaları ve Önemli An Süsleri",
             "major_hub_store_desc_3": "Sıralama Serisi Çıkartmaları",
             "major_hub_make_souvenir_title": "Hatıra Oluştur",
